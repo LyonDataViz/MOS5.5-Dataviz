@@ -82,7 +82,7 @@ Friday 12/01/2018 15:45-17:45
   * Comments: possible variations, different names
   * Document your sources, credits and write a summary report
   * Create a github page and put all examples in a `Readme.md` document
-  * Add the link to your summary [in this document](https://docs.google.com/spreadsheets/d/15R4NmF-Ript1vW8m15fs0rmOV2ag85M30gkaBQx0uy4/edit#gid=0) **before Thursday 19/01/2018 12h00 Lyon Time** *
+  * Add the link to your summary [in this document](https://docs.google.com/spreadsheets/d/15R4NmF-Ript1vW8m15fs0rmOV2ag85M30gkaBQx0uy4/edit#gid=0) **before Thursday 18/01/2018 12h00 Lyon Time** *
 
 ## **Lecture 2 - Introduction to D3.js** 
 
