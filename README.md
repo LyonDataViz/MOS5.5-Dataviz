@@ -19,10 +19,11 @@
 
 ## Grading
 
-* 40% Final exam
-* 40% Final projects
-* 20% Homeworks/Submitted assignments (pass/fail policy)
-
+* 30% Final exam
+* 60% Final projects
+* 10% Homeworks/Submitted assignments (pass/fail policy)
+* 10% Bonus (class participation, best homeworks/assignments)
+ 
 ## **Lecture 1 - Introduction to Data Visualization** 
 
 *Friday 12/01/2018 13:30-15:30*
