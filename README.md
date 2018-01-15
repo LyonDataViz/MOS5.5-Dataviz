@@ -169,6 +169,7 @@ Tableau
 D3.js
 
 * [Gallery of examples](https://github.com/d3/d3/wiki/gallery)
+* [Code examples and references for the course "D3.js in Motion"](https://github.com/curran/d3-in-motion)
 
 Git/GitHub
 
@@ -181,6 +182,9 @@ JavaScript
 
 * Learn JavaScript (e.g. [learnxinyminutes](https://learnxinyminutes.com/docs/javascript/), [learnjsdata](http://learnjsdata.com/index.html))
 * JSON (e.g. [learnxinyminutes](https://learnxinyminutes.com/docs/json/))
+* [Eloquent JavaScript](http://eloquentjavascript.net/Eloquent_JavaScript.pdf)
+* (Notes on Douglas Crockford's Javascript the Good Parts 🚀
+)[https://github.com/iteles/Javascript-the-Good-Parts-notes]
 
 Data Visualization Classes
 
