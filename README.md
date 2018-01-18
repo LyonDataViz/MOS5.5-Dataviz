@@ -88,25 +88,29 @@ Friday 12/01/2018 15:45-17:45
 
 <small>Friday 19/01/2018 13:30-15:30</small>
 
-* Advanced data visualization concepts: Animation, Interaction, Multiple Views (slides)
-* D3.js: Principles, Codes, Web Development (slides)
-* Introduction to projects
+* Feedback/discussion from homework #1
+* Advanced data visualization concepts: Animation, Interaction, Multiple Views ([slides](https://docs.google.com/presentation/d/1g2ZT3LHUnCSmEUIrxow_4APTlnuiMGgID8XxMyt8mz4/edit#slide=id.p))
+* D3.js: Principles, Codes, Web Development ([slides](https://docs.google.com/presentation/d/1BtnZZoSmrafigZLbsFqPGwBlhPZHee19SJpUtcHKuCU/edit#slide=id.p))
+* Introduction to projects ([slides](https://docs.google.com/presentation/d/1r96OLz_yDkkAsq6segP360Vnr_PJrboO5XEJb0lHgw4/edit?usp=sharing))
 
 ## **Tutorial 2: D3.js** 
 Friday 19/01/2018	16:15-18:15
 
 We will use Block Builder http://blockbuilder.org/ (requires a GitHub account to save code, but no local install)
 
+* Let's build a bar chart
+* Let's build a line chart
+* Let's build a scatterplot
+
 📅 **For next class (26/01)**
 
+* Build a scatterplot matrix using Block Builder (submission link). BONUS: add brushing & linking to the matrix.
+* Project teams, datasets and projects descriptions proposal (submission link)
 * Reading: [Chapter 4. Setup](http://chimera.labs.oreilly.com/books/1230000000345/ch04.html), [Chapter 5. Data](http://chimera.labs.oreilly.com/books/1230000000345/ch05.html), [Chapter 6. Drawing with Data](http://chimera.labs.oreilly.com/books/1230000000345/ch06.html), [Chapter 7. Scales](http://chimera.labs.oreilly.com/books/1230000000345/ch07.html).
-* Build a chart using Block Builder and submit it to the following Google Form
-* Project teams, datasets and projects descriptions proposal
 
 ## **Lecture 3 - Advanced D3.js and Design Methods**
 Friday 26/01/2018 13:30-15:30
 
-* 
 * Sketching, Rapid Prototyping, Development cycles (slides)
 * Projects proposal discussion/validation
 
@@ -116,12 +120,14 @@ Friday 26/01/2018 16:15-18:15
 📅 **For next class (02/02)**
 
 * Each team submits their project design proposition
+* Reading: TBD.
 
 ## Lecture 4 - Advanced Design and Reseach 
 Friday 02/02/2018 13:30-15:30
 
 * Complex data types, layouts (slides)
 * Research areas, open challenges (slides)
+* Modern web development tools: ES6, modules, package managers (slides)
 
 ## Tutorial (1/2): Advanced layouts in D3.js
 Friday 02/02/2018 16:15-18:15
@@ -130,7 +136,7 @@ Friday 02/02/2018 16:15-18:15
 
 * Peer review of other groups' projects proposal
 * Web page setup of each team's project
-* Submit URL
+* Reading: TBD
 
 ## Tutorial (2/2): Advanced layouts in D3.js
 Friday 09/02/2018 13:30-15:30
