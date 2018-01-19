@@ -105,6 +105,8 @@ We will use Block Builder http://blockbuilder.org/ (requires a GitHub account to
 * Let's build an interactive bar chart using a dataset
 * Let's build an [interactive line chart using a dataset](http://bl.ocks.org/romsson/4fab85668c5cbed4fe0c070fa56d7a77)
 
+* Class example of [combining rects and circles and interaction](http://blockbuilder.org/romsson/0eaefaea7d95e302c5d7aafbd63813f6)
+
 📅 **For next class (26/01)**
 
 * Build a scatterplot using the [`iris.csv`](data/iris.csv) dataset and Block Builder (submission link) using a [different symbol](https://bl.ocks.org/mbostock/6d9d75ee13abbcfea6e0) for each species; and a [regression line](https://bl.ocks.org/ctufts/298bfe4b11989960eeeecc9394e9f118)
@@ -117,7 +119,7 @@ We will use Block Builder http://blockbuilder.org/ (requires a GitHub account to
   * Project full name, project description and members names
   * Data you plan to use, does it exist, if not how you collect it?
   * 3-5 questions you want to answer using your project
-  * **Wait for validation by instructor before getting started**
+  * **Wait for validation by instructor before any project-related work**
 
 ## **Lecture 3 - Advanced D3.js and Design Methods**
 Friday 26/01/2018 13:30-15:30
@@ -126,7 +128,7 @@ Friday 26/01/2018 13:30-15:30
 * Advanced D3.js: complex layouts, staggered transitions, geo-projections (slides)
 * Projects proposal discussion/validation (group by group)
 
-## Tutorial Design
+## Tutorial 3: Design & more D3.js 
 Friday 26/01/2018 16:15-18:15
 
 📅 **For next class (02/02)**
