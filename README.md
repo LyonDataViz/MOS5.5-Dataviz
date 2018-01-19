@@ -103,13 +103,14 @@ We will use Block Builder http://blockbuilder.org/ (requires a GitHub account to
 * Let's build a [bar chart with D3 *using* data binding](http://blockbuilder.org/romsson/e7aeedeb03300f4cdfd54531e33e9b68)
 * Let's build an interactive bar chart
 * Let's build an interactive bar chart using a dataset
-* Let's build an interactive line chart using a dataset
+* Let's build an [interactive line chart using a dataset](http://bl.ocks.org/romsson/4fab85668c5cbed4fe0c070fa56d7a77)
 
 📅 **For next class (26/01)**
 
-* Build a scatterplot using the [`iris.csv`](data/iris.csv) dataset and Block Builder (submission link) using a [different symbol](https://bl.ocks.org/mbostock/6d9d75ee13abbcfea6e0) for each specis and a [regression line](https://bl.ocks.org/ctufts/298bfe4b11989960eeeecc9394e9f118)
+* Build a scatterplot using the [`iris.csv`](data/iris.csv) dataset and Block Builder (submission link) using a [different symbol](https://bl.ocks.org/mbostock/6d9d75ee13abbcfea6e0) for each species; and a [regression line](https://bl.ocks.org/ctufts/298bfe4b11989960eeeecc9394e9f118)
 * BONUS: build a scatterplot *matrix* 
 * BONUS: add a histogram in the matrix diagonal showing distribution for each dimension 
+* BONUS: add interaction: brushing on scatterplot, selection on histogram (or brushing too) 
 * Reading: [Chapter 4. Setup](http://chimera.labs.oreilly.com/books/1230000000345/ch04.html), [Chapter 5. Data](http://chimera.labs.oreilly.com/books/1230000000345/ch05.html), [Chapter 6. Drawing with Data](http://chimera.labs.oreilly.com/books/1230000000345/ch06.html), [Chapter 7. Scales](http://chimera.labs.oreilly.com/books/1230000000345/ch07.html).
 * Project teams, datasets and projects descriptions proposal [in this document](https://docs.google.com/spreadsheets/d/15R4NmF-Ript1vW8m15fs0rmOV2ag85M30gkaBQx0uy4/edit#gid=637889820)
   * Project ID (e.g. TennisVis) + link to GitHub repository (using this ID)
@@ -187,6 +188,7 @@ D3.js
 
 * [Gallery of examples](https://github.com/d3/d3/wiki/gallery)
 * [Code examples and references for the course "D3.js in Motion"](https://github.com/curran/d3-in-motion)
+* [Relearning D3.js](http://www.cagrimmett.com/til/2016/08/07/relearning-d3.html)
 
 Git/GitHub
 
@@ -209,6 +211,8 @@ Data Visualization Classes
 * http://dataviz.media.mit.edu/
 * [Visual Analytics Ecole Centrale Paris](http://aviz.fr/wiki/pmwiki.php/TeachingVA2017/Schedule) 
 * Dataviz resources http://www.cs.ubc.ca/group/infovis/resources.shtml
+* https://curran.github.io/dataviz-course-archive/
+* https://github.com/Ecohen4/data-viz
 
 Blogs
 
@@ -220,3 +224,9 @@ Graphics/Journals
 
 * http://www.bloomberg.com/visual-data/
 * http://data.huffingtonpost.com/
+
+Misc
+
+* [Command line tutorial](https://www.learnenough.com/command-line-tutorial)
+* https://egghead.io/lessons/debugging-with-dev-tools
+
