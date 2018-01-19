@@ -88,26 +88,26 @@ Friday 12/01/2018 15:45-17:45
 
 <small>Friday 19/01/2018 13:30-15:30</small>
 
+* Introduction to projects ([slides](https://docs.google.com/presentation/d/1r96OLz_yDkkAsq6segP360Vnr_PJrboO5XEJb0lHgw4/edit?usp=sharing))
 * Feedback/discussion from homework #1
 * Advanced data visualization concepts: Animation, Interaction, Multiple Views ([slides](https://docs.google.com/presentation/d/1g2ZT3LHUnCSmEUIrxow_4APTlnuiMGgID8XxMyt8mz4/edit#slide=id.p))
 * D3.js: Principles, Codes, Web Development ([slides](https://docs.google.com/presentation/d/1BtnZZoSmrafigZLbsFqPGwBlhPZHee19SJpUtcHKuCU/edit#slide=id.p))
-* Introduction to projects ([slides](https://docs.google.com/presentation/d/1r96OLz_yDkkAsq6segP360Vnr_PJrboO5XEJb0lHgw4/edit?usp=sharing))
 
 ## **Tutorial 2: D3.js** 
 Friday 19/01/2018	16:15-18:15
 
 We will use Block Builder http://blockbuilder.org/ (requires a GitHub account to save code, but no local install)
 
-* Let's build a bar chart using SVG only (without D3)
-* Let's build a bar chart with D3 *without* data binding
-* Let's build a bar chart with D3 *using* data binding
+* Let's build a [bar chart using SVG only](http://blockbuilder.org/romsson/36b1cdc599e8f341a33892f143cf087f) (without D3)
+* Let's build a [bar chart with D3 *without* data binding](http://blockbuilder.org/romsson/f865e7c5c05c805759486a3cf435a548)
+* Let's build a [bar chart with D3 *using* data binding](http://blockbuilder.org/romsson/e7aeedeb03300f4cdfd54531e33e9b68)
 * Let's build an interactive bar chart
 * Let's build an interactive bar chart using a dataset
 * Let's build an interactive line chart using a dataset
 
 📅 **For next class (26/01)**
 
-* Build a scatterplot using the [`iris.csv`](data/iris.csv) dataset and Block Builder (submission link).
+* Build a scatterplot using the [`iris.csv`](data/iris.csv) dataset and Block Builder (submission link) using a [different symbol](https://bl.ocks.org/mbostock/6d9d75ee13abbcfea6e0) for each specis and a [regression line](https://bl.ocks.org/ctufts/298bfe4b11989960eeeecc9394e9f118)
 * BONUS: build a scatterplot *matrix* 
 * BONUS: add a histogram in the matrix diagonal showing distribution for each dimension 
 * Reading: [Chapter 4. Setup](http://chimera.labs.oreilly.com/books/1230000000345/ch04.html), [Chapter 5. Data](http://chimera.labs.oreilly.com/books/1230000000345/ch05.html), [Chapter 6. Drawing with Data](http://chimera.labs.oreilly.com/books/1230000000345/ch06.html), [Chapter 7. Scales](http://chimera.labs.oreilly.com/books/1230000000345/ch07.html).
@@ -197,6 +197,7 @@ Git/GitHub
 
 JavaScript
 
+* [Mozilla Developers Network's Javascript reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 * Learn JavaScript (e.g. [learnxinyminutes](https://learnxinyminutes.com/docs/javascript/), [learnjsdata](http://learnjsdata.com/index.html))
 * JSON (e.g. [learnxinyminutes](https://learnxinyminutes.com/docs/json/))
 * [Eloquent JavaScript](http://eloquentjavascript.net/Eloquent_JavaScript.pdf)
