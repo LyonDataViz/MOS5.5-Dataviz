@@ -98,28 +98,39 @@ Friday 19/01/2018	16:15-18:15
 
 We will use Block Builder http://blockbuilder.org/ (requires a GitHub account to save code, but no local install)
 
-* Let's build a bar chart
-* Let's build a line chart
-* Let's build a scatterplot
+* Let's build a bar chart using SVG only (without D3)
+* Let's build a bar chart with D3 *without* data binding
+* Let's build a bar chart with D3 *using* data binding
+* Let's build an interactive bar chart
+* Let's build an interactive bar chart using a dataset
+* Let's build an interactive line chart using a dataset
 
 📅 **For next class (26/01)**
 
-* Build a scatterplot matrix using Block Builder (submission link). BONUS: add brushing & linking to the matrix.
-* Project teams, datasets and projects descriptions proposal (submission link)
+* Build a scatterplot using the [`iris.csv`](data/iris.csv) dataset and Block Builder (submission link).
+* BONUS: build a scatterplot *matrix* 
+* BONUS: add a histogram in the matrix diagonal showing distribution for each dimension 
 * Reading: [Chapter 4. Setup](http://chimera.labs.oreilly.com/books/1230000000345/ch04.html), [Chapter 5. Data](http://chimera.labs.oreilly.com/books/1230000000345/ch05.html), [Chapter 6. Drawing with Data](http://chimera.labs.oreilly.com/books/1230000000345/ch06.html), [Chapter 7. Scales](http://chimera.labs.oreilly.com/books/1230000000345/ch07.html).
+* Project teams, datasets and projects descriptions proposal [in this document](https://docs.google.com/spreadsheets/d/15R4NmF-Ript1vW8m15fs0rmOV2ag85M30gkaBQx0uy4/edit#gid=637889820)
+  * Project ID (e.g. TennisVis) + link to GitHub repository (using this ID)
+  * Project full name, project description and members names
+  * Data you plan to use, does it exist, if not how you collect it?
+  * 3-5 questions you want to answer using your project
+  * **Wait for validation by instructor before getting started**
 
 ## **Lecture 3 - Advanced D3.js and Design Methods**
 Friday 26/01/2018 13:30-15:30
 
 * Sketching, Rapid Prototyping, Development cycles (slides)
-* Projects proposal discussion/validation
+* Advanced D3.js: complex layouts, staggered transitions, geo-projections (slides)
+* Projects proposal discussion/validation (group by group)
 
 ## Tutorial Design
 Friday 26/01/2018 16:15-18:15
 
 📅 **For next class (02/02)**
 
-* Each team submits their project design proposition
+* Each team submits their project design proposition (submission link)
 * Reading: TBD.
 
 ## Lecture 4 - Advanced Design and Reseach 
