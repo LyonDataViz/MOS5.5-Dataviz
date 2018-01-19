@@ -82,7 +82,7 @@ Friday 12/01/2018 15:45-17:45
   * Comments: what you like or not in it (design critic like in class), possible visual variations, different names, different look and feel, tools used to create it, .. Minimul 10 charts with detailed analysis, but you are welcome to add more examples.
   * Document your sources; **always** give credits (e.g. link to orginal image, article and authors)
   * Create a github page and write your summary as a `Readme.md` document, put images in a `/img/` folder. Add classic elements in your summary such as your name, etc.. and also the chart type you picked.
-  * Add the link to your summary [in this document](https://docs.google.com/spreadsheets/d/15R4NmF-Ript1vW8m15fs0rmOV2ag85M30gkaBQx0uy4/edit#gid=0) **before Thursday 18/01/2018 12h00 Lyon Time** *
+  * Add the link to your summary [in this document](https://docs.google.com/spreadsheets/d/15R4NmF-Ript1vW8m15fs0rmOV2ag85M30gkaBQx0uy4/edit#gid=0) **before Thursday 18/01/2018 12h00 Lyon Time**
 
 ## **Lecture 2 - Introduction to D3.js** 
 
