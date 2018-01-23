@@ -109,7 +109,7 @@ We will use Block Builder http://blockbuilder.org/ (requires a GitHub account to
 
 📅 **For next class (26/01)**
 
-* Build a scatterplot using the [`iris.csv`](data/iris.csv) dataset and Block Builder (submission link) using a [different symbol](https://bl.ocks.org/mbostock/6d9d75ee13abbcfea6e0) for each species; and a [regression line](https://bl.ocks.org/ctufts/298bfe4b11989960eeeecc9394e9f118)
+* Build a scatterplot using the [`iris.csv`](data/iris.csv) dataset and Block Builder ([submission form](https://goo.gl/forms/1X6Gdt4CCuSxNlFl2)) using a [different symbol](https://bl.ocks.org/mbostock/6d9d75ee13abbcfea6e0) for each species; and a [regression line](https://bl.ocks.org/ctufts/298bfe4b11989960eeeecc9394e9f118). **Submit before Friday 26/01/2018 13h59 Lyon Time**
 * BONUS: build a scatterplot *matrix* 
 * BONUS: add a histogram in the matrix diagonal showing distribution for each dimension 
 * BONUS: add interaction: brushing on scatterplot, selection on histogram (or brushing too) 
@@ -119,7 +119,7 @@ We will use Block Builder http://blockbuilder.org/ (requires a GitHub account to
   * Project full name, project description and members names
   * Data you plan to use, does it exist, if not how you collect it?
   * 3-5 questions you want to answer using your project
-  * **Wait for validation by instructor before any project-related work**
+  * **Wait for validation by instructor before any coding**
 
 ## **Lecture 3 - Advanced D3.js and Design Methods**
 Friday 26/01/2018 13:30-15:30
