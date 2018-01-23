@@ -191,6 +191,7 @@ D3.js
 * [Gallery of examples](https://github.com/d3/d3/wiki/gallery)
 * [Code examples and references for the course "D3.js in Motion"](https://github.com/curran/d3-in-motion)
 * [Relearning D3.js](http://www.cagrimmett.com/til/2016/08/07/relearning-d3.html)
+* [Awesome D3](https://github.com/wbkd/awesome-d3)
 
 Git/GitHub
 
