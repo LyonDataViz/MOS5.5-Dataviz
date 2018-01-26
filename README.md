@@ -124,36 +124,55 @@ We will use Block Builder http://blockbuilder.org/ (requires a GitHub account to
 ## **Lecture 3 - Advanced D3.js and Design Methods**
 Friday 26/01/2018 13:30-15:30
 
-* Sketching, Rapid Prototyping, Development cycles (slides)
-* Advanced D3.js: complex layouts, staggered transitions, geo-projections (slides)
-* Projects proposal discussion/validation (group by group)
+* Advanced D3.js: complex layouts, staggered transitions, geo-projections ([slides](https://docs.google.com/presentation/d/14pYKK2dYGnPS6iZ9l1gw1vuiPOGXjjCfeJlArMYRLBs/edit#slide=id.p))
+
+* Sketching, Rapid Prototyping, Development cycles ([slides](https://docs.google.com/presentation/d/11kEkZK12C893qzyEDvkIjgFKPmRKFf-KDDOKiwGw6ys/edit#slide=id.p)) and using the [Five Design Sheet](http://fds.design/) methodology
 
 ## Tutorial 3: Design & more D3.js 
 Friday 26/01/2018 16:15-18:15
 
+* Class exercises:
+  * Filter this [line chart](http://blockbuilder.org/romsson/57eb273e01761b829aaa95b28c8193c1) with click on legend
+  * Build multiple, coordinated scatterplot using the [`iris.csv`](data/iris.csv) dataset
+  * Build[grouped bar chart](http://blockbuilder.org/romsson/2f94c1913b81f7fd20c530236934433a) and a [stacked bar chart](http://blockbuilder.org/romsson/8aea86fddcf01380eb96a341509f394f) using the [`stocks.csv`](data/stocks.csv) market data; and add an animated transition between both.
+
+* Projects proposal discussion (group by group) & validation by instructor
+
 📅 **For next class (02/02)**
 
+* Add a new chart to transition (follow grouped/stacked bar chart exercise 3) and submit it as block **making sure it is a secrete block!** (submission link)
 * Each team submits their project design proposition (submission link)
-* Reading: TBD.
+  * Create a repository with projet ID
+  * `README.MD` file that is a summary of the project
+  * `PROPOSAL.MD` that is the project proposal that includes pictures `img/` of the 5-design sheets
+  * `DATA.MD` that contains the list of data sources, samples of datasets, data model, data pre-processing methods `data/`
+  * `index.html` that is a hello world of your project
+  * Add URL to the hello world [in this document](https://docs.google.com/spreadsheets/d/15R4NmF-Ript1vW8m15fs0rmOV2ag85M30gkaBQx0uy4/edit#gid=637889820)
+
+* Reading: [Chapter 8. Axes](http://chimera.labs.oreilly.com/books/1230000000345/ch08.html), [Chapter 9. Updates, Transitions, and Motion
+](http://chimera.labs.oreilly.com/books/1230000000345/ch09.html), [Chapter 10. Interactivity](http://chimera.labs.oreilly.com/books/1230000000345/ch10.html), [Chapter 11. Layouts](http://chimera.labs.oreilly.com/books/1230000000345/ch11.html).
 
 ## Lecture 4 - Advanced Design and Reseach 
 Friday 02/02/2018 13:30-15:30
 
-* Complex data types, layouts (slides)
+* Complex data types, data structures and graph layouts (slides)
 * Research areas, open challenges (slides)
 * Modern web development tools: ES6, modules, package managers (slides)
 
 ## Tutorial (1/2): Advanced layouts in D3.js
 Friday 02/02/2018 16:15-18:15
 
+* Stream graphs
+* Node-link/Networks layouts
+
 📅 **For next class (09/02)**
 
-* Peer review of other groups' projects proposal
-* Web page setup of each team's project
+* Peer review of other groups' projects proposal using this review matrix (link) and link in this document (link)
+* Web page setup of each team's project; data pre-processing
 * Reading: TBD
 
 ## Tutorial (2/2): Advanced layouts in D3.js
-Friday 09/02/2018 13:30-15:30
+Friday 09/02/2018 13:30-15:30 
 
 ## Projects (1/5)
 Friday 09/02/2018 16:15-18:15
@@ -192,6 +211,9 @@ D3.js
 * [Code examples and references for the course "D3.js in Motion"](https://github.com/curran/d3-in-motion)
 * [Relearning D3.js](http://www.cagrimmett.com/til/2016/08/07/relearning-d3.html)
 * [Awesome D3](https://github.com/wbkd/awesome-d3)
+* http://vadim.ogievetsky.com/IntroD3/#1
+* https://github.com/arnicas/d3-faq
+
 
 Git/GitHub
 
@@ -216,6 +238,7 @@ Data Visualization Classes
 * Dataviz resources http://www.cs.ubc.ca/group/infovis/resources.shtml
 * https://curran.github.io/dataviz-course-archive/
 * https://github.com/Ecohen4/data-viz
+* https://github.com/arnicas/interactive-vis-course
 
 Blogs
 
