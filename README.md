@@ -132,7 +132,7 @@ Friday 26/01/2018 13:30-15:30
 Friday 26/01/2018 16:15-18:15
 
 * Class exercises:
-  * Filter this [line chart](http://blockbuilder.org/romsson/57eb273e01761b829aaa95b28c8193c1) with click on legend
+  * Filter this [line chart](http://blockbuilder.org/romsson/57eb273e01761b829aaa95b28c8193c1) with click on legend ([solution for scatterplot](http://blockbuilder.org/romsson/e390441cd93082cc9cc159590977114a))
   * Build multiple, coordinated scatterplot using the [`iris.csv`](data/iris.csv) dataset
   * Build[grouped bar chart](http://blockbuilder.org/romsson/2f94c1913b81f7fd20c530236934433a) and a [stacked bar chart](http://blockbuilder.org/romsson/8aea86fddcf01380eb96a341509f394f) using the [`stocks.csv`](data/stocks.csv) market data; and add an animated transition between both.
 
