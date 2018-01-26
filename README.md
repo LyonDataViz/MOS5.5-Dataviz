@@ -124,7 +124,7 @@ We will use Block Builder http://blockbuilder.org/ (requires a GitHub account to
 ## **Lecture 3 - Advanced D3.js and Design Methods**
 Friday 26/01/2018 13:30-15:30
 
-* Advanced D3.js: complex layouts, staggered transitions, geo-projections ([slides](https://docs.google.com/presentation/d/14pYKK2dYGnPS6iZ9l1gw1vuiPOGXjjCfeJlArMYRLBs/edit#slide=id.p))
+* Advanced D3.js: complex layouts, coordinated chart, animated transitions ([slides](https://docs.google.com/presentation/d/14pYKK2dYGnPS6iZ9l1gw1vuiPOGXjjCfeJlArMYRLBs/edit#slide=id.p))
 
 * Sketching, Rapid Prototyping, Development cycles ([slides](https://docs.google.com/presentation/d/11kEkZK12C893qzyEDvkIjgFKPmRKFf-KDDOKiwGw6ys/edit#slide=id.p)) and using the [Five Design Sheet](http://fds.design/) methodology
 
@@ -140,7 +140,7 @@ Friday 26/01/2018 16:15-18:15
 
 📅 **For next class (02/02)**
 
-* Add a new chart to transition (follow grouped/stacked bar chart exercise 3) and submit it as block **making sure it is a secrete block!** (submission link)
+* Add another transition to the grouped/bar chart example. Choose which one you think is relevant (e.g. better staggering, a third chart, use of color/opacity, etc.). Submit it as block **making sure it is a secrete block!** (submission link)
 * Each team submits their project design proposition (submission link)
   * Create a repository with projet ID
   * `README.MD` file that is a summary of the project
