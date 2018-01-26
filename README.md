@@ -109,7 +109,7 @@ We will use Block Builder http://blockbuilder.org/ (requires a GitHub account to
 
 📅 **For next class (26/01)**
 
-* Build a scatterplot using the [`iris.csv`](data/iris.csv) dataset and Block Builder ([submission form](https://goo.gl/forms/1X6Gdt4CCuSxNlFl2)) using a [different symbol](https://bl.ocks.org/mbostock/6d9d75ee13abbcfea6e0) for each species; and a [regression line](https://bl.ocks.org/ctufts/298bfe4b11989960eeeecc9394e9f118). **Submit before Friday 26/01/2018 13h59 Lyon Time**
+* Build a scatterplot using the [`iris.csv`](data/iris.csv) dataset and Block Builder ([submission form](https://goo.gl/forms/1X6Gdt4CCuSxNlFl2)) using a [different symbol](https://bl.ocks.org/mbostock/6d9d75ee13abbcfea6e0) for each species; and a [regression line](https://bl.ocks.org/ctufts/298bfe4b11989960eeeecc9394e9f118). **Submit before Friday 26/01/2018 13h59 Lyon Time** ([solution](http://blockbuilder.org/romsson/5c6d0c7d20ed65798ff42e792204a7e9))
 * BONUS: build a scatterplot *matrix* 
 * BONUS: add a histogram in the matrix diagonal showing distribution for each dimension 
 * BONUS: add interaction: brushing on scatterplot, selection on histogram (or brushing too) 
