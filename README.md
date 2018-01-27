@@ -140,8 +140,9 @@ Friday 26/01/2018 16:15-18:15
 
 📅 **For next class (02/02)**
 
-* Add another transition to the grouped/bar chart example. Choose which one you think is relevant (e.g. better staggering, a third chart, use of color/opacity, etc.). Submit it as block **making sure it is a secrete block!** (submission link)
-* Each team submits their project design proposition (submission link)
+* Add another transition to the grouped/bar chart example. Choose which one you think is relevant (e.g. better staggering, a third chart, use of color/opacity, etc.). Submit it as block **making sure it is a secrete block!** (submission link) **Submit before Friday 26/01/2018 13h59 Lyon Time** ([solution](http://blockbuilder.org/romsson/5c6d0c7d20ed65798ff42e792204a7e9))
+
+* Each team submits their project design proposition ([submission link](https://docs.google.com/forms/d/1i7D3sgpdmUBd37PGg2y3JZwTYkpYXD5eqjlXq2V0xFw/edit))
   * Create a repository with projet ID
   * `README.MD` file that is a summary of the project
   * `PROPOSAL.MD` that is the project proposal that includes pictures `img/` of the 5-design sheets
@@ -155,9 +156,8 @@ Friday 26/01/2018 16:15-18:15
 ## Lecture 4 - Advanced Design and Reseach 
 Friday 02/02/2018 13:30-15:30
 
-* Complex data types, data structures and graph layouts (slides)
-* Research areas, open challenges (slides)
-* Modern web development tools: ES6, modules, package managers (slides)
+* Complex data types, data structures and graph layouts ([slides](https://docs.google.com/presentation/d/1a79MLat-ftU25Uk7uM2JYfDSlKS-9hp94EnmegvcLg0/edit#slide=id.g327e636b06_0_540))
+* Modern web development tools: local server, ES6, modules, package managers (slides)
 
 ## Tutorial (1/2): Advanced layouts in D3.js
 Friday 02/02/2018 16:15-18:15
