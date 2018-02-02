@@ -164,7 +164,7 @@ Friday 02/02/2018 13:30-15:30
 Friday 02/02/2018 16:15-18:15
 
 * Modern web development tools: local server, package managers ([slides](https://docs.google.com/presentation/d/1Uz3ZjX1f9DJgH73VOrJwi7cgVqwlKIwFPmM4eubUIb8/edit#slide=id.g32bdb64449_0_18))
-* Introduction to [data cleaning tools and methods](https://docs.google.com/presentation/d/1cd6_Gtj3X4xYpg9KD7WlOobJ4wWRyWCMYg9cbJ0E83E/edit#slide=id.p)
+* Introduction to [data cleaning tools and methods](http://romain.vuillemot.net/publis/slides-daquata-workshop-data-cleaning-dataviz.pdf)
 * Feedback on projects, work on data cleaning and structure
 
 📅 **For next class (09/02)**
