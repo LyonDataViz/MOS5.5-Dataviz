@@ -156,23 +156,31 @@ Friday 26/01/2018 16:15-18:15
 ## Lecture 4 - Advanced Design and Reseach 
 Friday 02/02/2018 13:30-15:30
 
+* Feedback and solution from previous homework 3
 * Complex data types, data structures and graph layouts ([slides](https://docs.google.com/presentation/d/1a79MLat-ftU25Uk7uM2JYfDSlKS-9hp94EnmegvcLg0/edit#slide=id.g327e636b06_0_540))
-* Modern web development tools: local server, ES6, modules, package managers (slides)
+* Exercise: [build a geo-map](https://lyondataviz.github.io/teaching/lyon1-m2/2017/tp4.html) ([credits](http://www.tabard.fr/))
 
 ## Tutorial (1/2): Advanced layouts in D3.js
 Friday 02/02/2018 16:15-18:15
 
-* Stream graphs
-* Node-link/Networks layouts
+* Modern web development tools: local server, package managers ([slides](https://docs.google.com/presentation/d/1Uz3ZjX1f9DJgH73VOrJwi7cgVqwlKIwFPmM4eubUIb8/edit#slide=id.g32bdb64449_0_18))
+* Introduction to [data cleaning tools and methods](https://docs.google.com/presentation/d/1cd6_Gtj3X4xYpg9KD7WlOobJ4wWRyWCMYg9cbJ0E83E/edit#slide=id.p)
+* Feedback on projects, work on data cleaning and structure
 
 📅 **For next class (09/02)**
 
-* Peer review of other groups' projects proposal using this review matrix (link) and link in this document (link)
-* Web page setup of each team's project; data pre-processing
-* Reading: TBD
+* Peer review of other groups' projects proposal using this review matrix (link) and fill in feedback in this document (link)
+* Web page setup of each team's project; data pre-processing log book
+  * `DATA.MD` should be complete
+  * `PROCESSING.MD` describes the cleaning and preparation process
+  * `index.html` loads data
 
 ## Tutorial (2/2): Advanced layouts in D3.js
 Friday 09/02/2018 13:30-15:30 
+
+* Feedback on projets reviews
+* More complex layouts and internal data structures in D3
+* Advanced node-link force layouts
 
 ## Projects (1/5)
 Friday 09/02/2018 16:15-18:15
@@ -213,7 +221,13 @@ D3.js
 * [Awesome D3](https://github.com/wbkd/awesome-d3)
 * http://vadim.ogievetsky.com/IntroD3/#1
 * https://github.com/arnicas/d3-faq
+* [Changes in D3 4.0](https://github.com/d3/d3/blob/master/CHANGES.md)
+* [D3 V4 - What's new?](https://iros.github.io/d3-v4-whats-new/#1)
+* [Wide vs. Long Data in D3](http://jonathansoma.com/tutorials/d3/wide-vs-long-data/)
 
+SVG 
+
+* [SVG2D3](http://billautomata.github.io/svg2d3/)
 
 Git/GitHub
 
