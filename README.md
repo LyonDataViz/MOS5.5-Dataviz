@@ -157,7 +157,7 @@ Friday 26/01/2018 16:15-18:15
 Friday 02/02/2018 13:30-15:30
 
 * Feedback and solution from previous homework 3
-* Complex data types, data structures and graph layouts ([slides](https://docs.google.com/presentation/d/1a79MLat-ftU25Uk7uM2JYfDSlKS-9hp94EnmegvcLg0/edit#slide=id.g327e636b06_0_540))
+* Complex data types, data structures ([slides](https://docs.google.com/presentation/d/1a79MLat-ftU25Uk7uM2JYfDSlKS-9hp94EnmegvcLg0/edit#slide=id.g327e636b06_0_540))
 * Exercise: [build a geo-map](https://lyondataviz.github.io/teaching/lyon1-m2/2017/tp4.html) ([credits](http://www.tabard.fr/))
 
 ## Tutorial (1/2): Advanced layouts in D3.js
@@ -169,21 +169,23 @@ Friday 02/02/2018 16:15-18:15
 
 📅 **For next class (09/02)**
 
-* Peer review of other groups' projects proposal using this review matrix (link) and fill in feedback in this document (link)
-* Web page setup of each team's project; data pre-processing log book
-  * `DATA.MD` should be complete
-  * `PROCESSING.MD` describes the cleaning and preparation process
-  * `index.html` loads data
+* Submit the link to the GitHub repository you have created during the class and which contains your geo-map ([submission link](https://docs.google.com/forms/d/1i7D3sgpdmUBd37PGg2y3JZwTYkpYXD5eqjlXq2V0xFw/edit))
+* Each project does a peer review of another groups' projects proposal (pick the one below you in this document) and write your review as a `REVIEW.MD`  file in your project repository **before Friday 09/02/2018 12h00 Lyon Time**
+* Each project write details on their dataset in their repository:
+  * `DATA.MD` lists all the datasources and details (e.g. volume of the data, how the dataset was created, copyright, etc.)
+  * `PROCESSING.MD` describes the cleaning and preparation process to clean and shape your date
+  * create a `index.html` that loads in d3 (e.g. `d3.csv`, ..) a first dataset (or sample of the dataset or an exepected dataset you create yourself). This will push you to have a first 
 
 ## Tutorial (2/2): Advanced layouts in D3.js
 Friday 09/02/2018 13:30-15:30 
 
-* Feedback on projets reviews
-* More complex layouts and internal data structures in D3
-* Advanced node-link force layouts
+* Feedback on projets proposals & reviews
+* Graph data structures and layouts in d3
 
 ## Projects (1/5)
 Friday 09/02/2018 16:15-18:15
+
+* Work on projects
 
 📅 **For next class (16/02)**
 
