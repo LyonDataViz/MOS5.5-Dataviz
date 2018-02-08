@@ -12,7 +12,7 @@
       <img src="img/book-cover-interactive-data-visulization-murray.png" style="width: 100px;">
     </td>
     <td>
-      <a href="http://chimera.labs.oreilly.com/books/1230000000345">Interactive Data Visualization for the Web</a><br>by Scott Murray
+      <a href="https://web.archive.org/web/20160307043159/http://chimera.labs.oreilly.com/books/1230000000345">Interactive Data Visualization for the Web</a><br>by Scott Murray
     </td>
   </tr>
 </table>
@@ -75,7 +75,7 @@ Friday 12/01/2018 15:45-17:45
 
 * Submit your Tableau workbook [in this document](https://docs.google.com/spreadsheets/d/15R4NmF-Ript1vW8m15fs0rmOV2ag85M30gkaBQx0uy4/edit#gid=0),
 * Reading: [Chapter 1. Introduction
-](http://chimera.labs.oreilly.com/books/1230000000345/ch01.html), [Chapter 2. Introducing D3](http://chimera.labs.oreilly.com/books/1230000000345/ch02.html) and [Chapter 3. Technology Fundamentals](http://chimera.labs.oreilly.com/books/1230000000345/ch03.html)
+](https://web.archive.org/web/20160307043159/http://chimera.labs.oreilly.com/books/1230000000345/ch01.html), [Chapter 2. Introducing D3](https://web.archive.org/web/20160307043159/http://chimera.labs.oreilly.com/books/1230000000345/ch02.html) and [Chapter 3. Technology Fundamentals](https://web.archive.org/web/20160307043159/http://chimera.labs.oreilly.com/books/1230000000345/ch03.html)
 * Create a GitHub account and learn how to use it (bottom of the page)
 * Pick a chart type [in this document](https://docs.google.com/spreadsheets/d/15R4NmF-Ript1vW8m15fs0rmOV2ag85M30gkaBQx0uy4/edit#gid=0), and find online:
   * Historical examples, recent and/or most famous ones for your category
@@ -113,7 +113,7 @@ We will use Block Builder http://blockbuilder.org/ (requires a GitHub account to
 * BONUS: build a scatterplot *matrix* 
 * BONUS: add a histogram in the matrix diagonal showing distribution for each dimension 
 * BONUS: add interaction: brushing on scatterplot, selection on histogram (or brushing too) 
-* Reading: [Chapter 4. Setup](http://chimera.labs.oreilly.com/books/1230000000345/ch04.html), [Chapter 5. Data](http://chimera.labs.oreilly.com/books/1230000000345/ch05.html), [Chapter 6. Drawing with Data](http://chimera.labs.oreilly.com/books/1230000000345/ch06.html), [Chapter 7. Scales](http://chimera.labs.oreilly.com/books/1230000000345/ch07.html).
+* Reading: [Chapter 4. Setup](https://web.archive.org/web/20160307043159/http://chimera.labs.oreilly.com/books/1230000000345/ch04.html), [Chapter 5. Data](https://web.archive.org/web/20160307043159/http://chimera.labs.oreilly.com/books/1230000000345/ch05.html), [Chapter 6. Drawing with Data](https://web.archive.org/web/20160307043159/http://chimera.labs.oreilly.com/books/1230000000345/ch06.html), [Chapter 7. Scales](https://web.archive.org/web/20160307043159/http://chimera.labs.oreilly.com/books/1230000000345/ch07.html).
 * Project teams, datasets and projects descriptions proposal [in this document](https://docs.google.com/spreadsheets/d/15R4NmF-Ript1vW8m15fs0rmOV2ag85M30gkaBQx0uy4/edit#gid=637889820)
   * Project ID (e.g. TennisVis) + link to GitHub repository (using this ID)
   * Project full name, project description and members names
@@ -150,8 +150,8 @@ Friday 26/01/2018 16:15-18:15
   * `index.html` that is a hello world of your project
   * Add URL to the hello world [in this document](https://docs.google.com/spreadsheets/d/15R4NmF-Ript1vW8m15fs0rmOV2ag85M30gkaBQx0uy4/edit#gid=637889820)
 
-* Reading: [Chapter 8. Axes](http://chimera.labs.oreilly.com/books/1230000000345/ch08.html), [Chapter 9. Updates, Transitions, and Motion
-](http://chimera.labs.oreilly.com/books/1230000000345/ch09.html), [Chapter 10. Interactivity](http://chimera.labs.oreilly.com/books/1230000000345/ch10.html), [Chapter 11. Layouts](http://chimera.labs.oreilly.com/books/1230000000345/ch11.html).
+* Reading: [Chapter 8. Axes](https://web.archive.org/web/20160307043159/http://chimera.labs.oreilly.com/books/1230000000345/ch08.html), [Chapter 9. Updates, Transitions, and Motion
+](https://web.archive.org/web/20160307043159/http://chimera.labs.oreilly.com/books/1230000000345/ch09.html), [Chapter 10. Interactivity](https://web.archive.org/web/20160307043159/http://chimera.labs.oreilly.com/books/1230000000345/ch10.html), [Chapter 11. Layouts](https://web.archive.org/web/20160307043159/http://chimera.labs.oreilly.com/books/1230000000345/ch11.html).
 
 ## Lecture 4 - Advanced Design and Reseach 
 Friday 02/02/2018 13:30-15:30
