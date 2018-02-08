@@ -170,7 +170,7 @@ Friday 02/02/2018 16:15-18:15
 📅 **For next class (09/02)**
 
 * Submit the link to the GitHub repository you have created during the class and which contains your geo-map ([submission link](https://docs.google.com/forms/d/1i7D3sgpdmUBd37PGg2y3JZwTYkpYXD5eqjlXq2V0xFw/edit))
-* Each project does a peer review of another groups' projects proposal (pick the one below you in this document) and write your review as a `REVIEW.MD`  file in your project repository **before Friday 09/02/2018 12h00 Lyon Time**
+* Each project does a peer review of another groups' projects proposal (pick the one below you in [this document](https://docs.google.com/spreadsheets/d/15R4NmF-Ript1vW8m15fs0rmOV2ag85M30gkaBQx0uy4/edit#gid=1407328880)) and write your review as a `REVIEW.MD`  file in your project repository **before Friday 09/02/2018 12h00 Lyon Time**
 * Each project write details on their dataset in their repository:
   * `DATA.MD` lists all the datasources and details (e.g. volume of the data, how the dataset was created, copyright, etc.)
   * `PROCESSING.MD` describes the cleaning and preparation process to clean and shape your date
