@@ -181,17 +181,18 @@ Friday 09/02/2018 13:30-15:30
 
 * Brief intro to D3 and Canvas ([example](https://bl.ocks.org/mbostock/31ce330646fa8bcb7289ff3b97aab3f5))
 * Class exercises: fork [this repository](https://github.com/LyonDataViz/MOS5.5-Dataviz) and focus on the sub-folder `tp-node-links` and the file `index.html`. The current version separates nodes in three random groups and highlight closest node to the mouse pointer. Add the following:
-  - Group nodes by their group attribute (`d.group`)
-  - Organize groups as a 2D grid ([example](http://blockbuilder.org/romsson/ba9181f7de7715022e166d3227087951)) by adding a `y` scale
-  - Link nodes nodes using `<line>` element ([example](https://bl.ocks.org/mbostock/4062045)) by adding data to the `graph.links` array. Look at the links drawing function for the expected data structure ([example](https://bl.ocks.org/mbostock/4062045))
-  - Highlight links connected to the current node, and the target nodes
-  - Adjust the `d3-force` parameters ([documentation](https://github.com/d3/d3-force/blob/master/README.md)) ([example](http://blockbuilder.org/romsson/ba9181f7de7715022e166d3227087951))
+  - Group nodes by their group attribute (`d.group`).
+  - Organize groups as a 2D grid ([example](http://blockbuilder.org/romsson/ba9181f7de7715022e166d3227087951)) by adding a `y` scale.
+  - Link nodes nodes using `<line>` element ([example](https://bl.ocks.org/mbostock/4062045)) by adding data to the `graph.links` array. Look at the links drawing function for the expected data structure.
+  - Highlight links connected to the current node, and the target nodes.
+  - Adjust the `d3-force` parameters ([documentation](https://github.com/d3/d3-force/blob/master/README.md)) ([example](https://bl.ocks.org/mbostock/6526445e2b44303eebf21da3b6627320)).
+  - BONUS
+    - Load [The Miserable dataset](https://bl.ocks.org/mbostock/4062045) instead of fake data
+    - Group nodes by binning them using the `d3.histogram()` function
+
 
 * Feedback on projets proposals & reviews
 
-BONUS
-- Load [The Miserable dataset](https://bl.ocks.org/mbostock/4062045) instead of fake data
-- Group nodes by binning them using the `d3.histogram()` function
 
 ## Projects (1/5)
 Friday 09/02/2018 16:15-18:15
@@ -200,13 +201,19 @@ Friday 09/02/2018 16:15-18:15
 
 📅 **For next class (16/02)**
 
-* Keep working on the project!
+* Submit the link your graph ([submission link](https://docs.google.com/forms/d/1i7D3sgpdmUBd37PGg2y3JZwTYkpYXD5eqjlXq2V0xFw/edit))
+* Keep working on the project
+  -  
 
 ## Projects (2/5)
 Friday 16/02/2018 13:30-15:30
 
+* Work on projects
+
 ## Projects (3/5)
 Friday 16/02/2018 16:15-18:15
+
+* Work on projects
 
 📅 **For next class (02/03)**
 
