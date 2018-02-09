@@ -169,7 +169,7 @@ Friday 02/02/2018 16:15-18:15
 
 📅 **For next class (09/02)**
 
-* Submit the link to the GitHub repository you have created during the class and which contains your geo-map ([submission link](https://docs.google.com/forms/d/1i7D3sgpdmUBd37PGg2y3JZwTYkpYXD5eqjlXq2V0xFw/edit))
+* Submit the link to the GitHub repository you have created during the class and which contains your geo-map ([submission link](https://docs.google.com/forms/d/1i7D3sgpdmUBd37PGg2y3JZwTYkpYXD5eqjlXq2V0xFw/edit)). Link should [look like this one](https://romsson.github.io/boilerplate-d3-chart/chart2.html).
 * Each project does a peer review of another groups' projects proposal (pick the one below you in [this document](https://docs.google.com/spreadsheets/d/15R4NmF-Ript1vW8m15fs0rmOV2ag85M30gkaBQx0uy4/edit#gid=1407328880)) and write your review as a `REVIEW.MD`  file in your project repository **before Friday 09/02/2018 12h00 Lyon Time**
 * Each project write details on their dataset in their repository:
   * `DATA.MD` lists all the datasources and details (e.g. volume of the data, how the dataset was created, copyright, etc.)
@@ -220,6 +220,7 @@ D3.js
 * [Gallery of examples](https://github.com/d3/d3/wiki/gallery)
 * [Code examples and references for the course "D3.js in Motion"](https://github.com/curran/d3-in-motion)
 * [Relearning D3.js](http://www.cagrimmett.com/til/2016/08/07/relearning-d3.html)
+* [D3 in depth](http://d3indepth.com/)
 * [Awesome D3](https://github.com/wbkd/awesome-d3)
 * http://vadim.ogievetsky.com/IntroD3/#1
 * https://github.com/arnicas/d3-faq
@@ -271,4 +272,6 @@ Misc
 
 * [Command line tutorial](https://www.learnenough.com/command-line-tutorial)
 * https://egghead.io/lessons/debugging-with-dev-tools
+* Design essay: [Picturing the Great Migration](https://medium.com/info-we-trust/picturing-the-great-migration-9e4b5a3eca8a)
+
 
