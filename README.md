@@ -179,8 +179,19 @@ Friday 02/02/2018 16:15-18:15
 ## Tutorial (2/2): Advanced layouts in D3.js
 Friday 09/02/2018 13:30-15:30 
 
+* Brief intro to D3 and Canvas ([example](https://bl.ocks.org/mbostock/31ce330646fa8bcb7289ff3b97aab3f5))
+* Class exercises: fork [this repository](https://github.com/LyonDataViz/MOS5.5-Dataviz) and focus on the sub-folder `tp-node-links` and the file `index.html`. The current version separates nodes in three random groups and highlight closest node to the mouse pointer. Add the following:
+  - Group nodes by their group attribute (`d.group`)
+  - Organize groups as a 2D grid ([example](http://blockbuilder.org/romsson/ba9181f7de7715022e166d3227087951)) by adding a `y` scale
+  - Link nodes nodes using `<line>` element ([example](https://bl.ocks.org/mbostock/4062045)) by adding data to the `graph.links` array. Look at the links drawing function for the expected data structure ([example](https://bl.ocks.org/mbostock/4062045))
+  - Highlight links connected to the current node, and the target nodes
+  - Adjust the `d3-force` parameters ([documentation](https://github.com/d3/d3-force/blob/master/README.md)) ([example](http://blockbuilder.org/romsson/ba9181f7de7715022e166d3227087951))
+
 * Feedback on projets proposals & reviews
-* Graph data structures and layouts in d3
+
+BONUS
+- Load [The Miserable dataset](https://bl.ocks.org/mbostock/4062045) instead of fake data
+- Group nodes by binning them using the `d3.histogram()` function
 
 ## Projects (1/5)
 Friday 09/02/2018 16:15-18:15
