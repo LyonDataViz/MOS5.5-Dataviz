@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Force-Directed Layout with Convex Hull</title>
-  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src="d3.js"></script>
  </head>
   <body>
 <style>
@@ -26,7 +25,7 @@
   var w = 960,
       h = 500,
       n = 100,
-      nb_groups = 9,
+      nb_groups = 8,
       nb_simulation = 120,
       fill = d3.scaleOrdinal(d3.schemeCategory20),
       graph = {};
@@ -37,7 +36,17 @@
   });
 
   // we don't generate links, yet
-  graph.links = [];
+  graph.links = [
+    {source: graph.nodes[0], target: graph.nodes[1]}
+  ];
+
+  graph.nodes.forEach(function(d, i) {
+    graph.nodes.forEach(function(e, j) {
+      if(d !== e && Math.random() < .015) {
+        graph.links.push({source: d, target: e})
+      }
+    })
+  });
 
   // main svg canvas
   var svg = d3.select("body").append("svg")
@@ -45,26 +54,34 @@
     .attr("height", h);
 
   // we separate ndoes using 3 arbitrary columns
-  var cols = 3;
+  var cols = Math.ceil(Math.sqrt(nb_groups));
 
   // horizontal scale for the columns
   var x = d3.scaleLinear()
     .domain([0, cols])
     .range([w/4, 3*w/4]);
 
+  var y = d3.scaleLinear()
+    .domain([0, cols])
+    .range([h/4, 3*h/4]);
+
   // MAIN LOOP
   // sets positions for each node based on index
   // -we store the pixel values
   // -those are calculated only once
   graph.nodes.forEach(function(d, i) {
-    var col = i % cols;
+
+    var col = d.group % cols;
+    var row = Math.floor(d.group / cols);
+
     d.x = x(col);
-    d.y = w/2;
+    d.y = y(row)
+
   });
 
   // simulation of positions
   var simulation = d3.forceSimulation()
-      .force("link", d3.forceLink().id(function(d) { return d.id; }))
+     // .force("link", d3.forceLink().id(function(d) { return d.id; }))
       .force("charge", d3.forceManyBody())
       .force("x", d3.forceX(function(d, i) {
         return d.x;
@@ -81,11 +98,11 @@
       .nodes(graph.nodes);
 
   // apply the simulation to links
-  simulation.force("link")
-      .links(graph.links);
+ // simulation.force("link")
+//      .links(graph.links);
 
   // we run the simulation nb_simulation times
-  for (var i = 0; i < nb_simulation; ++i) simulation.tick();
+  for (var i = 0; i < 50; ++i) simulation.tick();
 
   // we create a Voronoi partition based on nodes positions
   var voronoi = d3.voronoi()
@@ -111,6 +128,16 @@
           .transition()
           .attr("r", function(d) { return d.r; })
 
+        d3.selectAll(".links").style("opacity", .1)
+        d3.selectAll(".links").filter(function(e) {
+          if(d.data === e.source || d.data === e.target) {
+            return true;
+          } else {
+            return false
+          }
+        })
+        .style("opacity", 1)
+
       })
       .on("mouseleave", function(d) {
       })
@@ -134,13 +161,12 @@
       .attr("cy", function(d) { return d.y; });
 
   // create links using the graph.links object
-  var link = svg.append("g")
-      .attr("class", "links")
+  var link = svg
       .selectAll("line")
       .data(graph.links)
     .enter()
       .append("line")
-      .attr("stroke-width", function(d) { return Math.sqrt(d.value); });
+.attr("class", "links")
 
   // draw links
   link
