@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <script src="d3.js"></script>
+ </head>
+  <body>
+    <div id="chart"></div>
+<style>
+line {
+  fill: white;
+  stroke: black;
+  stroke-width: 1;
+}
+.background {
+  fill: none;
+  stroke: none;
+}
+.polygons {
+  fill: none;
+  stroke: #000;
+}
+
+</style>
+
+    <script type="text/javascript">
+
+var w = 960,
+    h = 500,
+    fill = d3.scaleOrdinal(d3.schemeCategory20),
+    graph = {};
+
+graph.nodes = d3.range(100).map(function(d, i) {
+  return {id: i, group: i %9, r: 10*Math.random()}
+});
+
+graph.links = [{source: graph.nodes[0], target: graph.nodes[1]},
+              {source: graph.nodes[1], target: graph.nodes[2]}
+              ];
+
+graph.nodes.forEach(function(d, i) {
+  graph.nodes.forEach(function(e, j) {
+    if(d !== e && Math.random() < .05) {
+      graph.links.push({source: d, target: e})
+    }
+  })
+});
+
+  var groupFill = function(d, i) { return fill(d.group); };
+
+  var svg = d3.select("#chart").append("svg")
+    .attr("width", w)
+    .attr("height", h);
+
+  var cols = Math.ceil(Math.sqrt(10));
+  var rows = Math.ceil(10 / cols);
+
+  var x = d3.scaleLinear()
+    .domain([0, cols])
+    .range([w/4, 3*w/4]);
+
+  var y = d3.scaleLinear()
+    .domain([0, rows])
+    .range([h/4, 3*h/4]);
+
+  var r = d3.scaleLinear()
+    .domain([0, d3.max(graph.nodes, function(d) { return d.r; })])
+    .range([h/4, 3*h/4]);
+
+var bins = d3.histogram()
+    .domain(r.domain())
+    .value(function(d) { return d.r; })
+    .thresholds(r.ticks(9))
+    (graph.nodes);
+
+bins.forEach(function(d, i) {
+  d.forEach(function(e) {
+    e.bin = i;
+  });
+})
+
+graph.nodes.forEach(function(d, i) {
+
+  var col = d.bin % cols;
+  var row = Math.floor(d.bin / rows);
+
+  d.x = x(col);
+  d.y = y(row);
+
+});
+
+var simulation = d3.forceSimulation()
+    .force("link", d3.forceLink().id(function(d) { return d.id; }))
+   // .force("charge", d3.forceManyBody())
+    .force("x", d3.forceX(function(d, i) {
+      return d.x;
+    }))
+    .force("y", d3.forceY(function(d, i) {
+      return d.y;
+    }))
+    .force("collide", d3.forceCollide(12).radius(function(d) { return d.r + 0.5; }).iterations(2))
+    .force("center", d3.forceCenter(w / 2, h / 2))
+    .stop();
+
+  simulation
+      .nodes(graph.nodes);
+
+  simulation.force("link")
+      .links([])
+
+for (var i = 0; i < 120; ++i) simulation.tick();
+
+var voronoi = d3.voronoi()
+    .extent([[0, 0], [w, h]])
+    .x(function(d) { return d.x; })
+    .y(function(d) { return d.y; })
+
+var polygon = svg.append("g")
+    .attr("class", "polygons")
+  .selectAll("path")
+  .data(voronoi.polygons(graph.nodes))
+  .enter().append("path")
+    .attr("id", function(d) { return "_" + d.data.id; })
+    .style("fill", "white")
+    .style("stroke", "white")
+    .on("mouseenter", function(d) {
+
+      d3.selectAll("circle").style("opacity", .1)
+      d3.selectAll("circle#" + d3.select(this).attr("id")).attr("r", 10)
+
+        .transition().attr("r", function(d) { return d.r; })
+
+      svg.selectAll(".links")
+        .filter(function(e) {
+          if(e.source === d.data || e.target === d.data) {
+             d3.selectAll("circle").filter(function(f) {
+               if(e.source === f || e.target === f) { return true; }
+             }).style("opacity", 1)
+            return true;
+          }
+        })
+        .style("opacity", 1);
+
+    })
+    .on("mouseleave", function(d) {
+      d3.selectAll(".links").style("opacity", .1);
+      d3.selectAll("circle").style("opacity", 1)
+    })
+    .call(redrawPolygon);
+
+var link = svg.selectAll(".links").data(graph.links)
+  .enter()
+    .append("line")
+    .attr("class", "links")
+    .style("opacity", .1)
+    .attr("stroke-width", function(d) { return Math.sqrt(d.value); });
+
+var node = svg.selectAll("circle.node")
+    .data(graph.nodes)
+  .enter().append("circle")
+    .attr("class", "node")
+    .attr("cx", function(d) { return d.x; })
+    .attr("cy", function(d) { return d.y; })
+    .attr("r", function(d) { return d.r; })
+    .attr("id", function(d) { return "_" + d.id; })
+    .style("fill", function(d, i) { return fill(i); })
+    .style("stroke", function(d, i) { return d3.rgb(fill(i)).darker(2); })
+    .style("stroke-width", 1.5);
+
+    link
+        .attr("x1", function(d) { return d.source.x; })
+        .attr("y1", function(d) { return d.source.y; })
+        .attr("x2", function(d) { return d.target.x; })
+        .attr("y2", function(d) { return d.target.y; });
+
+function redrawPolygon(polygon) {
+  polygon
+      .attr("d", function(d) { return d ? "M" + d.join("L") + "Z" : null; });
+}
+    </script>
+  </body>
+</html>
