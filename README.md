@@ -33,13 +33,14 @@ Other books
 ---
 ## Submissions
 
-All homeworks/assignements/reports are due the day before the class at 23.59pm Lyon Time (GMT+1). Using [this document](https://docs.google.com/spreadsheets/d/15R4NmF-Ript1vW8m15fs0rmOV2ag85M30gkaBQx0uy4/edit#gid=0).
+All homeworks/assignements/reports are due the **day before** the class at 23.59pm Lyon Time (GMT+1). Using [this form](https://goo.gl/forms/YAMADA2erDsaNpIA3).
+
 ---
 
 ## **Lecture 1 - Introduction to Data Visualization** 
 *Friday 11/01/2019 13:30-15:30*
 
-* Overview: Class organization, learning paths ([slides](https://docs.google.com/presentation/d/1YaPshJZLDj6M0XBMtmHqANeH17JINdB3Ie5G8RdC74U/edit#slide=id.p))
+* Overview: Class organization ([slides](https://docs.google.com/presentation/d/1YaPshJZLDj6M0XBMtmHqANeH17JINdB3Ie5G8RdC74U/edit#slide=id.p))
 * Basics of Data Visualization: Perception, cognition, Visual mapping, Standard charts ([slides](https://docs.google.com/presentation/d/1YY8h1wjfaAv172LVa8kVAnxCyEB547HRL43JlEOvCH0/edit#slide=id.p))
 * Authoring visualizations: Libraries, Tools, Tableau Software ([slides](https://docs.google.com/presentation/d/18b-B9wAYpq93nbROxRe9u6-7xexuBLM7T-yapqGoYdo/edit#slide=id.g2f7ee94efd_0_45))
 
@@ -92,9 +93,11 @@ All homeworks/assignements/reports are due the day before the class at 23.59pm L
 * Interactive Data Visualization for the Web [Chapter 1. Introduction
 ](https://web.archive.org/web/20160307043159/http://chimera.labs.oreilly.com/books/1230000000345/ch01.html), [Chapter 2. Introducing D3](https://web.archive.org/web/20160307043159/http://chimera.labs.oreilly.com/books/1230000000345/ch02.html) and [Chapter 3. Technology Fundamentals](https://web.archive.org/web/20160307043159/http://chimera.labs.oreilly.com/books/1230000000345/ch03.html)
 
-* JavaScript Tutorials
+* Get familiar with [JavaScript](https://learnxinyminutes.com/docs/javascript/)
 
 * [Inside look at modern web browser](https://developers.google.com/web/updates/2018/09/inside-browser-part1)
+
+* [Lear how to inspect the DOM tree](https://developers.google.com/web/tools/chrome-devtools/inspect-styles/edit-dom)
 
 ## **Lecture 2 - Introduction to D3.js** 
 *Friday 18/01/2019 13:30-15:30*
@@ -176,8 +179,8 @@ Git/GitHub
 JavaScript
 
 * [Mozilla Developers Network's Javascript reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-* Learn JavaScript (e.g. [learnxinyminutes](https://learnxinyminutes.com/docs/javascript/), [learnjsdata](http://learnjsdata.com/index.html))
-* JSON (e.g. [learnxinyminutes](https://learnxinyminutes.com/docs/json/))
+* Learn JavaScript (e.g. [JS learnxinyminutes](https://learnxinyminutes.com/docs/javascript/), [learnjsdata](http://learnjsdata.com/index.html))
+* JSON (e.g. [JS learnxinyminutes](https://learnxinyminutes.com/docs/json/))
 * [Eloquent JavaScript](http://eloquentjavascript.net/Eloquent_JavaScript.pdf)
 * (Notes on Douglas Crockford's Javascript the Good Parts 🚀
 )[https://github.com/iteles/Javascript-the-Good-Parts-notes]
