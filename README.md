@@ -77,7 +77,11 @@ All homeworks/assignements/reports are due the **day before** the class at 23.59
 
 *Global Superstore Dataset*
 
-1. Download the [`us-elections-history.csv`](data/Global Superstore Orders 2016.xlsx) and load it in Tableau; join datasets (if needed)
+1. Download the [`Global-Superstore-Orders-2016.xlsx`](data/Global-Superstore-Orders-2016.xlsx) and load it in Tableau; join datasets (if needed)
+2. Find an interesting story / selection with this dataset
+3. Create a Dashboard and explain your story/finding
+4. BONUS: Add storytelling (Tableau Feature)
+5. BONUS: Join other datasets (e.g. People, ..)
 
 
 📅 **For next class (20/01)**
