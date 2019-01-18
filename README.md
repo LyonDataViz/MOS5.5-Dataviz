@@ -122,6 +122,7 @@ All homeworks/assignements/reports are due the **day before** the class at 23.59
 * Let's build an interactive bar chart
 * Let's build an interactive bar chart using a dataset
 * Let's build an [interactive line chart using a dataset](http://bl.ocks.org/romsson/4fab85668c5cbed4fe0c070fa56d7a77)
+* [Result from class](https://blockbuilder.org/romsson/1a0c14ecfd3f4a8eae6b7dc0140a5ada)
 
 📅 **For next class (25/01)**
 
