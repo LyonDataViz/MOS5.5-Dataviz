@@ -106,8 +106,40 @@ All homeworks/assignements/reports are due the **day before** the class at 23.59
 ## **Lecture 2 - Introduction to D3.js** 
 *Friday 18/01/2019 13:30-15:30*
 
+* Solution from previous homework ([example](https://data.world/tableauhelp/superstore-data-sets))
+* Feedback on projects topics ([slides](https://docs.google.com/presentation/d/1r96OLz_yDkkAsq6segP360Vnr_PJrboO5XEJb0lHgw4/edit?usp=sharing))
+* Standard chart + Time/Geo charts ([slides](https://docs.google.com/presentation/d/1YY8h1wjfaAv172LVa8kVAnxCyEB547HRL43JlEOvCH0/edit#slide=id.g2ed13e6d0c_0_5))
+* Advanced data visualization concepts: Animation, Interaction, Multiple Views ([slides](https://docs.google.com/presentation/d/1g2ZT3LHUnCSmEUIrxow_4APTlnuiMGgID8XxMyt8mz4/edit#slide=id.p))
+* D3.js: Principles, Codes, Web Development ([slides](https://docs.google.com/presentation/d/1BtnZZoSmrafigZLbsFqPGwBlhPZHee19SJpUtcHKuCU/edit#slide=id.p))
+ 
 ## **Tutorial 2: D3.js** 
 *Friday 18/01/2019 15:45-17:45*
+
+* [Intro to D3](https://romsson.github.io/intro-to-d3/)
+* Let's build a [bar chart using SVG only](http://blockbuilder.org/romsson/36b1cdc599e8f341a33892f143cf087f) (without D3)
+* Let's build a [bar chart with D3 *without* data binding](http://blockbuilder.org/romsson/f865e7c5c05c805759486a3cf435a548)
+* Let's build a [bar chart with D3 *using* data binding](http://blockbuilder.org/romsson/e7aeedeb03300f4cdfd54531e33e9b68)
+* Let's build an interactive bar chart
+* Let's build an interactive bar chart using a dataset
+* Let's build an [interactive line chart using a dataset](http://bl.ocks.org/romsson/4fab85668c5cbed4fe0c070fa56d7a77)
+
+📅 **For next class (25/01)**
+
+* Extend the line chart using the [`stocks.csv`](data/stocks.csv) where each line is a different symbol (and a different color)
+* BONUS: add a vertical axis
+* BONUS: rank chart and a [toggle button](https://romsson.github.io/rankings/ranking.html)
+
+* Reading: [Chapter 4. Setup](https://web.archive.org/web/20160307043159/http://chimera.labs.oreilly.com/books/1230000000345/ch04.html), [Chapter 5. Data](https://web.archive.org/web/20160307043159/http://chimera.labs.oreilly.com/books/1230000000345/ch05.html), [Chapter 6. Drawing with Data](https://web.archive.org/web/20160307043159/http://chimera.labs.oreilly.com/books/1230000000345/ch06.html), [Chapter 7. Scales](https://web.archive.org/web/20160307043159/http://chimera.labs.oreilly.com/books/1230000000345/ch07.html).
+* Each project describe the expected dataset, mechanism to collect the data and expected model (as a table, use Excel)
+  * Project full name, project description and members names
+  * Data you plan to use, does it exist, if not how you collect it?
+  * 3-5 questions you want to answer using your project
+  * **Wait for validation by instructor before any coding**
+
+
+* What is visualization [research](https://medium.com/multiple-views-visualization-research-explained/what-is-visualization-research-what-should-it-be-8840a9ba658)? [literacy](https://medium.com/multiple-views-visualization-research-explained/what-does-visualization-literacy-mean-anyway-22f3b3badc0)?
+
+
 
 ## **Lecture 3 - Advanced D3.js and Design Methods**
 *Friday 25/01/2019 13:30-15:30*
@@ -197,6 +229,7 @@ Data Visualization Classes
 * https://curran.github.io/dataviz-course-archive/
 * https://github.com/Ecohen4/data-viz
 * https://github.com/arnicas/interactive-vis-course
+* https://docs.google.com/spreadsheets/d/13H77ewqswroMtshWjDZkmcAEvFeRmEjrr-w9E2WHU-E/edit#gid=989980390
 
 Blogs
 
