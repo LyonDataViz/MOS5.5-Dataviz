@@ -141,12 +141,33 @@ All homeworks/assignements/reports are due the **day before** the class at 23.59
 * What is visualization [research](https://medium.com/multiple-views-visualization-research-explained/what-is-visualization-research-what-should-it-be-8840a9ba658)? [literacy](https://medium.com/multiple-views-visualization-research-explained/what-does-visualization-literacy-mean-anyway-22f3b3badc0)?
 
 
-
 ## **Lecture 3 - Advanced D3.js and Design Methods**
 *Friday 25/01/2019 13:30-15:30*
 
+* [Solution stock line chart](https://blockbuilder.org/romsson/7d94b8925f4c8cb832770921aee23f88) and using [d3.nest](https://blockbuilder.org/romsson/57eb273e01761b829aaa95b28c8193c1)
+
+* Advanced D3.js: page layout, d3.nests, legends, scatterplot and grouped bar chart ([slides](https://docs.google.com/presentation/d/14pYKK2dYGnPS6iZ9l1gw1vuiPOGXjjCfeJlArMYRLBs/edit#slide=id.p))
+
+* Sketching, Rapid Prototyping, Development cycles ([slides](https://docs.google.com/presentation/d/11kEkZK12C893qzyEDvkIjgFKPmRKFf-KDDOKiwGw6ys/edit#slide=id.p)) and using the [Five Design Sheet](http://fds.design/) methodology
+
 ## Tutorial 3: Design Methods & more D3.js 
 *Friday 25/01/2019 15:45-17:45*
+
+* Five design sheets [methodology](http://fds.design/wp-content/uploads/2015/06/five-design-sheet-approach-JCR.pdf)
+
+
+* Projects proposal discussion (group by group) & validation by instructor
+
+
+
+📅 **For next class (02/02)**
+
+* [Grouped bar](https://blockbuilder.org/romsson/a78f70f6624184fd33b4dc385a495e75) chart using the [`stocks.csv`](data/stocks.csv) dataset and [`d3.nest`](http://learnjsdata.com/group_data.html)
+* BONUS: Stacked bar chart (see [D3 show reel](https://bl.ocks.org/mbostock/1256572))
+* BONUS: Transition between stacked and stock
+
+* A block with your project dataset (or expected dataset): load data from an external file (CSV, JSON), create a first chart characterising the **distribution** dataset (e.g. time series, bar chart, ), scatterplot.
+
 
 ## Lecture 4 - Advanced Design Method and Reseach in DataViz
 *Friday 01/02/2019 13:30-15:30*
