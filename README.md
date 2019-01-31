@@ -148,6 +148,8 @@ All homeworks/assignements/reports are due the **day before** the class at 23.59
 
 * Advanced D3.js: page layout, d3.nests, legends, scatterplot and grouped bar chart ([slides](https://docs.google.com/presentation/d/14pYKK2dYGnPS6iZ9l1gw1vuiPOGXjjCfeJlArMYRLBs/edit#slide=id.p))
 
+Class example: [multiple scatterplot](https://blockbuilder.org/romsson/7eb8dba335c702707bd2311bd75a28a7)
+
 ## Tutorial 3: Design Methods & more D3.js 
 *Friday 25/01/2019 15:45-17:45*
 
@@ -155,11 +157,12 @@ All homeworks/assignements/reports are due the **day before** the class at 23.59
 
 * Read principles of the Five design sheets [methodology](http://fds.design/wp-content/uploads/2015/06/five-design-sheet-approach-JCR.pdf)
 
-* [Apply it](http://fds.design/index.php/resources-and-publications/) to your project (paper and pen)
+* [Apply it](http://fds.design/index.php/resources-and-publications/) to your project (paper and pen!)
 
-* At the end: 
- * Update your proposal after feedback from instructor
- * Add the link to (all) the design sheets in the class document
+At the end of the tutorial: 
+
+* Update your proposal after feedback from instructor
+* Add the link to (a pdf of all) the design sheets in the class document
 
 
 📅 **For next class (02/02)**
@@ -169,16 +172,25 @@ All homeworks/assignements/reports are due the **day before** the class at 23.59
 * BONUS: [Stacked bar chart](https://blockbuilder.org/romsson/8aea86fddcf01380eb96a341509f394f)
 * BONUS: Transition between stacked and grouped (see [D3 show reel](https://bl.ocks.org/mbostock/1256572))
 
-2. A block with your project dataset (or expected dataset): load data from an external file (CSV, JSON), create a first chart characterising the **distribution** of the dataset (e.g. time series, bar chart, ), scatterplot. Link in the class document.
+2. Data analysis of your project dataset (or expected dataset) using D3 or Tablea: load data from an external file (CSV, JSON), create a first chart characterising the **distribution** of the dataset (e.g. time series, bar chart, ), scatterplot. Add the link to your analysis in the class document.
 
-3. Peer review other proposals and design sheets (link the class document)
+3. Update your design sheets and update link in the class document.
 
+* Reading: [Chapter 8. Axes](https://web.archive.org/web/20160307043159/http://chimera.labs.oreilly.com/books/1230000000345/ch08.html), [Chapter 9. Updates, Transitions, and Motion
+](https://web.archive.org/web/20160307043159/http://chimera.labs.oreilly.com/books/1230000000345/ch09.html), [Chapter 10. Interactivity](https://web.archive.org/web/20160307043159/http://chimera.labs.oreilly.com/books/1230000000345/ch10.html), [Chapter 11. Layouts](https://web.archive.org/web/20160307043159/http://chimera.labs.oreilly.com/books/1230000000345/ch11.html).
 
-## Lecture 4 - Advanced Design Method and Reseach in DataViz
+## Lecture 4 - Advanced Design Method, Maps and Graph
 *Friday 01/02/2019 13:30-15:30*
+
+* Complex data types, data structures ([slides](https://docs.google.com/presentation/d/1a79MLat-ftU25Uk7uM2JYfDSlKS-9hp94EnmegvcLg0/edit#slide=id.g327e636b06_0_540))
+* Tutorial: [build a geo-map](https://lyondataviz.github.io/teaching/lyon1-m2/2017/tp4.html) ([credits](http://www.tabard.fr/))
 
 ## Tutorial (1/2): Advanced layouts in D3.js
 *Friday 01/02/2019 15:45-17:45*
+
+* Modern web development tools: local server, package managers ([slides](https://docs.google.com/presentation/d/1Uz3ZjX1f9DJgH73VOrJwi7cgVqwlKIwFPmM4eubUIb8/edit#slide=id.g32bdb64449_0_18))
+* Introduction to [data cleaning tools and methods](http://romain.vuillemot.net/publis/slides-daquata-workshop-data-cleaning-dataviz.pdf)
+* Feedback on projects, work on data cleaning and structure
 
 ## Tutorial (2/2): Advanced layouts in D3.js
 *Friday 08/02/2019 13:30-15:30*
