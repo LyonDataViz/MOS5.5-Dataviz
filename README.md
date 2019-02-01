@@ -179,24 +179,32 @@ At the end of the tutorial:
 * Reading: [Chapter 8. Axes](https://web.archive.org/web/20160307043159/http://chimera.labs.oreilly.com/books/1230000000345/ch08.html), [Chapter 9. Updates, Transitions, and Motion
 ](https://web.archive.org/web/20160307043159/http://chimera.labs.oreilly.com/books/1230000000345/ch09.html), [Chapter 10. Interactivity](https://web.archive.org/web/20160307043159/http://chimera.labs.oreilly.com/books/1230000000345/ch10.html), [Chapter 11. Layouts](https://web.archive.org/web/20160307043159/http://chimera.labs.oreilly.com/books/1230000000345/ch11.html).
 
-## Lecture 4 - Advanced Design Method, Maps and Graph
+## Lecture 4 - Advanced Layout, Data Cleaning and Case studies
 *Friday 01/02/2019 13:30-15:30*
 
-* Complex data types, data structures ([slides](https://docs.google.com/presentation/d/1a79MLat-ftU25Uk7uM2JYfDSlKS-9hp94EnmegvcLg0/edit#slide=id.g327e636b06_0_540))
-* Tutorial: [build a geo-map](https://lyondataviz.github.io/teaching/lyon1-m2/2017/tp4.html) ([credits](http://www.tabard.fr/))
+* Solution [stock grouped bar chart](https://blockbuilder.org/romsson/64adf11897d67c21f4a0e0e16616df39) and [stacked bar chart](https://blockbuilder.org/romsson/8aea86fddcf01380eb96a341509f394f)) see [slides](https://docs.google.com/presentation/d/14pYKK2dYGnPS6iZ9l1gw1vuiPOGXjjCfeJlArMYRLBs/edit#slide=id.g327e636b06_0_422)
 
-## Tutorial (1/2): Advanced layouts in D3.js
+* Advanced layouts ([slides](https://docs.google.com/presentation/d/1a79MLat-ftU25Uk7uM2JYfDSlKS-9hp94EnmegvcLg0/edit#slide=id.p))
+
+* Case studies ([slides](https://docs.google.com/presentation/d/1RxFTHrEDvGTJiHZ7AmOyX7WQ82o7FEJFs0kosvlD4bg/edit#slide=id.g4e96ed2393_0_54))
+
+## Tutorial (1/3): Geo-maps and project setup
 *Friday 01/02/2019 15:45-17:45*
 
-* Modern web development tools: local server, package managers ([slides](https://docs.google.com/presentation/d/1Uz3ZjX1f9DJgH73VOrJwi7cgVqwlKIwFPmM4eubUIb8/edit#slide=id.g32bdb64449_0_18))
+* Feedback on projects
 * Introduction to [data cleaning tools and methods](http://romain.vuillemot.net/publis/slides-daquata-workshop-data-cleaning-dataviz.pdf)
-* Feedback on projects, work on data cleaning and structure
+* Modern web development tools: local server, package managers ([slides](https://docs.google.com/presentation/d/1Uz3ZjX1f9DJgH73VOrJwi7cgVqwlKIwFPmM4eubUIb8/edit#slide=id.g32bdb64449_0_18))
+* Tutorial: [build a geo-map](https://lyondataviz.github.io/teaching/lyon1-m2/2017/tp4.html)
 
-## Tutorial (2/2): Advanced layouts in D3.js
+## Tutorial (2/3): Advanced layouts in D3.js
 *Friday 08/02/2019 13:30-15:30*
 
-## Projects (1/5)
+* Graphs
+
+## Projects (3/3)
 *Friday 08/02/2019 15:45-17:45*
+
+* Node link diagram
 
 ## Projects (2/5)
 *Friday 15/02/2019 13:30-15:30*
