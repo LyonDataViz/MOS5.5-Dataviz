@@ -211,7 +211,7 @@ At the end of the tutorial:
 
 * [Solution interactive geo-map](https://blockbuilder.org/romsson/bfb974bfd600573d763c405d20921b7c)
 
-## Tutorial 5: Node-Link Diagrams
+## Tutorial 5: Node-Link Graphs
 *Friday 08/02/2019 15:45-17:45*
 
 * Load this [Node link diagram](https://blockbuilder.org/romsson/613e64af0ea1fb1567aeac5d29e9ac35) based on [force layout](img/force.png) (see [documentation](https://github.com/d3/d3-force) and [parameters playground](https://bl.ocks.org/steveharoz/8c3e2524079a8c440df60c1ab72b5d03)) 
@@ -225,9 +225,7 @@ BONUS: [multiple foci](http://bl.ocks.org/Kuerzibe/d2e79e28c5591a7e4552b6f9433eb
 
 📅 **For next class (15/02)**
 
-✍ Assignments
-
-* Peer-review of other groups projects (2/3 pages in a PDF document)
+✍ **Peer-review of other groups projects** (2/3 pages in a PDF document)
 
 1. Do you understand the questions the projet adresses?
 2. Is the datasaet already availabe and if not will it be soon?
