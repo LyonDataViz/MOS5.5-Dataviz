@@ -196,14 +196,20 @@ At the end of the tutorial:
 * Modern web development tools: local server, package managers ([slides](https://docs.google.com/presentation/d/1Uz3ZjX1f9DJgH73VOrJwi7cgVqwlKIwFPmM4eubUIb8/edit#slide=id.g32bdb64449_0_18))
 * Tutorial: [build a geo-map](https://lyondataviz.github.io/teaching/lyon1-m2/2017/tp4.html)
 
+📅 **For next class (08/02)**
+
+✍ Assignments
+
+* Add slider and tooltips to the geo-map
+* Final design of projects
+* Link to online demo (e.g. Github page) with blank document or first visualization
+
 ## Lecture 5 - Graphs
 *Friday 08/02/2019 13:30-15:30*
 
 * Graphs, Networks and Tree visualizations ([slides](https://docs.google.com/presentation/d/1zhbOrcbVMEfnl8tx07TPNuY8oEIeGyuYVeCR5Rb4h9g/edit#slide=id.p))
 
 * [Solution interactive geo-map](https://blockbuilder.org/romsson/bfb974bfd600573d763c405d20921b7c)
-
-* 
 
 ## Tutorial 5: Node-Link Diagrams
 *Friday 08/02/2019 15:45-17:45*
@@ -212,10 +218,22 @@ At the end of the tutorial:
 
 Update it with more features:
 
-* Layouts: [random](img/random.png), [radial](img/radial.png), [line](](img/line.png), [line by category](img/line-cat.png).
-* Encodings: [color](img/color.png), [size](img/size.png).
+1. Layouts: [random](img/random.png), [radial](img/radial.png), [line]](img/line.png), [line by category](img/line-cat.png).
+2. Encodings: [color](img/color.png), [size](img/size.png).
 
 BONUS: [multiple foci](http://bl.ocks.org/Kuerzibe/d2e79e28c5591a7e4552b6f9433ebe40)
+
+📅 **For next class (15/02)**
+
+✍ Assignments
+
+* Peer-review of other groups projects (2/3 pages in a PDF document)
+
+1. Do you understand the questions the projet adresses?
+2. Is the datasaet already availabe and if not will it be soon?
+3. Are the visualizations relevant (encoding, ..)? Are there enough interactions to explore/get details? Is the page layout well organized? 
+4. Do you think the final project will help answer questions? What is missing (data/visualizations/ interactions)?
+5. Any other remark/feedback?
 
 ## Projects (1/2)
 *Friday 15/02/2019 13:30-15:30*
