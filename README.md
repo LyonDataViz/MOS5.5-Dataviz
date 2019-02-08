@@ -223,6 +223,8 @@ Update it with more features:
 
 BONUS: [multiple foci](http://bl.ocks.org/Kuerzibe/d2e79e28c5591a7e4552b6f9433ebe40)
 
+[Solution](https://blockbuilder.org/romsson/737693bfe28fb0e8e4d2a4dc55ffd846)
+
 📅 **For next class (15/02)**
 
 ✍ **Peer-review of other groups projects** (2/3 pages in a PDF document)
