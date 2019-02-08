@@ -188,7 +188,7 @@ At the end of the tutorial:
 
 * Case studies ([slides](https://docs.google.com/presentation/d/1RxFTHrEDvGTJiHZ7AmOyX7WQ82o7FEJFs0kosvlD4bg/edit#slide=id.g4e96ed2393_0_54))
 
-## Tutorial (1/3): Geo-maps and project setup
+## Tutorial 4: Geo-maps and project setup
 *Friday 01/02/2019 15:45-17:45*
 
 * Feedback on projects
@@ -196,20 +196,31 @@ At the end of the tutorial:
 * Modern web development tools: local server, package managers ([slides](https://docs.google.com/presentation/d/1Uz3ZjX1f9DJgH73VOrJwi7cgVqwlKIwFPmM4eubUIb8/edit#slide=id.g32bdb64449_0_18))
 * Tutorial: [build a geo-map](https://lyondataviz.github.io/teaching/lyon1-m2/2017/tp4.html)
 
-## Tutorial (2/3): Advanced layouts in D3.js
+## Lecture 5 - Graphs
 *Friday 08/02/2019 13:30-15:30*
 
-* Graphs
+* Graphs, Networks and Tree visualizations ([slides](https://docs.google.com/presentation/d/1zhbOrcbVMEfnl8tx07TPNuY8oEIeGyuYVeCR5Rb4h9g/edit#slide=id.p))
 
-## Projects (3/3)
+* [Solution interactive geo-map](https://blockbuilder.org/romsson/bfb974bfd600573d763c405d20921b7c)
+
+* 
+
+## Tutorial 5: Node-Link Diagrams
 *Friday 08/02/2019 15:45-17:45*
 
-* Node link diagram
+* Load this [Node link diagram](https://blockbuilder.org/romsson/613e64af0ea1fb1567aeac5d29e9ac35) based on [force layout](img/force.png) (see [documentation](https://github.com/d3/d3-force) and [parameters playground](https://bl.ocks.org/steveharoz/8c3e2524079a8c440df60c1ab72b5d03)) 
 
-## Projects (2/5)
+Update it with more features:
+
+* Layouts: [random](img/random.png), [radial](img/radial.png), [line](](img/line.png), [line by category](img/line-cat.png).
+* Encodings: [color](img/color.png), [size](img/size.png).
+
+BONUS: [multiple foci](http://bl.ocks.org/Kuerzibe/d2e79e28c5591a7e4552b6f9433ebe40)
+
+## Projects (1/2)
 *Friday 15/02/2019 13:30-15:30*
 
-## Projects (3/5)
+## Projects (2/2)
 *Friday 15/02/2019 15:45-17:45*
 
 ## Projects (autonomie)
@@ -218,15 +229,14 @@ At the end of the tutorial:
 ## Projects (autonomie)
 *Friday 01/03/2019 15:45-17:45*
 
-## Projects (4/5): Final projects presentations & demos
+## Projects: Final projects presentations & demos
 *Friday 08/03/2019 13:30-15:30*
 
-## Projects (5/5): Final projects presentations & demos
+## Projects: Final projects presentations & demos
 *Friday 08/03/2019 15:45-17:45*
 
-
 ## Exam
-*TBD*
+*Wednesday 13/03/2019 16:30-18:30*
 
 ## Online resources
 
