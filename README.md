@@ -275,6 +275,7 @@ D3.js
 * [Changes in D3 4.0](https://github.com/d3/d3/blob/master/CHANGES.md)
 * [D3 V4 - What's new?](https://iros.github.io/d3-v4-whats-new/#1)
 * [Wide vs. Long Data in D3](http://jonathansoma.com/tutorials/d3/wide-vs-long-data/)
+* [D3 Cheatsheet](http://www.jeromecukier.net/wp-content/uploads/2012/10/d3-cheat-sheet.pdf)
 
 SVG 
 
@@ -316,6 +317,13 @@ Graphics/Journals
 
 * http://www.bloomberg.com/visual-data/
 * http://data.huffingtonpost.com/
+
+Color
+
+* [D3 color schemes](https://beta.observablehq.com/@mbostock/d3-color-schemes)
+* https://cloudflare.design/color/
+* [ColorBrewer](http://colorbrewer2.org/)
+
 
 Misc
 
