@@ -225,12 +225,10 @@ BONUS: [multiple foci](http://bl.ocks.org/Kuerzibe/d2e79e28c5591a7e4552b6f9433eb
 
 [Solution](https://blockbuilder.org/romsson/737693bfe28fb0e8e4d2a4dc55ffd846)
 
-
 ## Projects (1/2)
 *Friday 15/02/2019 13:30-15:30*
 
 **Peer-review of other groups projects** Fill [this form](https://goo.gl/forms/zjNnExy0NC9zAct53):
-
 
 ## Projects (2/2)
 *Friday 15/02/2019 15:45-17:45*
@@ -242,10 +240,31 @@ BONUS: [multiple foci](http://bl.ocks.org/Kuerzibe/d2e79e28c5591a7e4552b6f9433eb
 *Friday 01/03/2019 15:45-17:45*
 
 ## Projects: Final projects presentations & demos
-*Friday 08/03/2019 13:30-15:30*
+*Friday 08/03/2019 13:30-17:45*
 
-## Projects: Final projects presentations & demos
-*Friday 08/03/2019 15:45-17:45*
+Each group has a 15min time slot (10min presentation, 5min questions)
+
+* No slide: show the visualization
+
+1. Present context, dataset, data collection
+2. Describe key design decisions (visual mappings, interactions, animations, ..)
+3. How does the visualization help you present interesting findings in the dataset?
+4. Discuss technical challenges, limits, what you would have done with more time.
+
+*There is no report to write for the project, just add a README.md in the repository organized as follows:*
+
+- Name of the participants of the project
+- Description of the project
+- Screenshots and/or video of the main features
+- Credits to external code or data you may have used in your project
+
+**IMPORTANT Regarding the dataset**
+
+- If you don't want to share your dataset, add a demo/fake dataset (e.g. sample or fake data) for the live demo
+- Provide a way to let users use their own dataset and explain how to do it (upload button? using a Python script? etc.)
+- If you take screenshots with the real dataset make sure you preserve individuals privacy
+
+As a general rule keep in mind the projects will be made public so anybody should be able to understand on their own and privacy of the datasets should be preserved.
 
 ## Exam
 *Wednesday 13/03/2019 16:30-18:30*
