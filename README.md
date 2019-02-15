@@ -242,13 +242,13 @@ BONUS: [multiple foci](http://bl.ocks.org/Kuerzibe/d2e79e28c5591a7e4552b6f9433eb
 ## Projects: Final projects presentations & demos
 *Friday 08/03/2019 13:30-17:45*
 
-Each group has a 15min time slot (10min presentation, 5min questions)
+Each group has a 15min time slot (10min presentation, 5min questions) to present their project.
 
-* No slide: show the visualization
+**No slide: just show the visualization and tell a convincing story (e.g. don't list features, etc.). Should address the following:**
 
 1. Present context, dataset, data collection
 2. Describe key design decisions (visual mappings, interactions, animations, ..)
-3. How does the visualization help you present interesting findings in the dataset?
+3. Did the visualization help you find anything of interest in the dataset?
 4. Discuss technical challenges, limits, what you would have done with more time.
 
 *There is no report to write for the project, just add a README.md in the repository organized as follows:*
@@ -258,7 +258,7 @@ Each group has a 15min time slot (10min presentation, 5min questions)
 - Screenshots and/or video of the main features
 - Credits to external code or data you may have used in your project
 
-**IMPORTANT Regarding the dataset**
+**IMPORTANT -- Regarding the dataset**
 
 - If you don't want to share your dataset, add a demo/fake dataset (e.g. sample or fake data) for the live demo
 - Provide a way to let users use their own dataset and explain how to do it (upload button? using a Python script? etc.)
