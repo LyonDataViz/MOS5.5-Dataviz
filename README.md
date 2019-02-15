@@ -225,18 +225,12 @@ BONUS: [multiple foci](http://bl.ocks.org/Kuerzibe/d2e79e28c5591a7e4552b6f9433eb
 
 [Solution](https://blockbuilder.org/romsson/737693bfe28fb0e8e4d2a4dc55ffd846)
 
-📅 **For next class (15/02)**
-
-✍ **Peer-review of other groups projects** (2/3 pages in a PDF document)
-
-1. Do you understand the questions the projet adresses?
-2. Is the datasaet already availabe and if not will it be soon?
-3. Are the visualizations relevant (encoding, ..)? Are there enough interactions to explore/get details? Is the page layout well organized? 
-4. Do you think the final project will help answer questions? What is missing (data/visualizations/ interactions)?
-5. Any other remark/feedback?
 
 ## Projects (1/2)
 *Friday 15/02/2019 13:30-15:30*
+
+**Peer-review of other groups projects** Fill [this form](https://goo.gl/forms/zjNnExy0NC9zAct53):
+
 
 ## Projects (2/2)
 *Friday 15/02/2019 15:45-17:45*
