@@ -336,6 +336,7 @@ Color
 * [D3 color schemes](https://beta.observablehq.com/@mbostock/d3-color-schemes)
 * https://cloudflare.design/color/
 * [ColorBrewer](http://colorbrewer2.org/)
+* https://ciechanow.ski/color-spaces/
 
 
 Misc
@@ -343,5 +344,6 @@ Misc
 * [Command line tutorial](https://www.learnenough.com/command-line-tutorial)
 * https://egghead.io/lessons/debugging-with-dev-tools
 * Design essay: [Picturing the Great Migration](https://medium.com/info-we-trust/picturing-the-great-migration-9e4b5a3eca8a)
-
+* [What to Expect in the Data Visualization Engineer Job Interviews
+](https://medium.com/@kristw/what-to-expect-in-data-visualization-engineer-job-interviews-54053b896a75)
 
