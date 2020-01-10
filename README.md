@@ -38,36 +38,38 @@ All homeworks/assignements/reports are due the **day before** the class at 23.59
 ---
 
 ## **Lecture 1 - Introduction to Data Visualization** 
-*Friday 11/01/2019 13:30-15:30*
+*Friday 10/01/2020 13:30-15:30*
 
 * Overview: Class organization ([slides](https://docs.google.com/presentation/d/1YaPshJZLDj6M0XBMtmHqANeH17JINdB3Ie5G8RdC74U/edit#slide=id.p))
 * Basics of Data Visualization: Perception, cognition, Visual mapping, Standard charts ([slides](https://docs.google.com/presentation/d/1YY8h1wjfaAv172LVa8kVAnxCyEB547HRL43JlEOvCH0/edit#slide=id.p))
 * Authoring visualizations: Libraries, Tools, Tableau Software ([slides](https://docs.google.com/presentation/d/18b-B9wAYpq93nbROxRe9u6-7xexuBLM7T-yapqGoYdo/edit#slide=id.g2f7ee94efd_0_45))
 
 ## **Tutorial 1 - Tableau Software**
-*Friday 11/01/2019 15:45-17:45*
+*Friday 10/01/2020 15:45-17:45*
 
 *Tableau Tutorial* 
 
 1. The goal is to have a first experience with Tableau and build standard charts using a simple dataset.
-2. Download and install [Tableau Public](https://public.tableau.com/) (Free) on your machine
-3. (Simple) alternative to Tableau: [Polestar](http://vega.github.io/polestar/)
+2. Download and install [Tableau Public](https://public.tableau.com/) (Free) on your machine.
+3. Altenartive for Linux users is the [Online version of Tableau](https://online.tableau.com/)
+4. Other(simple) alternative to Tableau: [Polestar](http://vega.github.io/polestar/)
 
-*Iris flowers visualization*
+*Problem 1: Iris flowers visualization*
 
 1. Download the [`iris.csv`](data/iris.csv) and load it in Tableau; convert data types (if needed)
 2. Plot a **scatterplot** with X:sepal_length, Y:sepal_width, color:species and a trend line 
 3. Save as a tab and save the workbook
 
-*Elections map*
+*Problem 2: Elections map*
 
 1. Download the [`us-elections-history.csv`](data/us-elections-history.csv) and load it in Tableau; convert data types (if needed)
 2. Plot a grid plot with `Year` as columns, `State` as rows and `State Winner` as color/marks.
 3. Save as a tab
 4. Plot a **geo-map** with colors winning party in 2012 `Latitude (generated)` et `Longitude (generated)`, with `State` as shapes and color `ATTR([State Winner])`
 5. Save as a tab and save the workbook
+6. Tips: make sure you parse the dataset correctly (FR version of Tableau automatically splits comas)
 
-*Stock markets visualizations*
+*Problem 3: Stock markets visualizations*
 
 1. Download the [`stocks.csv`](data/stocks.csv) and load it in Tableau; convert data types (if needed)
 2. Plot a **multiple line chart** over time, for all stocks in a different color, grouped by company
@@ -84,15 +86,14 @@ All homeworks/assignements/reports are due the **day before** the class at 23.59
 5. BONUS: Join other datasets (e.g. People, ..)
 
 
-📅 **For next class (20/01)**
+📅 **For next class (17/01/2020)**
 
 ✍ Assignments
 
-* Submit your Tableau workbook on Global Superstore dataset
+* Pick a visualization you find interesting and 
 * Propose a project topic (2-page): what is the question you want to answer? which data do you need? how do you plan to collect your data? what are the main risk in collecting/visualizing it? what are the privacy/ethical issues?
-* Create a GitHub account and learn how to use it (bottom of the page)
 
-📖 Readings
+📖 Readings and preparation
 
 * Interactive Data Visualization for the Web [Chapter 1. Introduction
 ](https://web.archive.org/web/20160307043159/http://chimera.labs.oreilly.com/books/1230000000345/ch01.html), [Chapter 2. Introducing D3](https://web.archive.org/web/20160307043159/http://chimera.labs.oreilly.com/books/1230000000345/ch02.html) and [Chapter 3. Technology Fundamentals](https://web.archive.org/web/20160307043159/http://chimera.labs.oreilly.com/books/1230000000345/ch03.html)
@@ -103,17 +104,21 @@ All homeworks/assignements/reports are due the **day before** the class at 23.59
 
 * [Lear how to inspect the DOM tree](https://developers.google.com/web/tools/chrome-devtools/inspect-styles/edit-dom)
 
-## **Lecture 2 - Introduction to D3.js** 
-*Friday 18/01/2019 13:30-15:30*
+* Create a GitHub account and get familiar with Git
 
-* Solution from previous homework ([example](https://data.world/tableauhelp/superstore-data-sets))
-* Feedback on projects topics ([slides](https://docs.google.com/presentation/d/1r96OLz_yDkkAsq6segP360Vnr_PJrboO5XEJb0lHgw4/edit?usp=sharing))
+## **Tutorial 2 (1/2) - Introduction to D3.js** 
+*Friday 17/01/2020 13:30-15:30*
+
+Geo https://docs.google.com/presentation/d/1fY3EHmalb53aZVNYqv2UHjg9_kbtR26saexPTgPKKJs/edit#slide=id.g26ba174e93_0_616
+
+Time https://docs.google.com/presentation/d/1HPwRnoc5SvvuhCmxyKnljgqa0oRH6ugDlhM0JQ8qLmM/edit#slide=id.g26b255eefc_0_1105
+
 * Standard chart + Time/Geo charts ([slides](https://docs.google.com/presentation/d/1YY8h1wjfaAv172LVa8kVAnxCyEB547HRL43JlEOvCH0/edit#slide=id.g2ed13e6d0c_0_5))
-* Advanced data visualization concepts: Animation, Interaction, Multiple Views ([slides](https://docs.google.com/presentation/d/1g2ZT3LHUnCSmEUIrxow_4APTlnuiMGgID8XxMyt8mz4/edit#slide=id.p))
+
 * D3.js: Principles, Codes, Web Development ([slides](https://docs.google.com/presentation/d/1BtnZZoSmrafigZLbsFqPGwBlhPZHee19SJpUtcHKuCU/edit#slide=id.p))
  
-## **Tutorial 2: D3.js** 
-*Friday 18/01/2019 15:45-17:45*
+## **Tutorial 2 (2/2) - D3.js** 
+*Friday 17/01/2020 15:45-17:45*
 
 * [Intro to D3](https://romsson.github.io/intro-to-d3/)
 * Let's build a [bar chart using SVG only](http://blockbuilder.org/romsson/36b1cdc599e8f341a33892f143cf087f) (without D3)
@@ -124,7 +129,7 @@ All homeworks/assignements/reports are due the **day before** the class at 23.59
 * Let's build an [interactive line chart using a dataset](http://bl.ocks.org/romsson/4fab85668c5cbed4fe0c070fa56d7a77)
 * [Result from class](https://blockbuilder.org/romsson/1a0c14ecfd3f4a8eae6b7dc0140a5ada)
 
-📅 **For next class (25/01)**
+📅 **For next class (24/01/2020)**
 
 * Extend the line chart using the [`stocks.csv`](data/stocks.csv) where each line is a different symbol (and a different color)
 * BONUS: add a vertical axis
@@ -137,21 +142,19 @@ All homeworks/assignements/reports are due the **day before** the class at 23.59
   * 3-5 questions you want to answer using your project
   * **Wait for validation by instructor before any coding**
 
-
 * What is visualization [research](https://medium.com/multiple-views-visualization-research-explained/what-is-visualization-research-what-should-it-be-8840a9ba658)? [literacy](https://medium.com/multiple-views-visualization-research-explained/what-does-visualization-literacy-mean-anyway-22f3b3badc0)?
 
-
 ## **Lecture 3 - Advanced D3.js and Design Methods**
-*Friday 25/01/2019 13:30-15:30*
+*Friday 24/01/2020 13:30-15:30*
 
-* [Solution stock line chart](https://blockbuilder.org/romsson/7d94b8925f4c8cb832770921aee23f88) (another one using [d3.nest](https://blockbuilder.org/romsson/57eb273e01761b829aaa95b28c8193c1))
+* Advanced data visualization concepts: Animation, Interaction, Multiple Views ([slides](https://docs.google.com/presentation/d/1g2ZT3LHUnCSmEUIrxow_4APTlnuiMGgID8XxMyt8mz4/edit#slide=id.p))
 
 * Advanced D3.js: page layout, d3.nests, legends, scatterplot and grouped bar chart ([slides](https://docs.google.com/presentation/d/14pYKK2dYGnPS6iZ9l1gw1vuiPOGXjjCfeJlArMYRLBs/edit#slide=id.p))
 
 Class example: [multiple scatterplot](https://blockbuilder.org/romsson/7eb8dba335c702707bd2311bd75a28a7)
 
 ## Tutorial 3: Design Methods & more D3.js 
-*Friday 25/01/2019 15:45-17:45*
+*Friday 24/01/2020 15:45-17:45*
 
 * Sketching, Rapid Prototyping, Development cycles ([slides](https://docs.google.com/presentation/d/11kEkZK12C893qzyEDvkIjgFKPmRKFf-KDDOKiwGw6ys/edit#slide=id.p)) and using the [Five Design Sheet](http://fds.design/) methodology
 
@@ -165,7 +168,7 @@ At the end of the tutorial:
 * Add the link to (a pdf of all) the design sheets in the class document
 
 
-📅 **For next class (02/02)**
+📅 **For next class (31/01/2020)**
 
 1. [Grouped bar chart](https://blockbuilder.org/romsson/a78f70f6624184fd33b4dc385a495e75) chart using the [`stocks.csv`](data/stocks.csv) dataset and [`d3.nest`](http://learnjsdata.com/group_data.html)
 
@@ -180,23 +183,21 @@ At the end of the tutorial:
 ](https://web.archive.org/web/20160307043159/http://chimera.labs.oreilly.com/books/1230000000345/ch09.html), [Chapter 10. Interactivity](https://web.archive.org/web/20160307043159/http://chimera.labs.oreilly.com/books/1230000000345/ch10.html), [Chapter 11. Layouts](https://web.archive.org/web/20160307043159/http://chimera.labs.oreilly.com/books/1230000000345/ch11.html).
 
 ## Lecture 4 - Advanced Layout, Data Cleaning and Case studies
-*Friday 01/02/2019 13:30-15:30*
-
-* Solution [stock grouped bar chart](https://blockbuilder.org/romsson/64adf11897d67c21f4a0e0e16616df39) and [stacked bar chart](https://blockbuilder.org/romsson/8aea86fddcf01380eb96a341509f394f)) see [slides](https://docs.google.com/presentation/d/14pYKK2dYGnPS6iZ9l1gw1vuiPOGXjjCfeJlArMYRLBs/edit#slide=id.g327e636b06_0_422)
+*Friday 31/01/2020 13:30-15:30*
 
 * Advanced layouts ([slides](https://docs.google.com/presentation/d/1a79MLat-ftU25Uk7uM2JYfDSlKS-9hp94EnmegvcLg0/edit#slide=id.p))
 
 * Case studies ([slides](https://docs.google.com/presentation/d/1RxFTHrEDvGTJiHZ7AmOyX7WQ82o7FEJFs0kosvlD4bg/edit#slide=id.g4e96ed2393_0_54))
 
 ## Tutorial 4: Geo-maps and project setup
-*Friday 01/02/2019 15:45-17:45*
+*Friday 31/01/2020 15:45-17:45*
 
 * Feedback on projects
 * Introduction to [data cleaning tools and methods](http://romain.vuillemot.net/publis/slides-daquata-workshop-data-cleaning-dataviz.pdf)
 * Modern web development tools: local server, package managers ([slides](https://docs.google.com/presentation/d/1Uz3ZjX1f9DJgH73VOrJwi7cgVqwlKIwFPmM4eubUIb8/edit#slide=id.g32bdb64449_0_18))
 * Tutorial: [build a geo-map](https://lyondataviz.github.io/teaching/lyon1-m2/2017/tp4.html)
 
-📅 **For next class (08/02)**
+📅 **For next class (07/02/2020)**
 
 ✍ Assignments
 
@@ -205,14 +206,14 @@ At the end of the tutorial:
 * Link to online demo (e.g. Github page) with blank document or first visualization
 
 ## Lecture 5 - Graphs
-*Friday 08/02/2019 13:30-15:30*
+*Friday 07/02/2020 13:30-15:30*
 
 * Graphs, Networks and Tree visualizations ([slides](https://docs.google.com/presentation/d/1zhbOrcbVMEfnl8tx07TPNuY8oEIeGyuYVeCR5Rb4h9g/edit#slide=id.p))
 
-* [Solution interactive geo-map](https://blockbuilder.org/romsson/bfb974bfd600573d763c405d20921b7c)
+* [Interactive geo-map in D3](https://blockbuilder.org/romsson/bfb974bfd600573d763c405d20921b7c)
 
 ## Tutorial 5: Node-Link Graphs
-*Friday 08/02/2019 15:45-17:45*
+*Friday 07/02/2020 15:45-17:45*
 
 * Load this [Node link diagram](https://blockbuilder.org/romsson/613e64af0ea1fb1567aeac5d29e9ac35) based on [force layout](img/force.png) (see [documentation](https://github.com/d3/d3-force) and [parameters playground](https://bl.ocks.org/steveharoz/8c3e2524079a8c440df60c1ab72b5d03)) 
 
@@ -221,26 +222,20 @@ Update it with more features:
 1. Layouts: [random](img/random.png), [radial](img/radial.png), [line]](img/line.png), [line by category](img/line-cat.png).
 2. Encodings: [color](img/color.png), [size](img/size.png).
 
-BONUS: [multiple foci](http://bl.ocks.org/Kuerzibe/d2e79e28c5591a7e4552b6f9433ebe40)
+BONUS: [use multiple foci](http://bl.ocks.org/Kuerzibe/d2e79e28c5591a7e4552b6f9433ebe40)
 
 [Solution](https://blockbuilder.org/romsson/737693bfe28fb0e8e4d2a4dc55ffd846)
 
 ## Projects (1/2)
-*Friday 15/02/2019 13:30-15:30*
+*Friday 14/02/2020 13:30-15:30*
 
 **Peer-review of other groups projects** Fill [this form](https://goo.gl/forms/zjNnExy0NC9zAct53):
 
 ## Projects (2/2)
-*Friday 15/02/2019 15:45-17:45*
-
-## Projects (autonomie)
-*Friday 01/03/2019 13:30-15:30*
-
-## Projects (autonomie)
-*Friday 01/03/2019 15:45-17:45*
+*Friday 14/02/2020 15:45-17:45*
 
 ## Projects: Final projects presentations & demos
-*Friday 08/03/2019 13:30-17:45*
+*Friday 21/03/2020 13:30-17:45*
 
 Each group has a 15min time slot (10min presentation, 5min questions) to present their project.
 
@@ -266,12 +261,18 @@ Each group has a 15min time slot (10min presentation, 5min questions) to present
 
 As a general rule keep in mind the projects will be made public so anybody should be able to understand on their own and privacy of the datasets should be preserved.
 
+## Projects: Polish and final submission (autonomie)
+*Friday 28/02/2020 13:30-15:30*
+
+## Projects: Polish and final submission (autonomie)
+*Friday 28/03/2020 15:45-17:45*
+
 ## Exam
-*Wednesday 13/03/2019 16:30-18:30*
+*Wednesday 2h written date TBD*
 
 ## Online resources
 
-Tableau
+Tableau Software
 
 * [FAQ:  How to learn Tableau](https://community.tableau.com/thread/151389)
 * [Build standard charts with Tableau](http://onlinehelp.tableau.com/current/pro/desktop/en-us/dataview_examples.html)
