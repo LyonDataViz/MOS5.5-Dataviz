@@ -48,6 +48,8 @@ All homeworks/assignements/reports are due the **day before** the class at 23.59
 
 * Introduction to D3.js ([slides](https://docs.google.com/presentation/d/1BtnZZoSmrafigZLbsFqPGwBlhPZHee19SJpUtcHKuCU/edit#slide=id.g2fcdab4196_0_131))
 
+* Final projects description ([slides](https://docs.google.com/presentation/d/1r96OLz_yDkkAsq6segP360Vnr_PJrboO5XEJb0lHgw4/edit?usp=sharing))
+
 ## **Tutorial 1 - Tableau Software**
 *Friday 10/01/2020 15:45-17:45*
 
@@ -94,11 +96,13 @@ All homeworks/assignements/reports are due the **day before** the class at 23.59
 
 ✍ Assignments
 
-* Sumbit a group proposal of 2 or 3 students (same TD group)
+* Group proposal of 2 or 3 students
 
 * Submit a project topic (1-paragraph): what is the question you expect to answer? which data do you need? how do you plan to collect your data? what are the main risk in collecting/visualizing it? what are the privacy/ethical issues?
 
-* Add your names and GitHub nicknames
+* Create a GitHub account
+
+* Read introductions to JavaScript, D3 and Git
 
 📖 Readings and preparation
 
@@ -116,9 +120,8 @@ All homeworks/assignements/reports are due the **day before** the class at 23.59
 ## **Tutorial 2 (1/2) - Building visualizations with D3.js** 
 *Friday 17/01/2020 13:30-15:30*
 
-* D3.js: Principles, Codes, Web Development ([slides](https://docs.google.com/presentation/d/1BtnZZoSmrafigZLbsFqPGwBlhPZHee19SJpUtcHKuCU/edit#slide=id.p))
+* Cheatsheet [intro to D3](https://romsson.github.io/intro-to-d3/)
 
-* [Intro to D3](https://romsson.github.io/intro-to-d3/)
 * Let's build a [bar chart using SVG only](http://blockbuilder.org/romsson/36b1cdc599e8f341a33892f143cf087f) (without D3)
 * Let's build a [bar chart with D3 *without* data binding](http://blockbuilder.org/romsson/f865e7c5c05c805759486a3cf435a548)
 * Let's build a [bar chart with D3 *using* data binding](http://blockbuilder.org/romsson/e7aeedeb03300f4cdfd54531e33e9b68)
