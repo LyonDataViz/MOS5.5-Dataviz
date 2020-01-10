@@ -41,7 +41,9 @@ All homeworks/assignements/reports are due the **day before** the class at 23.59
 *Friday 10/01/2020 13:30-15:30*
 
 * Overview: Class organization ([slides](https://docs.google.com/presentation/d/1YaPshJZLDj6M0XBMtmHqANeH17JINdB3Ie5G8RdC74U/edit#slide=id.p))
+
 * Basics of Data Visualization: Perception, cognition, Visual mapping, Standard charts ([slides](https://docs.google.com/presentation/d/1YY8h1wjfaAv172LVa8kVAnxCyEB547HRL43JlEOvCH0/edit#slide=id.p))
+
 * Authoring visualizations: Libraries, Tools, Tableau Software ([slides](https://docs.google.com/presentation/d/18b-B9wAYpq93nbROxRe9u6-7xexuBLM7T-yapqGoYdo/edit#slide=id.g2f7ee94efd_0_45))
 
 ## **Tutorial 1 - Tableau Software**
@@ -77,7 +79,7 @@ All homeworks/assignements/reports are due the **day before** the class at 23.59
 4. **Your own chart**!
 5. Save as a tab and save the workbook
 
-*Global Superstore Dataset*
+*Problem 4: Global Superstore Dataset*
 
 1. Download the [`Global-Superstore-Orders-2016.xlsx`](data/Global-Superstore-Orders-2016.xlsx) and load it in Tableau; join datasets (if needed)
 2. Find an interesting story / selection with this dataset
@@ -90,8 +92,11 @@ All homeworks/assignements/reports are due the **day before** the class at 23.59
 
 ✍ Assignments
 
-* Pick a visualization you find interesting and 
-* Propose a project topic (2-page): what is the question you want to answer? which data do you need? how do you plan to collect your data? what are the main risk in collecting/visualizing it? what are the privacy/ethical issues?
+* Sumbit a group proposal of 2 or 3 students (same TD group)
+
+* Submit a project topic (2-page): what is the question you want to answer? which data do you need? how do you plan to collect your data? what are the main risk in collecting/visualizing it? what are the privacy/ethical issues?
+
+* Add your names and GitHub nickanmes; get familiar with Git
 
 📖 Readings and preparation
 
@@ -104,54 +109,50 @@ All homeworks/assignements/reports are due the **day before** the class at 23.59
 
 * [Lear how to inspect the DOM tree](https://developers.google.com/web/tools/chrome-devtools/inspect-styles/edit-dom)
 
-* Create a GitHub account and get familiar with Git
-
-## **Tutorial 2 (1/2) - Introduction to D3.js** 
+## **Tutorial 2 (1/2) - Building visualizations with D3.js** 
 *Friday 17/01/2020 13:30-15:30*
 
-Geo https://docs.google.com/presentation/d/1fY3EHmalb53aZVNYqv2UHjg9_kbtR26saexPTgPKKJs/edit#slide=id.g26ba174e93_0_616
-
-Time https://docs.google.com/presentation/d/1HPwRnoc5SvvuhCmxyKnljgqa0oRH6ugDlhM0JQ8qLmM/edit#slide=id.g26b255eefc_0_1105
-
-* Standard chart + Time/Geo charts ([slides](https://docs.google.com/presentation/d/1YY8h1wjfaAv172LVa8kVAnxCyEB547HRL43JlEOvCH0/edit#slide=id.g2ed13e6d0c_0_5))
-
 * D3.js: Principles, Codes, Web Development ([slides](https://docs.google.com/presentation/d/1BtnZZoSmrafigZLbsFqPGwBlhPZHee19SJpUtcHKuCU/edit#slide=id.p))
- 
-## **Tutorial 2 (2/2) - D3.js** 
-*Friday 17/01/2020 15:45-17:45*
 
 * [Intro to D3](https://romsson.github.io/intro-to-d3/)
 * Let's build a [bar chart using SVG only](http://blockbuilder.org/romsson/36b1cdc599e8f341a33892f143cf087f) (without D3)
 * Let's build a [bar chart with D3 *without* data binding](http://blockbuilder.org/romsson/f865e7c5c05c805759486a3cf435a548)
 * Let's build a [bar chart with D3 *using* data binding](http://blockbuilder.org/romsson/e7aeedeb03300f4cdfd54531e33e9b68)
-* Let's build an interactive bar chart
-* Let's build an interactive bar chart using a dataset
-* Let's build an [interactive line chart using a dataset](http://bl.ocks.org/romsson/4fab85668c5cbed4fe0c070fa56d7a77)
-* [Result from class](https://blockbuilder.org/romsson/1a0c14ecfd3f4a8eae6b7dc0140a5ada)
+ 
+## **Tutorial 2 (2/2) - Building visualizations with D3.js** 
+*Friday 17/01/2020 15:45-17:45*
+
+* Loading datasets using D3
+* Let's build an [Interactive line chart using a dataset](http://bl.ocks.org/romsson/4fab85668c5cbed4fe0c070fa56d7a77)
+* Encapsuling visualizations as a function
+* Loading and coordinating multiple visualizations
+* [Multiple scatterplot views](https://blockbuilder.org/romsson/7eb8dba335c702707bd2311bd75a28a7)
 
 📅 **For next class (24/01/2020)**
+
+* Describe datasets for your project, mechanism to collect the data and expected model (as a table, use Excel). Add more informations:
+  * Project full name, project description and members names
+  * Data you plan to use, does it exist, if not how you collect it?
+  * 3-5 questions you want to answer using your project
+  * **Wait for validation by instructor before any design/coding**
 
 * Extend the line chart using the [`stocks.csv`](data/stocks.csv) where each line is a different symbol (and a different color)
 * BONUS: add a vertical axis
 * BONUS: rank chart and a [toggle button](https://romsson.github.io/rankings/ranking.html)
 
 * Reading: [Chapter 4. Setup](https://web.archive.org/web/20160307043159/http://chimera.labs.oreilly.com/books/1230000000345/ch04.html), [Chapter 5. Data](https://web.archive.org/web/20160307043159/http://chimera.labs.oreilly.com/books/1230000000345/ch05.html), [Chapter 6. Drawing with Data](https://web.archive.org/web/20160307043159/http://chimera.labs.oreilly.com/books/1230000000345/ch06.html), [Chapter 7. Scales](https://web.archive.org/web/20160307043159/http://chimera.labs.oreilly.com/books/1230000000345/ch07.html).
-* Each project describe the expected dataset, mechanism to collect the data and expected model (as a table, use Excel)
-  * Project full name, project description and members names
-  * Data you plan to use, does it exist, if not how you collect it?
-  * 3-5 questions you want to answer using your project
-  * **Wait for validation by instructor before any coding**
 
 * What is visualization [research](https://medium.com/multiple-views-visualization-research-explained/what-is-visualization-research-what-should-it-be-8840a9ba658)? [literacy](https://medium.com/multiple-views-visualization-research-explained/what-does-visualization-literacy-mean-anyway-22f3b3badc0)?
 
 ## **Lecture 3 - Advanced D3.js and Design Methods**
 *Friday 24/01/2020 13:30-15:30*
 
+* Visualization of [geo](https://docs.google.com/presentation/d/1fY3EHmalb53aZVNYqv2UHjg9_kbtR26saexPTgPKKJs/edit#slide=id.g26ba174e93_0_616) and [temporal data](https://docs.google.com/presentation/d/1HPwRnoc5SvvuhCmxyKnljgqa0oRH6ugDlhM0JQ8qLmM/edit#slide=id.g26b255eefc_0_1105)
+
 * Advanced data visualization concepts: Animation, Interaction, Multiple Views ([slides](https://docs.google.com/presentation/d/1g2ZT3LHUnCSmEUIrxow_4APTlnuiMGgID8XxMyt8mz4/edit#slide=id.p))
 
 * Advanced D3.js: page layout, d3.nests, legends, scatterplot and grouped bar chart ([slides](https://docs.google.com/presentation/d/14pYKK2dYGnPS6iZ9l1gw1vuiPOGXjjCfeJlArMYRLBs/edit#slide=id.p))
 
-Class example: [multiple scatterplot](https://blockbuilder.org/romsson/7eb8dba335c702707bd2311bd75a28a7)
 
 ## Tutorial 3: Design Methods & more D3.js 
 *Friday 24/01/2020 15:45-17:45*
@@ -338,7 +339,7 @@ Color
 * https://cloudflare.design/color/
 * [ColorBrewer](http://colorbrewer2.org/)
 * https://ciechanow.ski/color-spaces/
-
+* [Nomenclature of colours](https://www.c82.net/werner/)
 
 Misc
 
