@@ -46,6 +46,8 @@ All homeworks/assignements/reports are due the **day before** the class at 23.59
 
 * Authoring visualizations: Libraries, Tools, Tableau Software ([slides](https://docs.google.com/presentation/d/18b-B9wAYpq93nbROxRe9u6-7xexuBLM7T-yapqGoYdo/edit#slide=id.g2f7ee94efd_0_45))
 
+* Introduction to D3.js ([slides](https://docs.google.com/presentation/d/1BtnZZoSmrafigZLbsFqPGwBlhPZHee19SJpUtcHKuCU/edit#slide=id.g2fcdab4196_0_131))
+
 ## **Tutorial 1 - Tableau Software**
 *Friday 10/01/2020 15:45-17:45*
 
@@ -94,9 +96,9 @@ All homeworks/assignements/reports are due the **day before** the class at 23.59
 
 * Sumbit a group proposal of 2 or 3 students (same TD group)
 
-* Submit a project topic (2-page): what is the question you want to answer? which data do you need? how do you plan to collect your data? what are the main risk in collecting/visualizing it? what are the privacy/ethical issues?
+* Submit a project topic (1-paragraph): what is the question you expect to answer? which data do you need? how do you plan to collect your data? what are the main risk in collecting/visualizing it? what are the privacy/ethical issues?
 
-* Add your names and GitHub nickanmes; get familiar with Git
+* Add your names and GitHub nicknames
 
 📖 Readings and preparation
 
@@ -108,6 +110,8 @@ All homeworks/assignements/reports are due the **day before** the class at 23.59
 * [Inside look at modern web browser](https://developers.google.com/web/updates/2018/09/inside-browser-part1)
 
 * [Lear how to inspect the DOM tree](https://developers.google.com/web/tools/chrome-devtools/inspect-styles/edit-dom)
+
+* Get familiar with [GitHub](https://try.github.io/levels/1/challenges/1)
 
 ## **Tutorial 2 (1/2) - Building visualizations with D3.js** 
 *Friday 17/01/2020 13:30-15:30*
