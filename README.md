@@ -132,6 +132,8 @@ var width = 960 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
 ```
 
+---
+
 **Bar chart** | [SVG](http://blockbuilder.org/romsson/36b1cdc599e8f341a33892f143cf087f)
 
 <img src="img/bar-chart.png" style="max-width:50%;">
@@ -150,25 +152,44 @@ var width = 960 - margin.left - margin.right,
 * How to generate a random list of integers: `d3.range(n).map(Math.random)`
 * The `x.bandwidth()` function generates the` width` attribute for the `<rect>`
 
-**Line chart** | [SVG](https://blockbuilder.org/romsson/47bd4d5100dd6d9aec81b3f260ed1a3f) | Static data
+---
 
+**Line chart** | [SVG](https://blockbuilder.org/romsson/47bd4d5100dd6d9aec81b3f260ed1a3f)
 <img src="img/line-chart.png" style="height: 50px">
+
 
 * Mark: `<line>`
 * Position: `x1` `y1` and `x2` `y2`
 * Color: style `fill`
-* Scales: `d3.scaleTime()` and `d3.scaleLinear()`
+* Scales: `d3.scaleLinear()`
 
-***Exercice:** build a line chart using the stock market dataset where each line is a company and has a unique color.*
+***Exercice:** build a line chart using a simple JSON temporal dataset.*
 
-* Stocks dataset ([`stocks.csv`](data/stocks.csv))
-* Loading dataset:
+* Save the code below as `dataset.json` file in blockbuilder
+
+`
+[{"id" : 1, "name": "A", "value": 10, "date": "2016-01"},
+ {"id" : 2, "name": "B", "value": 30, "date": "2016-02"},
+ {"id" : 3, "name": "C", "value": 20, "date": "2016-03"}
+]
+`
+
+* Loading JSON dataset: `d3.json("dataset.json", function(data) {}`
 * Data parsing: `d3.timeParse("%Y-%m")`
 * Data display: `d3.timeFormat("%b %y")`
+* Temporal scale `d3.scaleTime()`
 
-<!-- SOLUTION: A draw function re-binds the data of [the bar chart](https://bl.ocks.org/romsson/45cd4abcc604ea4fe96cc9574047c94a) using a `setInterval` function. -->
 
-Alternative using the `<path>` mark
+<!-- SOLUTION: A draw function re-binds the data of [the bar chart](https://bl.ocks.org/romsson/45cd4abcc604ea4fe96cc9574047c94a) using a `setInterval` function. 
+
+* Stocks dataset ([`stocks.csv`](data/stocks.csv))
+
+-->
+
+---
+
+**Line chart** | [SVG](https://blockbuilder.org/romsson/2ff1ee674420b71dc1d3c9731c19ee46)
+<img src="img/line-chart-path.png" style="height: 50px">
 
 * Mark: `<path>`
 * Position: `d3.line().x(function(d) { }).y(function(d) { })` to generate attribute `d`
