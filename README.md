@@ -267,11 +267,13 @@ svg.append("g")
 
 <!-- https://bl.ocks.org/romsson/3bead896a3379808f88d2181965cf6c0 -->
 
+Submit the blockbuilder link to [submit here](https://docs.google.com/forms/d/e/1FAIpQLSdcv-t-feJ6_BG0I326ymeF7YCK8gltbGvsdMecKCUcwyv77g/viewform) at the end of the class (17h45)
+
 ---
 📅 **For next class (24/01/2020)**
 
-* CODE: Extend the line chart using the [`stocks.csv`](data/stocks.csv) where each line is a different symbol (and a different color)
-* Add a title, legend and interactivity (e.g. tooltip, show time points, etc.)
+* CODE: Submit your blockbuilder for scatterplot matrix [submit here](https://docs.google.com/forms/d/e/1FAIpQLSdcv-t-feJ6_BG0I326ymeF7YCK8gltbGvsdMecKCUcwyv77g/viewform)
+* CODE: Extend the line chart using the [`stocks.csv`](data/stocks.csv) where each line is a different symbol (and a different color). BONUS: add a title, legend and interactivity (e.g. tooltip, show time points, etc.) [submit here](https://docs.google.com/forms/d/e/1FAIpQLSdcv-t-feJ6_BG0I326ymeF7YCK8gltbGvsdMecKCUcwyv77g/viewform)
 
 * PROJECT: Describe datasets for your project, mechanism to collect the data and expected model (as a table, use Excel). Add more informations:
   * Project full name, project description and members names
