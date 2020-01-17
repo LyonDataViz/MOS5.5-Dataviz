@@ -260,10 +260,11 @@ Submit the blockbuilder link to [submit here](https://docs.google.com/forms/d/e/
 * CODE: Submit your blockbuilder for scatterplot matrix [submission form](https://docs.google.com/forms/d/e/1FAIpQLSdcv-t-feJ6_BG0I326ymeF7YCK8gltbGvsdMecKCUcwyv77g/viewform)
 * CODE: Extend the line chart using the [`stocks.csv`](data/stocks.csv) where each line is a different symbol (and a different color). BONUS: add a title, legend and interactivity (e.g. tooltip, show time points, etc.) [submission form](https://docs.google.com/forms/d/e/1FAIpQLSdcv-t-feJ6_BG0I326ymeF7YCK8gltbGvsdMecKCUcwyv77g/viewform)
 
-* PROJECT: Describe datasets for your project, mechanism to collect the data and expected model (as a table, use Excel). Add more informations:
+* PROJECT: Write a document that describes the dataset(s) for your project, mechanism to collect the data and expected model (as a table, use Excel). Add more informations:
   * Project full name, project description and members names
   * Data you plan to use, does it exist, if not how you collect it?
   * 3-5 questions you want to answer using your project
+  * 5-10 visualizations that are related to your project (screenshot and link sources)
   * **Wait for validation by instructor before any design/coding**
 
 * READINGS: [Chapter 4. Setup](https://web.archive.org/web/20160307043159/http://chimera.labs.oreilly.com/books/1230000000345/ch04.html), [Chapter 5. Data](https://web.archive.org/web/20160307043159/http://chimera.labs.oreilly.com/books/1230000000345/ch05.html), [Chapter 6. Drawing with Data](https://web.archive.org/web/20160307043159/http://chimera.labs.oreilly.com/books/1230000000345/ch06.html), [Chapter 7. Scales](https://web.archive.org/web/20160307043159/http://chimera.labs.oreilly.com/books/1230000000345/ch07.html).
