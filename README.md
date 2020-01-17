@@ -122,40 +122,62 @@ All homeworks/assignements/reports are due the **day before** the class at 23.59
 
 * Cheatsheet [intro to D3](https://romsson.github.io/intro-to-d3/)
 
-**Bar chart** | [SVG](http://blockbuilder.org/romsson/36b1cdc599e8f341a33892f143cf087f) | [Static data](http://blockbuilder.org/romsson/e7aeedeb03300f4cdfd54531e33e9b68) | Random data `d3.range(n).map(Math.random)`
+<img src="img/bar-chart.png" style="height: 70px">
+
+**Bar chart** | [SVG](http://blockbuilder.org/romsson/36b1cdc599e8f341a33892f143cf087f) | [Static data](http://blockbuilder.org/romsson/e7aeedeb03300f4cdfd54531e33e9b68) | Random data
 
 * Mark: `<rect>`
 * Position: `x` and `width`
 * Height: `y` and `height`
-* Color: style `fill`
+* Color: `fill` (style)
+* Scales: quantitative `d3.scaleLinear()` and categorical `d3.scaleBand()`
 
 ***Exercice:** build a bar chart that updates every second using random data*
 {% comment %} SOLUTION: A draw function re-binds the data of [the bar chart](https://bl.ocks.org/romsson/45cd4abcc604ea4fe96cc9574047c94a) using a `setInterval` function. {% endcomment %}
 
+* Generate a random dataset: `d3.range(n).map(Math.random)`
+
+<img src="img/placeholder-h.png" style="height: 70px">
+
 Line chart | SVG | Static data | Dataset ([`stocks.csv`](data/stocks.csv))
 
 * Mark: `<line>`
-* Position: `x` and `width`
+* Position: `x1` `y1` and `x2` `y2`
 * Height: `y` and `height`
 * Color: style `fill`
+* Scales: `d3.scaleTime()` and `d3.scaleLinear()`
 
-* **Exercice:** build a line chart using the stock market dataset where each line is a company and has a unique color.*
+***Exercice:** build a line chart using the stock market dataset where each line is a company and has a unique color.*
+
+* Loading dataset:
+* Data parsing: `d3.timeParse("%Y-%m")`
+* Data display: `d3.timeFormat("%b %y")`
+
+
+* Mark: `<path>`
+* Position: `d3.line().x(function(d) { }).y(function(d) { })`
+* Color: style `fill`
+* Interpolate:
+* Scales: 
+
+***Exercice:** update the previous line chart using the `<path>` mark.*
+
+<img src="img/placeholder-h.png" style="height: 70px">
 
 Scatterplot | SVG | Static data | Dataset
 
 * Mark: `<circle>`
-* Position: `x` and `width`
-* Height: `y` and `height`
+* Position: `cx` and `cy`
+* Area: `r` (radius)
 * Color: style `fill`
  
-* **Exercice:** build a scatterplot using the Iris dataset and load the chart using a function that takes the chart visual mapping and dimensions as input parameters.*
+***Exercice:** build a scatterplot using the Iris dataset and load the chart using a function that takes the chart visual mapping and dimensions as input parameters.*
 
 ## **Tutorial 2 (2/2) - Building visualizations with D3.js** 
 *Friday 17/01/2020 15:45-17:45*
 
-* Axis : draw axis on charts
+* Axis : draw axis on the scatterplot charts
 * Interaction : add a tooltip on the line chart
-* Encapsulation : visualizations as a function
 * Multiple views : Load and coordinate multiple visualizations
 
 
