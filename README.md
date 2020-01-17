@@ -163,7 +163,7 @@ var width = 960 - margin.left - margin.right,
 * Color: style `fill`
 * Scales: `d3.scaleLinear()`
 
-***Exercice:** build a line chart using a simple JSON temporal dataset.*
+***Assignment:** build a line chart using a simple JSON temporal dataset.*
 
 * Save the code below as `dataset.json` file in blockbuilder
 
@@ -188,7 +188,7 @@ var width = 960 - margin.left - margin.right,
 
 ---
 
-**Line chart** | [SVG](https://blockbuilder.org/romsson/2ff1ee674420b71dc1d3c9731c19ee46)
+**Line chart (with `<PATH>`)** | [SVG](https://blockbuilder.org/romsson/2ff1ee674420b71dc1d3c9731c19ee46)
 <img src="img/line-chart-path.png" style="height: 50px">
 
 * Mark: `<path>`
@@ -197,23 +197,31 @@ var width = 960 - margin.left - margin.right,
 * Interpolate:
 * Scales: 
 
-***Exercice:** update the previous line chart using the `<path>` mark.*
+***Assignment:** update the previous line chart using the `<path>` mark and add circles for each time point.*
 
-<!-- SOLUTION: https://bl.ocks.org/romsson/d9faa97f6b0cc00053b7636e757b135b -->
+<!-- SOLUTION: 
 
-<img src="img/placeholder-h.png" style="height: 50px">
+https://blockbuilder.org/romsson/d9faa97f6b0cc00053b7636e757b135b  -->
 
-**Scatterplot** | SVG | Static data | Dataset
+-->
+
+**Scatterplot** | [SVG](https://blockbuilder.org/romsson/7961b125a188ad1167039e4103ff69bf)
+<img src="img/scatterplot.png" style="height: 50px">
 
 * Mark: `<circle>`
 * Position: `cx` and `cy`
 * Area: `r` (radius)
 * Color: style `fill`
  
-***Exercice:** build a scatterplot using the Iris dataset and load the chart using a function that takes the chart visual mapping and dimensions as input parameters.*
+***Assignment:** build a scatterplot using the Iris dataset and load the chart using a function that takes the chart visual mapping and dimensions as input parameters.*
+
+<!-- simple data https://blockbuilder.org/romsson/efe4622325d78e68ccb72476d008b11a -->
 
 ## **Tutorial 2 (2/2) - Building visualizations with D3.js** 
 *Friday 17/01/2020 15:45-17:45*
+
+* Advanced D3.js: page layout, d3.nests, legends, scatterplot and grouped bar chart ([slides](https://docs.google.com/presentation/d/14pYKK2dYGnPS6iZ9l1gw1vuiPOGXjjCfeJlArMYRLBs/edit#slide=id.p))
+
 
 <img src="img/chart-axis.png" style="height: 20px">
 
@@ -233,16 +241,27 @@ svg.append("g")
 
 **Interaction**
 
-* Mouse click
-* Mouse hover
+* Mouse click: `.on("click", function(d){})`
+* Mouse hover: `.on("mouseover", function(d){})` and `.on("mouseout", function(d) {})`
+<!-- https://bl.ocks.org/romsson/f34e556a7d138459c20bad52f1b8293c -->
 * Drag
+* Tooltip
+<!-- http://bl.ocks.org/romsson/3fe361c8b3ce9e722c1d19f6c55a6d00 -->
+
+**Legends** 
+
+* ..
 
 **Multiple views** 
 
 * Load and coordinate multiple visualizations
 * Charts coordination
 
-***Exercice:** build a corrdinated scatterplot matrix using the Iris dataset.*
+<!-- https://blockbuilder.org/romsson/7eb8dba335c702707bd2311bd75a28a7 -->
+
+***Exercice:** build a coordinated scatterplot matrix using the Iris dataset.*
+
+<!-- https://bl.ocks.org/romsson/3bead896a3379808f88d2181965cf6c0 -->
 
 
 📅 **For next class (24/01/2020)**
@@ -254,8 +273,7 @@ svg.append("g")
   * **Wait for validation by instructor before any design/coding**
 
 * Extend the line chart using the [`stocks.csv`](data/stocks.csv) where each line is a different symbol (and a different color)
-* BONUS: add a vertical axis
-* BONUS: rank chart and a [toggle button](https://romsson.github.io/rankings/ranking.html)
+* Add a title, legend and interactivity (e.g. tooltip, show time points, etc.)
 
 * Reading: [Chapter 4. Setup](https://web.archive.org/web/20160307043159/http://chimera.labs.oreilly.com/books/1230000000345/ch04.html), [Chapter 5. Data](https://web.archive.org/web/20160307043159/http://chimera.labs.oreilly.com/books/1230000000345/ch05.html), [Chapter 6. Drawing with Data](https://web.archive.org/web/20160307043159/http://chimera.labs.oreilly.com/books/1230000000345/ch06.html), [Chapter 7. Scales](https://web.archive.org/web/20160307043159/http://chimera.labs.oreilly.com/books/1230000000345/ch07.html).
 
@@ -269,7 +287,6 @@ svg.append("g")
 * Advanced data visualization concepts: Animation, Interaction, Multiple Views ([slides](https://docs.google.com/presentation/d/1g2ZT3LHUnCSmEUIrxow_4APTlnuiMGgID8XxMyt8mz4/edit#slide=id.p))
 
 * Advanced D3.js: page layout, d3.nests, legends, scatterplot and grouped bar chart ([slides](https://docs.google.com/presentation/d/14pYKK2dYGnPS6iZ9l1gw1vuiPOGXjjCfeJlArMYRLBs/edit#slide=id.p))
-
 
 ## Tutorial 3: Design Methods & more D3.js 
 *Friday 24/01/2020 15:45-17:45*
