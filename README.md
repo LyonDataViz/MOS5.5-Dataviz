@@ -206,8 +206,8 @@ https://blockbuilder.org/romsson/d9faa97f6b0cc00053b7636e757b135b  -->
 
 * Mark: `<circle>`
 * Position: `cx` and `cy`
-* Area: `r` (radius)
-* Color: `fill` (style)
+* Area: `r` (radius) and `d3.scaleSqrt()`
+* Color: `fill` (style) and `d3.scaleOrdinal(d3.schemeCategory20)` color scale
  
 ***Assignment:** build a scatterplot using the Iris dataset and load the chart using a function that takes the chart visual mapping and dimensions as input parameters.*
 
@@ -221,6 +221,7 @@ https://blockbuilder.org/romsson/d9faa97f6b0cc00053b7636e757b135b  -->
 
 * Advanced D3.js: page layout, d3.nests, legends, scatterplot and grouped bar chart ([slides](https://docs.google.com/presentation/d/14pYKK2dYGnPS6iZ9l1gw1vuiPOGXjjCfeJlArMYRLBs/edit#slide=id.p))
 
+<!-- SOLUTION: Scatterplot loading Iris data https://blockbuilder.org/romsson/f1569bab4188ca15974d90d373f1aad0 -->
 
 ---
 **Axis** | SVG
@@ -232,6 +233,7 @@ var xAxis = d3.axisBottom()
 
 var yAxis = d3.axisLeft()
     .scale(y);
+
 svg.append("g")
       .attr("class", "x axis")
       .attr("transform", "translate(0," + height + ")")
@@ -244,11 +246,13 @@ svg.append("g")
 * Mouse hover: `.on("mouseover", function(d){})` and `.on("mouseout", function(d) {})`
 <!-- https://bl.ocks.org/romsson/f34e556a7d138459c20bad52f1b8293c -->
 * Drag & drop `d3.drag`, tooltip ([example](http://bl.ocks.org/romsson/3fe361c8b3ce9e722c1d19f6c55a6d00))
+
 ---
 **Legends** 
 
-* ..
-
+* Display the unique values of an attribute (e.g. use the `color.domain()` to retrieve them) 
+* Show the visual mapping for those values (color, shape, etc.) as rows (create a group `<g>` and then fill the rows with the mappings)
+* You have to do it yourself!
 
 <!-- Scatterplot IRIS full http://bl.ocks.org/romsson/cd79c68331b0fe423da7d6dac40b4512 -->
 ---
