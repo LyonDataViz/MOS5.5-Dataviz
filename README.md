@@ -132,6 +132,9 @@ var width = 960 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
 ```
 
+***Assignment:** draw a red rectangle (like the gray one above) in the center of the page (using `margin`, `width` and `height`).*
+
+<!-- SOLUTION: https://blockbuilder.org/romsson/b32fddb798bafb7f78427cba22912a8d -->
 ---
 
 **Bar chart** | [SVG](http://blockbuilder.org/romsson/36b1cdc599e8f341a33892f143cf087f)
