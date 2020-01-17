@@ -122,7 +122,7 @@ All homeworks/assignements/reports are due the **day before** the class at 23.59
 
 * Cheatsheet [intro to D3](https://romsson.github.io/intro-to-d3/)
 
-<img src="img/bar-chart.png" style="height: 70px">
+<img src="img/bar-chart.png" style="height: 50px">
 
 **Bar chart** | [SVG](http://blockbuilder.org/romsson/36b1cdc599e8f341a33892f143cf087f) | [Static data](http://blockbuilder.org/romsson/e7aeedeb03300f4cdfd54531e33e9b68) | Random data
 
@@ -137,9 +137,9 @@ All homeworks/assignements/reports are due the **day before** the class at 23.59
 
 * Generate a random dataset: `d3.range(n).map(Math.random)`
 
-<img src="img/placeholder-h.png" style="height: 70px">
+<img src="img/line-chart.png" style="height: 50px">
 
-Line chart | SVG | Static data | Dataset ([`stocks.csv`](data/stocks.csv))
+**Line chart** | SVG | Static data | Dataset ([`stocks.csv`](data/stocks.csv))
 
 * Mark: `<line>`
 * Position: `x1` `y1` and `x2` `y2`
@@ -153,6 +153,7 @@ Line chart | SVG | Static data | Dataset ([`stocks.csv`](data/stocks.csv))
 * Data parsing: `d3.timeParse("%Y-%m")`
 * Data display: `d3.timeFormat("%b %y")`
 
+Using the `<path>` mark
 
 * Mark: `<path>`
 * Position: `d3.line().x(function(d) { }).y(function(d) { })`
@@ -162,9 +163,9 @@ Line chart | SVG | Static data | Dataset ([`stocks.csv`](data/stocks.csv))
 
 ***Exercice:** update the previous line chart using the `<path>` mark.*
 
-<img src="img/placeholder-h.png" style="height: 70px">
+<img src="img/placeholder-h.png" style="height: 50px">
 
-Scatterplot | SVG | Static data | Dataset
+**Scatterplot** | SVG | Static data | Dataset
 
 * Mark: `<circle>`
 * Position: `cx` and `cy`
@@ -176,9 +177,34 @@ Scatterplot | SVG | Static data | Dataset
 ## **Tutorial 2 (2/2) - Building visualizations with D3.js** 
 *Friday 17/01/2020 15:45-17:45*
 
-* Axis : draw axis on the scatterplot charts
-* Interaction : add a tooltip on the line chart
-* Multiple views : Load and coordinate multiple visualizations
+<img src="img/chart-axis.png" style="height: 20px">
+
+**Axis**
+
+```
+var xAxis = d3.axisBottom()
+    .scale(x);
+
+var yAxis = d3.axisLeft()
+    .scale(y);
+svg.append("g")
+      .attr("class", "x axis")
+      .attr("transform", "translate(0," + height + ")")
+      .call(xAxis)
+```
+
+**Interaction**
+
+* Mouse click
+* Mouse hover
+* Drag
+
+**Multiple views** 
+
+* Load and coordinate multiple visualizations
+* Charts coordination
+
+***Exercice:** build a corrdinated scatterplot matrix using the Iris dataset.*
 
 
 📅 **For next class (24/01/2020)**
