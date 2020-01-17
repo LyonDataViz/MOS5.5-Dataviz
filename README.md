@@ -155,43 +155,20 @@ var width = 960 - margin.left - margin.right,
 * How to generate a random list of integers: `d3.range(n).map(Math.random)`
 * The `x.bandwidth()` function generates the` width` attribute for the `<rect>`
 
----
 
-**Line chart** | [SVG](https://blockbuilder.org/romsson/47bd4d5100dd6d9aec81b3f260ed1a3f)
-<img src="img/line-chart.png" style="height: 50px">
+<!-- SOLUTION: 
 
+  After loading the dataset
+  var parseTime  = d3.timeParse("%b %Y")
+  d.date = parseTime(d.date)
 
-* Mark: `<line>`
-* Position: `x1` `y1` and `x2` `y2`
-* Color: style `fill`
-* Scales: `d3.scaleLinear()`
-
-***Assignment:** build a line chart using a simple JSON temporal dataset.*
-
-* Save the code below as `dataset.json` file in blockbuilder
-
-`
-[{"id" : 1, "name": "A", "value": 10, "date": "2016-01"},
- {"id" : 2, "name": "B", "value": 30, "date": "2016-02"},
- {"id" : 3, "name": "C", "value": 20, "date": "2016-03"}
-]
-`
-
-* Loading JSON dataset: `d3.json("dataset.json", function(data) {}`
-* Data parsing: `d3.timeParse("%Y-%m")`
 * Data display: `d3.timeFormat("%b %y")`
-* Temporal scale `d3.scaleTime()`
-
-
-<!-- SOLUTION: A draw function re-binds the data of [the bar chart](https://bl.ocks.org/romsson/45cd4abcc604ea4fe96cc9574047c94a) using a `setInterval` function. 
-
-* Stocks dataset ([`stocks.csv`](data/stocks.csv))
 
 -->
 
 ---
 
-**Line chart (with `<PATH>`)** | [SVG](https://blockbuilder.org/romsson/2ff1ee674420b71dc1d3c9731c19ee46)
+**Line chart** | [SVG](https://blockbuilder.org/romsson/2ff1ee674420b71dc1d3c9731c19ee46)
   
 <img src="img/line-chart-path.png" style="height: 50px">
 
@@ -201,7 +178,22 @@ var width = 960 - margin.left - margin.right,
 * Interpolate:
 * Scales: 
 
-***Assignment:** update the previous line chart using the `<path>` mark and add circles for each time point.*
+***Assignment:** build a line chart using a simple JSON temporal dataset add circles for each time point.*
+
+* Create a `dataset.json` file in blockbuilder:
+
+`
+[{"id" : 1, "name": "A", "value": 10, "date": "2016-01"},
+ {"id" : 2, "name": "B", "value": 30, "date": "2016-02"},
+ {"id" : 3, "name": "C", "value": 20, "date": "2016-03"}
+]
+`
+
+* Be careful: one single mark (a line) to draw for the whole dataset!
+* Load a JSON dataset: `d3.json("dataset.json", function(data) {}`
+* Data parsing: `d3.timeParse("%Y-%m")`
+* Temporal scale `d3.scaleTime()`
+
 
 <!-- SOLUTION: 
 
