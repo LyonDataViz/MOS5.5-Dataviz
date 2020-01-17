@@ -132,9 +132,9 @@ var width = 960 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
 ```
 
-**Bar chart** | [SVG](http://blockbuilder.org/romsson/36b1cdc599e8f341a33892f143cf087f) | [Static data](http://blockbuilder.org/romsson/e7aeedeb03300f4cdfd54531e33e9b68)
+**Bar chart** | [SVG](http://blockbuilder.org/romsson/36b1cdc599e8f341a33892f143cf087f)
 
-<img src="img/bar-chart.png" style="height: 50px">
+<img src="img/bar-chart.png" style="max-width:50%;">
 
 * Mark: `<rect>`
 * Position: `x` and `width`
@@ -142,11 +142,13 @@ var width = 960 - margin.left - margin.right,
 * Color: `fill` (style)
 * Scales: quantitative `d3.scaleLinear()` and categorical `d3.scaleBand()`
 
-***Assignment:** build a bar chart that updates every second using random data*
-<!-- SOLUTION: A draw function re-binds the data of [the bar chart](https://bl.ocks.org/romsson/45cd4abcc604ea4fe96cc9574047c94a) using a `setInterval` function. -->
+***Assignment:** build a bar chart with a random dataset*
+<!-- SOLUTION: https://blockbuilder.org/romsson/4e431453beb5c92ff6eb029771b3b8d3
+
+  A draw function re-binds the data of [the bar chart](https://bl.ocks.org/romsson/45cd4abcc604ea4fe96cc9574047c94a) using a `setInterval` function. -->
 
 * How to generate a random list of integers: `d3.range(n).map(Math.random)`
-
+* The `x.bandwidth()` function generates the` width` attribute for the `<rect>`
 
 **Line chart** | [SVG](https://blockbuilder.org/romsson/47bd4d5100dd6d9aec81b3f260ed1a3f) | Static data
 
