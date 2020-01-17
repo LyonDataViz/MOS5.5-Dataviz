@@ -203,7 +203,7 @@ var width = 960 - margin.left - margin.right,
 
 https://blockbuilder.org/romsson/d9faa97f6b0cc00053b7636e757b135b  -->
 
--->
+---
 
 **Scatterplot** | [SVG](https://blockbuilder.org/romsson/7961b125a188ad1167039e4103ff69bf)
 <img src="img/scatterplot.png" style="height: 50px">
@@ -211,7 +211,7 @@ https://blockbuilder.org/romsson/d9faa97f6b0cc00053b7636e757b135b  -->
 * Mark: `<circle>`
 * Position: `cx` and `cy`
 * Area: `r` (radius)
-* Color: style `fill`
+* Color: `fill` (style)
  
 ***Assignment:** build a scatterplot using the Iris dataset and load the chart using a function that takes the chart visual mapping and dimensions as input parameters.*
 
@@ -223,9 +223,10 @@ https://blockbuilder.org/romsson/d9faa97f6b0cc00053b7636e757b135b  -->
 * Advanced D3.js: page layout, d3.nests, legends, scatterplot and grouped bar chart ([slides](https://docs.google.com/presentation/d/14pYKK2dYGnPS6iZ9l1gw1vuiPOGXjjCfeJlArMYRLBs/edit#slide=id.p))
 
 
-<img src="img/chart-axis.png" style="height: 20px">
 
+---
 **Axis**
+<img src="img/chart-axis.png" style="height: 20px">
 
 ```
 var xAxis = d3.axisBottom()
@@ -238,7 +239,7 @@ svg.append("g")
       .attr("transform", "translate(0," + height + ")")
       .call(xAxis)
 ```
-
+---
 **Interaction**
 
 * Mouse click: `.on("click", function(d){})`
@@ -247,19 +248,19 @@ svg.append("g")
 * Drag
 * Tooltip
 <!-- http://bl.ocks.org/romsson/3fe361c8b3ce9e722c1d19f6c55a6d00 -->
-
+---
 **Legends** 
 
 * ..
-
+---
 **Multiple views** 
 
 * Load and coordinate multiple visualizations
 * Charts coordination
 
 <!-- https://blockbuilder.org/romsson/7eb8dba335c702707bd2311bd75a28a7 -->
-
-***Exercice:** build a coordinated scatterplot matrix using the Iris dataset.*
+---
+***Assignment:** build a coordinated scatterplot matrix using the Iris dataset.*
 
 <!-- https://bl.ocks.org/romsson/3bead896a3379808f88d2181965cf6c0 -->
 
