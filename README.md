@@ -120,11 +120,21 @@ All homeworks/assignements/reports are due the **day before** the class at 23.59
 ## **Tutorial 2 (1/2) - Building visualizations with D3.js** 
 *Friday 17/01/2020 13:30-15:30*
 
+<img src="img/chart-margin.png" style="height: 50px">
+
 * Cheatsheet [intro to D3](https://romsson.github.io/intro-to-d3/)
+* [Margin conventions](https://blockbuilder.org/mbostock/3019563)
+
+```
+var margin = {top: 20, right: 10, bottom: 20, left: 10};
+
+var width = 960 - margin.left - margin.right,
+    height = 500 - margin.top - margin.bottom;
+```
+
+**Bar chart** | [SVG](http://blockbuilder.org/romsson/36b1cdc599e8f341a33892f143cf087f) | [Static data](http://blockbuilder.org/romsson/e7aeedeb03300f4cdfd54531e33e9b68)
 
 <img src="img/bar-chart.png" style="height: 50px">
-
-**Bar chart** | [SVG](http://blockbuilder.org/romsson/36b1cdc599e8f341a33892f143cf087f) | [Static data](http://blockbuilder.org/romsson/e7aeedeb03300f4cdfd54531e33e9b68) | Random data
 
 * Mark: `<rect>`
 * Position: `x` and `width`
@@ -132,36 +142,41 @@ All homeworks/assignements/reports are due the **day before** the class at 23.59
 * Color: `fill` (style)
 * Scales: quantitative `d3.scaleLinear()` and categorical `d3.scaleBand()`
 
-***Exercice:** build a bar chart that updates every second using random data*
-{% comment %} SOLUTION: A draw function re-binds the data of [the bar chart](https://bl.ocks.org/romsson/45cd4abcc604ea4fe96cc9574047c94a) using a `setInterval` function. {% endcomment %}
+***Assignment:** build a bar chart that updates every second using random data*
+<!-- SOLUTION: A draw function re-binds the data of [the bar chart](https://bl.ocks.org/romsson/45cd4abcc604ea4fe96cc9574047c94a) using a `setInterval` function. -->
 
-* Generate a random dataset: `d3.range(n).map(Math.random)`
+* How to generate a random list of integers: `d3.range(n).map(Math.random)`
+
+
+**Line chart** | [SVG](https://blockbuilder.org/romsson/47bd4d5100dd6d9aec81b3f260ed1a3f) | Static data
 
 <img src="img/line-chart.png" style="height: 50px">
 
-**Line chart** | SVG | Static data | Dataset ([`stocks.csv`](data/stocks.csv))
-
 * Mark: `<line>`
 * Position: `x1` `y1` and `x2` `y2`
-* Height: `y` and `height`
 * Color: style `fill`
 * Scales: `d3.scaleTime()` and `d3.scaleLinear()`
 
 ***Exercice:** build a line chart using the stock market dataset where each line is a company and has a unique color.*
 
+* Stocks dataset ([`stocks.csv`](data/stocks.csv))
 * Loading dataset:
 * Data parsing: `d3.timeParse("%Y-%m")`
 * Data display: `d3.timeFormat("%b %y")`
 
-Using the `<path>` mark
+<!-- SOLUTION: A draw function re-binds the data of [the bar chart](https://bl.ocks.org/romsson/45cd4abcc604ea4fe96cc9574047c94a) using a `setInterval` function. -->
+
+Alternative using the `<path>` mark
 
 * Mark: `<path>`
-* Position: `d3.line().x(function(d) { }).y(function(d) { })`
+* Position: `d3.line().x(function(d) { }).y(function(d) { })` to generate attribute `d`
 * Color: style `fill`
 * Interpolate:
 * Scales: 
 
 ***Exercice:** update the previous line chart using the `<path>` mark.*
+
+<!-- SOLUTION: https://bl.ocks.org/romsson/d9faa97f6b0cc00053b7636e757b135b -->
 
 <img src="img/placeholder-h.png" style="height: 50px">
 
