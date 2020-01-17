@@ -134,7 +134,8 @@ var width = 960 - margin.left - margin.right,
 
 ***Assignment:** draw a red rectangle (like the gray one above) in the center of the page (using `margin`, `width` and `height`).*
 
-<!-- SOLUTION: https://blockbuilder.org/romsson/b32fddb798bafb7f78427cba22912a8d -->
+[SOLUTION](https://blockbuilder.org/romsson/b32fddb798bafb7f78427cba22912a8d)
+
 ---
 
 **Bar chart** | [SVG](http://blockbuilder.org/romsson/36b1cdc599e8f341a33892f143cf087f)
@@ -148,23 +149,11 @@ var width = 960 - margin.left - margin.right,
 * Scales: quantitative `d3.scaleLinear()` and categorical `d3.scaleBand()`
 
 ***Assignment:** build a bar chart with a random dataset*
-<!-- SOLUTION: https://blockbuilder.org/romsson/4e431453beb5c92ff6eb029771b3b8d3
-
-  A draw function re-binds the data of [the bar chart](https://bl.ocks.org/romsson/45cd4abcc604ea4fe96cc9574047c94a) using a `setInterval` function. -->
 
 * How to generate a random list of integers: `d3.range(n).map(Math.random)`
 * The `x.bandwidth()` function generates the` width` attribute for the `<rect>`
 
-
-<!-- SOLUTION: 
-
-  After loading the dataset
-  var parseTime  = d3.timeParse("%b %Y")
-  d.date = parseTime(d.date)
-
-* Data display: `d3.timeFormat("%b %y")`
-
--->
+[SOLUTION](https://blockbuilder.org/romsson/4e431453beb5c92ff6eb029771b3b8d3)
 
 ---
 
@@ -193,11 +182,9 @@ var width = 960 - margin.left - margin.right,
 * Load a JSON dataset: `d3.json("dataset.json", function(error, data) {}`
 * Data parsing: `d3.timeParse("%Y-%m")`
 * Temporal scale `d3.scaleTime()`
+* Data display: `d3.timeFormat("%b %y")`
 
-
-<!-- SOLUTION: 
-
-https://blockbuilder.org/romsson/d9faa97f6b0cc00053b7636e757b135b  -->
+[SOLUTION](https://blockbuilder.org/romsson/653eaaf6f6b5655af0ebb1e67d3be986)
 
 ---
 
@@ -214,14 +201,12 @@ https://blockbuilder.org/romsson/d9faa97f6b0cc00053b7636e757b135b  -->
 * [`iris.csv`](data/iris.csv) 
 * Load a CSV dataset: `d3.csv('iris.csv', function(error, data){}`
 
-<!-- simple data https://blockbuilder.org/romsson/efe4622325d78e68ccb72476d008b11a -->
+[SOLUTION](https://blockbuilder.org/romsson/f1569bab4188ca15974d90d373f1aad0)
 
 ## **Tutorial 2 (2/2) - Building visualizations with D3.js** 
 *Friday 17/01/2020 15:45-17:45*
 
 * Advanced D3.js: page layout, d3.nests, legends, scatterplot and grouped bar chart ([slides](https://docs.google.com/presentation/d/14pYKK2dYGnPS6iZ9l1gw1vuiPOGXjjCfeJlArMYRLBs/edit#slide=id.p))
-
-<!-- SOLUTION: Scatterplot loading Iris data https://blockbuilder.org/romsson/f1569bab4188ca15974d90d373f1aad0 -->
 
 ---
 **Axis** | SVG
