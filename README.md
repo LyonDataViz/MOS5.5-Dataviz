@@ -122,30 +122,38 @@ All homeworks/assignements/reports are due the **day before** the class at 23.59
 
 * Cheatsheet [intro to D3](https://romsson.github.io/intro-to-d3/)
 
-**Bar chart** | [SVG code](http://blockbuilder.org/romsson/36b1cdc599e8f341a33892f143cf087f) | (without D3)[Simple data](http://blockbuilder.org/romsson/e7aeedeb03300f4cdfd54531e33e9b68) | Dataset
+**Bar chart** | [SVG](http://blockbuilder.org/romsson/36b1cdc599e8f341a33892f143cf087f) | [Static data](http://blockbuilder.org/romsson/e7aeedeb03300f4cdfd54531e33e9b68) | Random data `d3.range(n).map(Math.random)`
 
 * Mark: `<rect>`
 * Position: `x` and `width`
 * Height: `y` and `height`
 * Color: style `fill`
 
-Line chart
+***Exercice:** build a bar chart that updates every second using random data*
+{% comment %} SOLUTION: A draw function re-binds the data of [the bar chart](https://bl.ocks.org/romsson/45cd4abcc604ea4fe96cc9574047c94a) using a `setInterval` function. {% endcomment %}
 
-* SVG code
-* Simple data
-* Stock data
+Line chart | SVG | Static data | Dataset ([`stocks.csv`](data/stocks.csv))
 
-Scatterplot
+* Mark: `<line>`
+* Position: `x` and `width`
+* Height: `y` and `height`
+* Color: style `fill`
 
-* SVG code
-* Simple data
-* Iris data
+* **Exercice:** build a line chart using the stock market dataset where each line is a company and has a unique color.*
 
+Scatterplot | SVG | Static data | Dataset
+
+* Mark: `<circle>`
+* Position: `x` and `width`
+* Height: `y` and `height`
+* Color: style `fill`
  
+* **Exercice:** build a scatterplot using the Iris dataset and load the chart using a function that takes the chart visual mapping and dimensions as input parameters.*
+
 ## **Tutorial 2 (2/2) - Building visualizations with D3.js** 
 *Friday 17/01/2020 15:45-17:45*
 
-
+* Axis : draw axis on charts
 * Interaction : add a tooltip on the line chart
 * Encapsulation : visualizations as a function
 * Multiple views : Load and coordinate multiple visualizations
