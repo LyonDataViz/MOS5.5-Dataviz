@@ -175,8 +175,8 @@ var width = 960 - margin.left - margin.right,
 * Mark: `<path>`
 * Position: `d3.line().x(function(d) { }).y(function(d) { })` to generate attribute `d`
 * Color: style `fill`
-* Interpolate:
-* Scales: 
+* Interpolate: `d3.line().curve(d3.curveCardinal)`
+* Scales: `d3.scaleLinear()`
 
 ***Assignment:** build a line chart using a simple JSON temporal dataset add circles for each time point.*
 
@@ -190,7 +190,7 @@ var width = 960 - margin.left - margin.right,
 `
 
 * Be careful: one single mark (a line) to draw for the whole dataset!
-* Load a JSON dataset: `d3.json("dataset.json", function(data) {}`
+* Load a JSON dataset: `d3.json("dataset.json", function(error, data) {}`
 * Data parsing: `d3.timeParse("%Y-%m")`
 * Temporal scale `d3.scaleTime()`
 
@@ -211,13 +211,15 @@ https://blockbuilder.org/romsson/d9faa97f6b0cc00053b7636e757b135b  -->
  
 ***Assignment:** build a scatterplot using the Iris dataset and load the chart using a function that takes the chart visual mapping and dimensions as input parameters.*
 
+* [`iris.csv`](data/iris.csv) 
+* Load a CSV dataset: `d3.csv('iris.csv', function(error, data){}`
+
 <!-- simple data https://blockbuilder.org/romsson/efe4622325d78e68ccb72476d008b11a -->
 
 ## **Tutorial 2 (2/2) - Building visualizations with D3.js** 
 *Friday 17/01/2020 15:45-17:45*
 
 * Advanced D3.js: page layout, d3.nests, legends, scatterplot and grouped bar chart ([slides](https://docs.google.com/presentation/d/14pYKK2dYGnPS6iZ9l1gw1vuiPOGXjjCfeJlArMYRLBs/edit#slide=id.p))
-
 
 
 ---
@@ -241,13 +243,14 @@ svg.append("g")
 * Mouse click: `.on("click", function(d){})`
 * Mouse hover: `.on("mouseover", function(d){})` and `.on("mouseout", function(d) {})`
 <!-- https://bl.ocks.org/romsson/f34e556a7d138459c20bad52f1b8293c -->
-* Drag
-* Tooltip
-<!-- http://bl.ocks.org/romsson/3fe361c8b3ce9e722c1d19f6c55a6d00 -->
+* Drag & drop `d3.drag`, tooltip ([example](http://bl.ocks.org/romsson/3fe361c8b3ce9e722c1d19f6c55a6d00))
 ---
 **Legends** 
 
 * ..
+
+
+<!-- Scatterplot IRIS full http://bl.ocks.org/romsson/cd79c68331b0fe423da7d6dac40b4512 -->
 ---
 **Multiple views** 
 
