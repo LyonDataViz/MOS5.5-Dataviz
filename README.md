@@ -96,15 +96,15 @@ All homeworks/assignements/reports are due the **day before** the class at 23.59
 
 ✍ Assignments
 
-* Group proposal of 2 or 3 students
+* PROJECT: Group proposal of 2 or 3 students
 
-* Submit a project topic (1-paragraph): what is the question you expect to answer? which data do you need? how do you plan to collect your data? what are the main risk in collecting/visualizing it? what are the privacy/ethical issues?
+  * Submit a project topic (1-paragraph): what is the question you expect to answer? which data do you need? how do you plan to collect your data? what are the main risk in collecting/visualizing it? what are the privacy/ethical issues?
 
-* Create a GitHub account
-
-* Read introductions to JavaScript, D3 and Git
+  * Create a GitHub account
 
 📖 Readings and preparation
+
+* Read introductions to JavaScript, D3 and Git
 
 * Interactive Data Visualization for the Web [Chapter 1. Introduction
 ](https://web.archive.org/web/20160307043159/http://chimera.labs.oreilly.com/books/1230000000345/ch01.html), [Chapter 2. Introducing D3](https://web.archive.org/web/20160307043159/http://chimera.labs.oreilly.com/books/1230000000345/ch02.html) and [Chapter 3. Technology Fundamentals](https://web.archive.org/web/20160307043159/http://chimera.labs.oreilly.com/books/1230000000345/ch03.html)
@@ -189,6 +189,7 @@ var width = 960 - margin.left - margin.right,
 ---
 
 **Line chart (with `<PATH>`)** | [SVG](https://blockbuilder.org/romsson/2ff1ee674420b71dc1d3c9731c19ee46)
+  
 <img src="img/line-chart-path.png" style="height: 50px">
 
 * Mark: `<path>`
@@ -225,7 +226,7 @@ https://blockbuilder.org/romsson/d9faa97f6b0cc00053b7636e757b135b  -->
 
 
 ---
-**Axis**
+**Axis** | SVG
 <img src="img/chart-axis.png" style="height: 20px">
 
 ```
@@ -264,19 +265,19 @@ svg.append("g")
 
 <!-- https://bl.ocks.org/romsson/3bead896a3379808f88d2181965cf6c0 -->
 
-
+---
 📅 **For next class (24/01/2020)**
 
-* Describe datasets for your project, mechanism to collect the data and expected model (as a table, use Excel). Add more informations:
+* CODE: Extend the line chart using the [`stocks.csv`](data/stocks.csv) where each line is a different symbol (and a different color)
+* Add a title, legend and interactivity (e.g. tooltip, show time points, etc.)
+
+* PROJECT: Describe datasets for your project, mechanism to collect the data and expected model (as a table, use Excel). Add more informations:
   * Project full name, project description and members names
   * Data you plan to use, does it exist, if not how you collect it?
   * 3-5 questions you want to answer using your project
   * **Wait for validation by instructor before any design/coding**
 
-* Extend the line chart using the [`stocks.csv`](data/stocks.csv) where each line is a different symbol (and a different color)
-* Add a title, legend and interactivity (e.g. tooltip, show time points, etc.)
-
-* Reading: [Chapter 4. Setup](https://web.archive.org/web/20160307043159/http://chimera.labs.oreilly.com/books/1230000000345/ch04.html), [Chapter 5. Data](https://web.archive.org/web/20160307043159/http://chimera.labs.oreilly.com/books/1230000000345/ch05.html), [Chapter 6. Drawing with Data](https://web.archive.org/web/20160307043159/http://chimera.labs.oreilly.com/books/1230000000345/ch06.html), [Chapter 7. Scales](https://web.archive.org/web/20160307043159/http://chimera.labs.oreilly.com/books/1230000000345/ch07.html).
+* READINGS: [Chapter 4. Setup](https://web.archive.org/web/20160307043159/http://chimera.labs.oreilly.com/books/1230000000345/ch04.html), [Chapter 5. Data](https://web.archive.org/web/20160307043159/http://chimera.labs.oreilly.com/books/1230000000345/ch05.html), [Chapter 6. Drawing with Data](https://web.archive.org/web/20160307043159/http://chimera.labs.oreilly.com/books/1230000000345/ch06.html), [Chapter 7. Scales](https://web.archive.org/web/20160307043159/http://chimera.labs.oreilly.com/books/1230000000345/ch07.html).
 
 * What is visualization [research](https://medium.com/multiple-views-visualization-research-explained/what-is-visualization-research-what-should-it-be-8840a9ba658)? [literacy](https://medium.com/multiple-views-visualization-research-explained/what-does-visualization-literacy-mean-anyway-22f3b3badc0)?
 
