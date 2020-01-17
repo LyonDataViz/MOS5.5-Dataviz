@@ -122,18 +122,34 @@ All homeworks/assignements/reports are due the **day before** the class at 23.59
 
 * Cheatsheet [intro to D3](https://romsson.github.io/intro-to-d3/)
 
-* Let's build a [bar chart using SVG only](http://blockbuilder.org/romsson/36b1cdc599e8f341a33892f143cf087f) (without D3)
-* Let's build a [bar chart with D3 *without* data binding](http://blockbuilder.org/romsson/f865e7c5c05c805759486a3cf435a548)
-* Let's build a [bar chart with D3 *using* data binding](http://blockbuilder.org/romsson/e7aeedeb03300f4cdfd54531e33e9b68)
+**Bar chart** | [SVG code](http://blockbuilder.org/romsson/36b1cdc599e8f341a33892f143cf087f) | (without D3)[Simple data](http://blockbuilder.org/romsson/e7aeedeb03300f4cdfd54531e33e9b68) | Dataset
+
+* Mark: `<rect>`
+* Position: `x` and `width`
+* Height: `y` and `height`
+* Color: style `fill`
+
+Line chart
+
+* SVG code
+* Simple data
+* Stock data
+
+Scatterplot
+
+* SVG code
+* Simple data
+* Iris data
+
  
 ## **Tutorial 2 (2/2) - Building visualizations with D3.js** 
 *Friday 17/01/2020 15:45-17:45*
 
-* Loading datasets using D3
-* Let's build an [Interactive line chart using a dataset](http://bl.ocks.org/romsson/4fab85668c5cbed4fe0c070fa56d7a77)
-* Encapsuling visualizations as a function
-* Loading and coordinating multiple visualizations
-* [Multiple scatterplot views](https://blockbuilder.org/romsson/7eb8dba335c702707bd2311bd75a28a7)
+
+* Interaction : add a tooltip on the line chart
+* Encapsulation : visualizations as a function
+* Multiple views : Load and coordinate multiple visualizations
+
 
 📅 **For next class (24/01/2020)**
 
