@@ -345,7 +345,7 @@ var data = d3.range(m).map(function() {
   
 <img src="img/stacked-bar-chart.png" style="height: 50px">
 
-* Grouping: `d3.stack`
+* Grouping: [`d3.stack`](https://github.com/d3/d3-shape/blob/master/README.md#stack)
 * Mark: `<rec>`
 * Positions: nested categorical scales `d3.scaleBand()` 
 * Color: style `fill`
