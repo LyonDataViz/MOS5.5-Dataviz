@@ -280,8 +280,10 @@ Submit the blockbuilder link to [submit here](https://docs.google.com/forms/d/e/
 
 * Advanced data visualization concepts: Animation, Interaction, Multiple Views ([slides](https://docs.google.com/presentation/d/1g2ZT3LHUnCSmEUIrxow_4APTlnuiMGgID8XxMyt8mz4/edit#slide=id.p))
 
-* Solution for interactive [scatterplot matrix and legend](https://blockbuilder.org/romsson/af97a2bad698ab0c07863015b8ef4622) and multiple line-chart. *How would you improve those charts? In particular the scatterplot matrix?*
-<!-- solution: by adding [brushing interactions](https://bl.ocks.org/Fil/6d9de24b31cb870fed2e6178a120b17d), including legends in diagonal and distribution in diagonal.  -->
+* Solution for interactive [scatterplot matrix and legend](https://blockbuilder.org/romsson/af97a2bad698ab0c07863015b8ef4622) and multiple line-chart. *How would you improve this chart?*
+<!-- solution: by adding [brushing interactions](https://bl.ocks.org/Fil/6d9de24b31cb870fed2e6178a120b17d), including legends in diagonal and [distribution in diagonal](https://www.kylebradbury.org/visualizations/scattermatrix/).  -->
+
+* Solution for [stocks line chart](https://blockbuilder.org/romsson/7d94b8925f4c8cb832770921aee23f88). *How would you improve this chart?*
 
 * Advanced D3.js: page layout, d3.nest, legends, scatterplot and grouped bar chart ([slides](https://docs.google.com/presentation/d/14pYKK2dYGnPS6iZ9l1gw1vuiPOGXjjCfeJlArMYRLBs/edit#slide=id.p))
 
@@ -299,7 +301,7 @@ Submit the blockbuilder link to [submit here](https://docs.google.com/forms/d/e/
 {symbol: "MSFT", date: Wed Mar 01 2000 00:00:00 GMT+0100 (CET), price: 43.22}
 ```
 
-***Assignment: Nest stocks by symbol and calculate aggregated values (max/min/sum) over price; parse dates.***
+***Assignment:* Nest stocks by symbol and calculate aggregated values (max/min/sum) over price; parse dates.**
 
 Expected result:
 
@@ -339,11 +341,13 @@ var data = d3.range(m).map(function() {
 });
 ```
 
+<!--
 [SOLUTION](https://blockbuilder.org/romsson/a78f70f6624184fd33b4dc385a495e75) chart  dataset and [`d3.nest`]()
+-->
 
 ---
 
-**Stacked bar chart** | [SVG](https://blockbuilder.org/romsson/2ff1ee674420b71dc1d3c9731c19ee46)
+**Stacked bar chart** |
   
 <img src="img/stacked-bar-chart.png" style="height: 50px">
 
@@ -370,17 +374,18 @@ var data = d3.range(m).map(function() {
 
 * Apply the `d3.stack()` layout using the list of unique symbols as `keys` and the flat dataset as data
 
+<!--
 [SOLUTION](https://blockbuilder.org/romsson/8aea86fddcf01380eb96a341509f394f)
+-->
 
 ---
 **Animated transitions**
 
-* Mouse click: `.transition()`
-* Triggered by widget: radio button
+* Add animation using: `.transition(duration)`, and `.delay(duration)`
+* Triggered by a widget, e.g. a `radio` button
 * Examples of transitions: [bar chart](https://bl.ocks.org/romsson/3de5bef36f106673278b7ec182c262a6), [D3 show reel](https://bl.ocks.org/mbostock/1256572)).
 
-<!-- SOLUTION:-->
----
+
 ***Assignment:** build an animated transition between grouped bar chart and stacked bar chart.*
 
 * Isolate each layout as two function `grouped` and `stack`
@@ -395,9 +400,9 @@ var data = d3.range(m).map(function() {
 
 * Bind events using ```d3.selectAll("input").on("change", function() {})```
 
-
 Submit the blockbuilder with grouped/stacked transition using the [✉️ submission form](https://docs.google.com/forms/d/e/1FAIpQLSdcv-t-feJ6_BG0I326ymeF7YCK8gltbGvsdMecKCUcwyv77g/viewform) at the end of the class (17h45)
 
+---
 
 📅 **For next class (31/01/2020)**
 
