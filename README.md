@@ -276,68 +276,141 @@ Submit the blockbuilder link to [submit here](https://docs.google.com/forms/d/e/
 
 * Visualization of [geo](https://docs.google.com/presentation/d/1fY3EHmalb53aZVNYqv2UHjg9_kbtR26saexPTgPKKJs/edit#slide=id.g26ba174e93_0_616) and [temporal data](https://docs.google.com/presentation/d/1HPwRnoc5SvvuhCmxyKnljgqa0oRH6ugDlhM0JQ8qLmM/edit#slide=id.g26b255eefc_0_1105)
 
+* Introduction to [data cleaning tools and methods](https://docs.google.com/presentation/d/1lFAG926PhlkL9Zt-L6pK7zz0EPOlMkhY9prQxE4UbJU/edit#slide=id.g6e08cd9023_0_0)
+
 * Advanced data visualization concepts: Animation, Interaction, Multiple Views ([slides](https://docs.google.com/presentation/d/1g2ZT3LHUnCSmEUIrxow_4APTlnuiMGgID8XxMyt8mz4/edit#slide=id.p))
 
-* Advanced D3.js: page layout, d3.nests, legends, scatterplot and grouped bar chart ([slides](https://docs.google.com/presentation/d/14pYKK2dYGnPS6iZ9l1gw1vuiPOGXjjCfeJlArMYRLBs/edit#slide=id.p))
+* Solution for interactive [scatterplot matrix and legend](https://blockbuilder.org/romsson/af97a2bad698ab0c07863015b8ef4622) and multiple line-chart
 
-## Tutorial 3: Design Methods & more D3.js 
+*How would you improve those charts? In particular the scatterplot matrix?*
+<!-- solution: by adding [brushing interactions](https://bl.ocks.org/Fil/6d9de24b31cb870fed2e6178a120b17d), including legends in diagonal and distribution in diagonal.  -->
+
+* Advanced D3.js: page layout, d3.nest, legends, scatterplot and grouped bar chart ([slides](https://docs.google.com/presentation/d/14pYKK2dYGnPS6iZ9l1gw1vuiPOGXjjCfeJlArMYRLBs/edit#slide=id.p))
+
+* Advanced D3 layouts ([slides](https://docs.google.com/presentation/d/1a79MLat-ftU25Uk7uM2JYfDSlKS-9hp94EnmegvcLg0/edit#slide=id.p))
+
+
+## Tutorial 3: More D3.js grouping and layouts
 *Friday 24/01/2020 15:45-17:45*
 
-* Sketching, Rapid Prototyping, Development cycles ([slides](https://docs.google.com/presentation/d/11kEkZK12C893qzyEDvkIjgFKPmRKFf-KDDOKiwGw6ys/edit#slide=id.p)) and using the [Five Design Sheet](http://fds.design/) methodology
+* Grouping data with `d3.nest`
 
-* Read principles of the Five design sheets [methodology](http://fds.design/wp-content/uploads/2015/06/five-design-sheet-approach-JCR.pdf)
+```
+{symbol: "MSFT", date: Sat Jan 01 2000 00:00:00 GMT+0100 (CET), price: 39.81}
+{symbol: "MSFT", date: Tue Feb 01 2000 00:00:00 GMT+0100 (CET), price: 36.35}
+{symbol: "MSFT", date: Wed Mar 01 2000 00:00:00 GMT+0100 (CET), price: 43.22}
+```
 
-* [Apply it](http://fds.design/index.php/resources-and-publications/) to your project (paper and pen!)
+http://bl.ocks.org/phoebebright/raw/3176159/
 
-At the end of the tutorial: 
+https://bl.ocks.org/romsson/e5c0bdd599a2a51a133e02d3200bcd9c
 
-* Update your proposal after feedback from instructor
-* Add the link to (a pdf of all) the design sheets in the class document
+ the following groups for the stocks.csv data
+
+
+---
+
+**Grouped bar chart** | [SVG](https://blockbuilder.org/romsson/2ff1ee674420b71dc1d3c9731c19ee46)
+  
+<img src="img/grouped-bar-chart.png" style="height: 50px">
+
+* Grouping: `d3.nest`
+* Mark: `<rec>`
+* Positions: nested categorical scales `d3.scaleBand()` 
+* Color: style `fill`
+* Scales: `d3.scaleLinear()`
+
+***Assignment:** build a grouped bar chart using the [`stocks.csv`](data/stocks.csv) .*
+
+1. [Grouped bar chart](https://blockbuilder.org/romsson/a78f70f6624184fd33b4dc385a495e75) chart  dataset and [`d3.nest`](http://learnjsdata.com/group_data.html)
+
+
+Grouped bar chart example https://bl.ocks.org/romsson/2f94c1913b81f7fd20c530236934433a
+
+First scale
+Second scale
+
+https://bl.ocks.org/romsson/8aea86fddcf01380eb96a341509f394f
+
+
+**Stacked bar chart** | [SVG](https://blockbuilder.org/romsson/2ff1ee674420b71dc1d3c9731c19ee46)
+  
+<img src="img/stacked-bar-chart.png" style="height: 50px">
+
+* Grouping: `d3.nest`
+* Mark: `<rec>`
+* Positions: nested categorical scales `d3.scaleBand()` 
+* Color: style `fill`
+* Scales: `d3.scaleLinear()`
+
+
+---
+**Animated transitions**
+
+* Mouse click: `.transition()`
+* Triggered by widget: radio button
+* Examples of transitions: [D3 show reel](https://bl.ocks.org/mbostock/1256572))
+
+<!-- https://blockbuilder.org/romsson/7eb8dba335c702707bd2311bd75a28a7 -->
+---
+***Assignment:** build an animated transition between grouped bar chart and stacked bar chart.*
+
+<!-- https://bl.ocks.org/romsson/3bead896a3379808f88d2181965cf6c0 -->
+
+Submit the blockbuilder link to [submit here](https://docs.google.com/forms/d/e/1FAIpQLSdcv-t-feJ6_BG0I326ymeF7YCK8gltbGvsdMecKCUcwyv77g/viewform) at the end of the class (17h45)
 
 
 📅 **For next class (31/01/2020)**
 
-1. [Grouped bar chart](https://blockbuilder.org/romsson/a78f70f6624184fd33b4dc385a495e75) chart using the [`stocks.csv`](data/stocks.csv) dataset and [`d3.nest`](http://learnjsdata.com/group_data.html)
+1. 
 
-* BONUS: [Stacked bar chart](https://blockbuilder.org/romsson/8aea86fddcf01380eb96a341509f394f)
-* BONUS: Transition between stacked and grouped (see [D3 show reel](https://bl.ocks.org/mbostock/1256572))
-
-2. Data analysis of your project dataset (or expected dataset) using D3 or Tablea: load data from an external file (CSV, JSON), create a first chart characterising the **distribution** of the dataset (e.g. time series, bar chart, ), scatterplot. Add the link to your analysis in the class document.
+2. Data analysis of your project dataset (or expected dataset) using D3 : load data from an external file (CSV, JSON), create a first chart characterising the **distribution** of the dataset (e.g. time series, bar chart, ), scatterplot. Add the link to your analysis in the class document.
 
 3. Update your design sheets and update link in the class document.
 
 * Reading: [Chapter 8. Axes](https://web.archive.org/web/20160307043159/http://chimera.labs.oreilly.com/books/1230000000345/ch08.html), [Chapter 9. Updates, Transitions, and Motion
 ](https://web.archive.org/web/20160307043159/http://chimera.labs.oreilly.com/books/1230000000345/ch09.html), [Chapter 10. Interactivity](https://web.archive.org/web/20160307043159/http://chimera.labs.oreilly.com/books/1230000000345/ch10.html), [Chapter 11. Layouts](https://web.archive.org/web/20160307043159/http://chimera.labs.oreilly.com/books/1230000000345/ch11.html).
 
+* Read principles of the Five design sheets [methodology](http://fds.design/wp-content/uploads/2015/06/five-design-sheet-approach-JCR.pdf)
+
 ## Lecture 4 - Advanced Layout, Data Cleaning and Case studies
 *Friday 31/01/2020 13:30-15:30*
 
-* Advanced layouts ([slides](https://docs.google.com/presentation/d/1a79MLat-ftU25Uk7uM2JYfDSlKS-9hp94EnmegvcLg0/edit#slide=id.p))
+* Sketching, Rapid Prototyping, Development cycles ([slides](https://docs.google.com/presentation/d/11kEkZK12C893qzyEDvkIjgFKPmRKFf-KDDOKiwGw6ys/edit#slide=id.p)) and using the [Five Design Sheet](http://fds.design/) methodology
 
 * Case studies ([slides](https://docs.google.com/presentation/d/1RxFTHrEDvGTJiHZ7AmOyX7WQ82o7FEJFs0kosvlD4bg/edit#slide=id.g4e96ed2393_0_54))
 
 ## Tutorial 4: Geo-maps and project setup
 *Friday 31/01/2020 15:45-17:45*
 
-* Feedback on projects
-* Introduction to [data cleaning tools and methods](http://romain.vuillemot.net/publis/slides-daquata-workshop-data-cleaning-dataviz.pdf)
 * Modern web development tools: local server, package managers ([slides](https://docs.google.com/presentation/d/1Uz3ZjX1f9DJgH73VOrJwi7cgVqwlKIwFPmM4eubUIb8/edit#slide=id.g32bdb64449_0_18))
+
+* Tutorial: page layouts
+
 * Tutorial: [build a geo-map](https://lyondataviz.github.io/teaching/lyon1-m2/2017/tp4.html)
+
+
+* [Apply the 5DS](http://fds.design/index.php/resources-and-publications/) to your project (paper and pen!)
+
+At the end of the tutorial: 
+
+* Update your proposal after feedback from instructor
+* Add the link to (a pdf of all) the design sheets in the class document
 
 📅 **For next class (07/02/2020)**
 
 ✍ Assignments
 
-* Add slider and tooltips to the geo-map
-* Final design of projects
-* Link to online demo (e.g. Github page) with blank document or first visualization
+* TBD
 
 ## Lecture 5 - Graphs
 *Friday 07/02/2020 13:30-15:30*
 
 * Graphs, Networks and Tree visualizations ([slides](https://docs.google.com/presentation/d/1zhbOrcbVMEfnl8tx07TPNuY8oEIeGyuYVeCR5Rb4h9g/edit#slide=id.p))
 
+<!--
 * [Interactive geo-map in D3](https://blockbuilder.org/romsson/bfb974bfd600573d763c405d20921b7c)
+--> 
 
 ## Tutorial 5: Node-Link Graphs
 *Friday 07/02/2020 15:45-17:45*
@@ -351,7 +424,9 @@ Update it with more features:
 
 BONUS: [use multiple foci](http://bl.ocks.org/Kuerzibe/d2e79e28c5591a7e4552b6f9433ebe40)
 
-[Solution](https://blockbuilder.org/romsson/737693bfe28fb0e8e4d2a4dc55ffd846)
+<!--
+[Interactive layout](https://blockbuilder.org/romsson/737693bfe28fb0e8e4d2a4dc55ffd846)
+-->
 
 ## Projects (1/2)
 *Friday 14/02/2020 13:30-15:30*
@@ -435,14 +510,13 @@ JavaScript
 * Learn JavaScript (e.g. [JS learnxinyminutes](https://learnxinyminutes.com/docs/javascript/), [learnjsdata](http://learnjsdata.com/index.html))
 * JSON (e.g. [JS learnxinyminutes](https://learnxinyminutes.com/docs/json/))
 * [Eloquent JavaScript](http://eloquentjavascript.net/Eloquent_JavaScript.pdf)
-* (Notes on Douglas Crockford's Javascript the Good Parts 🚀
-)[https://github.com/iteles/Javascript-the-Good-Parts-notes]
+* Notes on Douglas Crockford's Javascript the Good Parts 🚀](https://github.com/iteles/Javascript-the-Good-Parts-notes)
 
 Data Visualization Classes
 
-* http://dataviz.media.mit.edu/
+* [DataViz at MIT](http://dataviz.media.mit.edu/)
 * [Visual Analytics Ecole Centrale Paris](http://aviz.fr/wiki/pmwiki.php/TeachingVA2017/Schedule) 
-* Dataviz resources http://www.cs.ubc.ca/group/infovis/resources.shtml
+* [Dataviz resources](http://www.cs.ubc.ca/group/infovis/resources.shtml)
 * https://curran.github.io/dataviz-course-archive/
 * https://github.com/Ecohen4/data-viz
 * https://github.com/arnicas/interactive-vis-course
@@ -474,4 +548,4 @@ Misc
 * Design essay: [Picturing the Great Migration](https://medium.com/info-we-trust/picturing-the-great-migration-9e4b5a3eca8a)
 * [What to Expect in the Data Visualization Engineer Job Interviews
 ](https://medium.com/@kristw/what-to-expect-in-data-visualization-engineer-job-interviews-54053b896a75)
-
+* [State of JavaScript 2019](https://2019.stateofjs.com/)
