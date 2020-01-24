@@ -271,7 +271,7 @@ Submit the blockbuilder link to [submit here](https://docs.google.com/forms/d/e/
 
 * What is visualization [research](https://medium.com/multiple-views-visualization-research-explained/what-is-visualization-research-what-should-it-be-8840a9ba658)? [literacy](https://medium.com/multiple-views-visualization-research-explained/what-does-visualization-literacy-mean-anyway-22f3b3badc0)?
 
-## **Lecture 3 - Advanced D3.js and Design Methods**
+## **Lecture 3 - Advanced D3.js and Layouts**
 *Friday 24/01/2020 13:30-15:30*
 
 * Visualization of [geo](https://docs.google.com/presentation/d/1fY3EHmalb53aZVNYqv2UHjg9_kbtR26saexPTgPKKJs/edit#slide=id.g26ba174e93_0_616) and [temporal data](https://docs.google.com/presentation/d/1HPwRnoc5SvvuhCmxyKnljgqa0oRH6ugDlhM0JQ8qLmM/edit#slide=id.g26b255eefc_0_1105)
@@ -421,9 +421,9 @@ Submit the blockbuilder with grouped/stacked transition using the [✉️ submis
 ## Lecture 4 - Advanced Layout, Data Cleaning and Case studies
 *Friday 31/01/2020 13:30-15:30*
 
-* Sketching, Rapid Prototyping, Development cycles ([slides](https://docs.google.com/presentation/d/11kEkZK12C893qzyEDvkIjgFKPmRKFf-KDDOKiwGw6ys/edit#slide=id.p)) and using the [Five Design Sheet](http://fds.design/) methodology
+* Introduction to  Sketching, Rapid Prototyping, Development cycles ([slides](https://docs.google.com/presentation/d/11kEkZK12C893qzyEDvkIjgFKPmRKFf-KDDOKiwGw6ys/edit#slide=id.p)) and using the [Five Design Sheet](http://fds.design/) methodology
 
-* Case studies ([slides](https://docs.google.com/presentation/d/1RxFTHrEDvGTJiHZ7AmOyX7WQ82o7FEJFs0kosvlD4bg/edit#slide=id.g4e96ed2393_0_54))
+* Discussion on projects design and case studies ([slides](https://docs.google.com/presentation/d/1RxFTHrEDvGTJiHZ7AmOyX7WQ82o7FEJFs0kosvlD4bg/edit#slide=id.g4e96ed2393_0_54))
 
 ## Tutorial 4: Geo-maps and project setup
 *Friday 31/01/2020 15:45-17:45*
@@ -476,7 +476,7 @@ BONUS: [use multiple foci](http://bl.ocks.org/Kuerzibe/d2e79e28c5591a7e4552b6f94
 ## Projects (1/2)
 *Friday 14/02/2020 13:30-15:30*
 
-**Peer-review of other groups projects** Fill [this form](https://goo.gl/forms/zjNnExy0NC9zAct53):
+**Peer-review of other groups projects**
 
 ## Projects (2/2)
 *Friday 14/02/2020 15:45-17:45*
