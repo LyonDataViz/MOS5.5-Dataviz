@@ -368,9 +368,8 @@ var data = d3.range(m).map(function() {
 
 * Apply the `d3.stack()` layout using the list of unique symbols as `keys` and the flat dataset as data
 
-<!--
+
 [SOLUTION](https://blockbuilder.org/romsson/8aea86fddcf01380eb96a341509f394f)
--->
 
 ---
 **Animated transitions**
@@ -380,7 +379,7 @@ var data = d3.range(m).map(function() {
 * Examples of transitions: [bar chart](https://bl.ocks.org/romsson/3de5bef36f106673278b7ec182c262a6), [D3 show reel](https://bl.ocks.org/mbostock/1256572)).
 
 
-***Assignment:** build an animated transition between grouped bar chart and stacked bar chart.*
+***Assignment (BONUS):** build an animated transition between grouped bar chart and stacked bar chart.*
 
 * Isolate each layout as two function `grouped` and `stack`
 * Add a swap function between each other
@@ -393,8 +392,6 @@ var data = d3.range(m).map(function() {
 ```
 
 * Bind events using ```d3.selectAll("input").on("change", function() {})```
-
-Submit the blockbuilder with grouped/stacked transition using the [✉️ submission form](https://docs.google.com/forms/d/e/1FAIpQLSdcv-t-feJ6_BG0I326ymeF7YCK8gltbGvsdMecKCUcwyv77g/viewform) at the end of the class (17h45)
 
 ---
 
