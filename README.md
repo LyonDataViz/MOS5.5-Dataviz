@@ -257,7 +257,7 @@ Submit the blockbuilder link to [submit here](https://docs.google.com/forms/d/e/
 ---
 📅 **For next class (24/01/2020)**
 
-* CODE: Submit your blockbuilder for scatterplot matrix [submission form](https://docs.google.com/forms/d/e/1FAIpQLSdcv-t-feJ6_BG0I326ymeF7YCK8gltbGvsdMecKCUcwyv77g/viewform)
+* CODE: Submit your blockbuilder for scatterplot matrix [✉️ submission form](https://docs.google.com/forms/d/e/1FAIpQLSdcv-t-feJ6_BG0I326ymeF7YCK8gltbGvsdMecKCUcwyv77g/viewform)
 * CODE: Extend the line chart using the [`stocks.csv`](data/stocks.csv) where each line is a different symbol (and a different color). BONUS: add a title, legend and interactivity (e.g. tooltip, show time points, etc.) [submission form](https://docs.google.com/forms/d/e/1FAIpQLSdcv-t-feJ6_BG0I326ymeF7YCK8gltbGvsdMecKCUcwyv77g/viewform)
 
 * PROJECT: Write a document that describes the dataset(s) for your project, mechanism to collect the data and expected model (as a table, use Excel). Add more informations:
@@ -280,9 +280,7 @@ Submit the blockbuilder link to [submit here](https://docs.google.com/forms/d/e/
 
 * Advanced data visualization concepts: Animation, Interaction, Multiple Views ([slides](https://docs.google.com/presentation/d/1g2ZT3LHUnCSmEUIrxow_4APTlnuiMGgID8XxMyt8mz4/edit#slide=id.p))
 
-* Solution for interactive [scatterplot matrix and legend](https://blockbuilder.org/romsson/af97a2bad698ab0c07863015b8ef4622) and multiple line-chart
-
-*How would you improve those charts? In particular the scatterplot matrix?*
+* Solution for interactive [scatterplot matrix and legend](https://blockbuilder.org/romsson/af97a2bad698ab0c07863015b8ef4622) and multiple line-chart. *How would you improve those charts? In particular the scatterplot matrix?*
 <!-- solution: by adding [brushing interactions](https://bl.ocks.org/Fil/6d9de24b31cb870fed2e6178a120b17d), including legends in diagonal and distribution in diagonal.  -->
 
 * Advanced D3.js: page layout, d3.nest, legends, scatterplot and grouped bar chart ([slides](https://docs.google.com/presentation/d/14pYKK2dYGnPS6iZ9l1gw1vuiPOGXjjCfeJlArMYRLBs/edit#slide=id.p))
@@ -301,77 +299,119 @@ Submit the blockbuilder link to [submit here](https://docs.google.com/forms/d/e/
 {symbol: "MSFT", date: Wed Mar 01 2000 00:00:00 GMT+0100 (CET), price: 43.22}
 ```
 
-http://bl.ocks.org/phoebebright/raw/3176159/
+***Assignment: Nest stocks by symbol and calculate aggregated values (max/min/sum) over price; parse dates.***
 
-https://bl.ocks.org/romsson/e5c0bdd599a2a51a133e02d3200bcd9c
+Expected result:
 
- the following groups for the stocks.csv data
+```
+0: {key: "MSFT", values: Array(123), maxPrice: 43.22, sumPrice: 3042.6}
+1: {key: "AMZN", values: Array(123), maxPrice: 135.91, sumPrice: 5902.4}
+2: {key: "IBM", values: Array(123), maxPrice: 130.32, sumPrice: 11225.13}
+```
+    
+* [Tutorial on `d3.nest`](http://bl.ocks.org/phoebebright/raw/3176159/)
+* [More examples using `d3.nest`](http://learnjsdata.com/group_data.html)
 
+<!-- [SOLUTION](https://bl.ocks.org/romsson/e5c0bdd599a2a51a133e02d3200bcd9c) -->
 
 ---
 
-**Grouped bar chart** | [SVG](https://blockbuilder.org/romsson/2ff1ee674420b71dc1d3c9731c19ee46)
+<!-- MOCKUP https://blockbuilder.org/romsson/e68764eb17e4684aade6c88112299145 -->
+**Grouped bar chart** |
   
 <img src="img/grouped-bar-chart.png" style="height: 50px">
 
 * Grouping: `d3.nest`
 * Mark: `<rec>`
-* Positions: nested categorical scales `d3.scaleBand()` 
+* Positions: using two categorical scales `d3.scaleBand()` 
 * Color: style `fill`
-* Scales: `d3.scaleLinear()`
 
 ***Assignment:** build a grouped bar chart using the [`stocks.csv`](data/stocks.csv) .*
 
-1. [Grouped bar chart](https://blockbuilder.org/romsson/a78f70f6624184fd33b4dc385a495e75) chart  dataset and [`d3.nest`](http://learnjsdata.com/group_data.html)
+Start using random data
 
+```
+var n = 10, // number of samples
+    m = 5; // number of series
 
-Grouped bar chart example https://bl.ocks.org/romsson/2f94c1913b81f7fd20c530236934433a
+var data = d3.range(m).map(function() { 
+  return d3.range(n).map(Math.random); 
+});
+```
 
-First scale
-Second scale
+[SOLUTION](https://blockbuilder.org/romsson/a78f70f6624184fd33b4dc385a495e75) chart  dataset and [`d3.nest`]()
 
-https://bl.ocks.org/romsson/8aea86fddcf01380eb96a341509f394f
-
+---
 
 **Stacked bar chart** | [SVG](https://blockbuilder.org/romsson/2ff1ee674420b71dc1d3c9731c19ee46)
   
 <img src="img/stacked-bar-chart.png" style="height: 50px">
 
-* Grouping: `d3.nest`
+* Grouping: `d3.stack`
 * Mark: `<rec>`
 * Positions: nested categorical scales `d3.scaleBand()` 
 * Color: style `fill`
 * Scales: `d3.scaleLinear()`
 
+***Assignment:** build a stacked bar chart using the [`stocks.csv`](data/stocks.csv) .*
+
+* Start with random data (see grouped bar chart)
+* Nest data 
+ * by `year` `d.date.getFullYear()`
+ * by `symbol`
+ * Calculate sum
+* Flatten the dataset to be used by the `d3.stack` layout
+
+```
+0: {MSFT: 356.07999999999987, AMZN: 527.17, IBM: 1162.97, AAPL: 260.98, year: "2000"}
+1: {MSFT: 304.17, AMZN: 140.87, IBM: 1163.6200000000001, AAPL: 122.11000000000003, year: "2001"}
+2: {MSFT: 261.92, AMZN: 200.68, IBM: 901.4999999999999, AAPL: 112.89999999999998, year: "2002"}
+```
+
+* Apply the `d3.stack()` layout using the list of unique symbols as `keys` and the flat dataset as data
+
+[SOLUTION](https://blockbuilder.org/romsson/8aea86fddcf01380eb96a341509f394f)
 
 ---
 **Animated transitions**
 
 * Mouse click: `.transition()`
 * Triggered by widget: radio button
-* Examples of transitions: [D3 show reel](https://bl.ocks.org/mbostock/1256572))
+* Examples of transitions: [bar chart](https://bl.ocks.org/romsson/3de5bef36f106673278b7ec182c262a6), [D3 show reel](https://bl.ocks.org/mbostock/1256572)).
 
-<!-- https://blockbuilder.org/romsson/7eb8dba335c702707bd2311bd75a28a7 -->
+<!-- SOLUTION:-->
 ---
 ***Assignment:** build an animated transition between grouped bar chart and stacked bar chart.*
 
-<!-- https://bl.ocks.org/romsson/3bead896a3379808f88d2181965cf6c0 -->
+* Isolate each layout as two function `grouped` and `stack`
+* Add a swap function between each other
 
-Submit the blockbuilder link to [submit here](https://docs.google.com/forms/d/e/1FAIpQLSdcv-t-feJ6_BG0I326ymeF7YCK8gltbGvsdMecKCUcwyv77g/viewform) at the end of the class (17h45)
+```
+<div>
+  <label><input type="radio" name="mode" value="grouped" checked>Grouped</label>
+  <label><input type="radio" name="mode" value="stacked">Stacked</label>
+</div>
+```
+
+* Bind events using ```d3.selectAll("input").on("change", function() {})```
+
+
+Submit the blockbuilder with grouped/stacked transition using the [✉️ submission form](https://docs.google.com/forms/d/e/1FAIpQLSdcv-t-feJ6_BG0I326ymeF7YCK8gltbGvsdMecKCUcwyv77g/viewform) at the end of the class (17h45)
 
 
 📅 **For next class (31/01/2020)**
 
-1. 
+1. Write a document for your project data cleaning and preparation: data source, data shaping, processing, etc. If you use external tools (e.g. Excel, DataWrangler, Tableau) add some details of the role and steps performed using those.
 
-2. Data analysis of your project dataset (or expected dataset) using D3 : load data from an external file (CSV, JSON), create a first chart characterising the **distribution** of the dataset (e.g. time series, bar chart, ), scatterplot. Add the link to your analysis in the class document.
+2. Load a clean data sample using d3 and descriptive charts (histogram, scatterplot, ..) in a wepage showing the characteristics of the dataset: distribution, statistics, trends, etc. Add this link to your analysis in the class document (the page should be hosted on GitHub).
 
-3. Update your design sheets and update link in the class document.
+3. Draw a mockup of your project using pen and paper and add this link to the class document (the page should be hosted on GitHub).
+
+* Read principles of the Five design sheets [methodology](http://fds.design/wp-content/uploads/2015/06/five-design-sheet-approach-JCR.pdf)
 
 * Reading: [Chapter 8. Axes](https://web.archive.org/web/20160307043159/http://chimera.labs.oreilly.com/books/1230000000345/ch08.html), [Chapter 9. Updates, Transitions, and Motion
 ](https://web.archive.org/web/20160307043159/http://chimera.labs.oreilly.com/books/1230000000345/ch09.html), [Chapter 10. Interactivity](https://web.archive.org/web/20160307043159/http://chimera.labs.oreilly.com/books/1230000000345/ch10.html), [Chapter 11. Layouts](https://web.archive.org/web/20160307043159/http://chimera.labs.oreilly.com/books/1230000000345/ch11.html).
 
-* Read principles of the Five design sheets [methodology](http://fds.design/wp-content/uploads/2015/06/five-design-sheet-approach-JCR.pdf)
 
 ## Lecture 4 - Advanced Layout, Data Cleaning and Case studies
 *Friday 31/01/2020 13:30-15:30*
