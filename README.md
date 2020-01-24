@@ -280,15 +280,11 @@ Submit the blockbuilder link to [submit here](https://docs.google.com/forms/d/e/
 
 * Advanced data visualization concepts: Animation, Interaction, Multiple Views ([slides](https://docs.google.com/presentation/d/1g2ZT3LHUnCSmEUIrxow_4APTlnuiMGgID8XxMyt8mz4/edit#slide=id.p))
 
-* Solution for interactive [scatterplot matrix and legend](https://blockbuilder.org/romsson/af97a2bad698ab0c07863015b8ef4622) and multiple line-chart. *How would you improve this chart?*
-<!-- solution: by adding [brushing interactions](https://bl.ocks.org/Fil/6d9de24b31cb870fed2e6178a120b17d), including legends in diagonal and [distribution in diagonal](https://www.kylebradbury.org/visualizations/scattermatrix/).  -->
+* Solution for interactive [scatterplot matrix and legend](https://blockbuilder.org/romsson/af97a2bad698ab0c07863015b8ef4622) and multiple line-chart. *How would you improve this chart? by adding [brushing interactions](https://bl.ocks.org/Fil/6d9de24b31cb870fed2e6178a120b17d), including legends in diagonal and [distribution in diagonal](https://www.kylebradbury.org/visualizations/scattermatrix/).* 
 
 * Solution for [stocks line chart](https://blockbuilder.org/romsson/7d94b8925f4c8cb832770921aee23f88). *How would you improve this chart?*
 
-* Advanced D3.js: page layout, d3.nest, legends, scatterplot and grouped bar chart ([slides](https://docs.google.com/presentation/d/14pYKK2dYGnPS6iZ9l1gw1vuiPOGXjjCfeJlArMYRLBs/edit#slide=id.p))
-
 * Advanced D3 layouts ([slides](https://docs.google.com/presentation/d/1a79MLat-ftU25Uk7uM2JYfDSlKS-9hp94EnmegvcLg0/edit#slide=id.p))
-
 
 ## Tutorial 3: More D3.js grouping and layouts
 *Friday 24/01/2020 15:45-17:45*
@@ -314,7 +310,7 @@ Expected result:
 * [Tutorial on `d3.nest`](http://bl.ocks.org/phoebebright/raw/3176159/)
 * [More examples using `d3.nest`](http://learnjsdata.com/group_data.html)
 
-<!-- [SOLUTION](https://bl.ocks.org/romsson/e5c0bdd599a2a51a133e02d3200bcd9c) -->
+[SOLUTION](https://bl.ocks.org/romsson/e5c0bdd599a2a51a133e02d3200bcd9c)
 
 ---
 
@@ -341,9 +337,7 @@ var data = d3.range(m).map(function() {
 });
 ```
 
-<!--
-[SOLUTION](https://blockbuilder.org/romsson/a78f70f6624184fd33b4dc385a495e75) chart  dataset and [`d3.nest`]()
--->
+[SOLUTION](https://blockbuilder.org/romsson/a78f70f6624184fd33b4dc385a495e75) 
 
 ---
 
