@@ -164,7 +164,7 @@ var width = 960 - margin.left - margin.right,
 **Line chart** | [SVG](https://blockbuilder.org/romsson/2ff1ee674420b71dc1d3c9731c19ee46)
   
 <p align="center">
-  <img src="img/line-chart-path.png" height=50>
+  <img src="img/line-chart-path.png" width=400>
 </p>
 
 * Mark: `<path>`
@@ -197,7 +197,7 @@ var width = 960 - margin.left - margin.right,
 **Scatterplot** | [SVG](https://blockbuilder.org/romsson/7961b125a188ad1167039e4103ff69bf)
 
 <p align="center">
-  <img src="img/scatterplot.png" height=50>
+  <img src="img/scatterplot.png" width=400>
 </p>
 
 * Mark: `<circle>`
@@ -221,7 +221,7 @@ var width = 960 - margin.left - margin.right,
 **Axis** | SVG
 
 <p align="center">
-  <img src="img/chart-axis.png" style="height: 20px">
+  <img src="img/chart-axis.png" width=400>
 </p>
 
 ```
@@ -330,7 +330,7 @@ Expected result:
 **Grouped bar chart** |
   
 <p align="center">
-  <img src="img/grouped-bar-chart.png" height=100>
+  <img src="img/grouped-bar-chart.png" width=400>
 </p>
 
 * Grouping: `d3.nest`
@@ -358,7 +358,7 @@ var data = d3.range(m).map(function() {
 **Stacked bar chart** |
   
 <p align="center">
-  <img src="img/stacked-bar-chart.png" height=100>
+  <img src="img/stacked-bar-chart.png" width=400>
 </p>
 
 * Grouping: [`d3.stack`](https://github.com/d3/d3-shape/blob/master/README.md#stack)
@@ -432,13 +432,19 @@ var data = d3.range(m).map(function() {
 
 * Discussion on projects design and case studies ([slides](https://docs.google.com/presentation/d/1RxFTHrEDvGTJiHZ7AmOyX7WQ82o7FEJFs0kosvlD4bg/edit#slide=id.g4e96ed2393_0_54))
 
-## Tutorial 4: Geo-maps and project setup
+## Tutorial 4: Geo-maps, design project setup
 *Friday 31/01/2020 15:45-17:45*
 
+
+* [Apply the 5DS](http://fds.design/index.php/resources-and-publications/) to your project (paper and pen!)
+
+* Project setup using modern web development tools: local server, package managers ([slides](https://docs.google.com/presentation/d/1Uz3ZjX1f9DJgH73VOrJwi7cgVqwlKIwFPmM4eubUIb8/edit#slide=id.g32bdb64449_0_18))
+
+---
 **Geo-Map** | [Example](https://blockbuilder.org/romsson/a4df41c5b46da7a0635c7cf393df96e3)
 
 <p align="center">
-  <img src="img/geo-map.png" height=100>
+  <img src="img/geo-map.png" width=400>
 </p>
 
 * Mark: `<path>` + `d3.geoPath()`
@@ -449,15 +455,7 @@ var data = d3.range(m).map(function() {
 
 <!-- [SOLUTION](https://blockbuilder.org/romsson/969c4ee91b5c436a36053fee592d8b17) -->
 
-* Modern web development tools: local server, package managers ([slides](https://docs.google.com/presentation/d/1Uz3ZjX1f9DJgH73VOrJwi7cgVqwlKIwFPmM4eubUIb8/edit#slide=id.g32bdb64449_0_18))
-
-* Tutorial: page layouts
-
-* [Apply the 5DS](http://fds.design/index.php/resources-and-publications/) to your project (paper and pen!)
-
-
 ---
-
 
 At the end of the tutorial: 
 
@@ -468,7 +466,9 @@ At the end of the tutorial:
 
 ✍ Assignments
 
-* TBD
+* Website fully functional with full dataset
+  * Implement the page layouts 
+  * Implement graphics specific to your project
 
 ## Lecture 5 - Graphs
 *Friday 07/02/2020 13:30-15:30*
@@ -603,6 +603,10 @@ Blogs
 * http://www.thefunctionalart.com/
 * http://eagereyes.org/
 * http://visualisingdata.com/
+
+Books
+
+* [Fundamentals of Data Visualization](https://serialmentor.com/dataviz/index.html)
 
 Graphics/Journals
 
