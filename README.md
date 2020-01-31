@@ -466,9 +466,7 @@ At the end of the tutorial:
 
 **Node-Link Graph** | [Example](https://blockbuilder.org/romsson/613e64af0ea1fb1567aeac5d29e9ac35)
 
-<div style="max-height: 50px">
-  <img src="img/node-link.png" style="height: 100%">
-</div>
+<img src="img/node-link.png" height=50>
 
 * Mark: `<circle>`
 * Position: `d3.forceSimulation()`
