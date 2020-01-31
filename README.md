@@ -419,7 +419,7 @@ var data = d3.range(m).map(function() {
 ## Tutorial 4: Geo-maps and project setup
 *Friday 31/01/2020 15:45-17:45*
 
-**Geo-Map** | [SVG](https://blockbuilder.org/romsson/a4df41c5b46da7a0635c7cf393df96e3)
+**Geo-Map** | [Example](https://blockbuilder.org/romsson/a4df41c5b46da7a0635c7cf393df96e3)
 <img src="img/geo-map.png" style="height: 50px">
 
 * Mark: `<path>` + `d3.geoPath()`
@@ -428,6 +428,7 @@ var data = d3.range(m).map(function() {
  
 ***Assignment:** build a geo-map [following those instructions](https://lyondataviz.github.io/teaching/lyon1-m2/2017/tp4.html).*
 
+<!-- [SOLUTION](https://blockbuilder.org/romsson/969c4ee91b5c436a36053fee592d8b17) -->
 
 * Modern web development tools: local server, package managers ([slides](https://docs.google.com/presentation/d/1Uz3ZjX1f9DJgH73VOrJwi7cgVqwlKIwFPmM4eubUIb8/edit#slide=id.g32bdb64449_0_18))
 
@@ -462,17 +463,22 @@ At the end of the tutorial:
 ## Tutorial 5: Node-Link Graphs
 *Friday 07/02/2020 15:45-17:45*
 
-* Load this [Node link diagram](https://blockbuilder.org/romsson/613e64af0ea1fb1567aeac5d29e9ac35) based on [force layout](img/force.png) (see [documentation](https://github.com/d3/d3-force) and [parameters playground](https://bl.ocks.org/steveharoz/8c3e2524079a8c440df60c1ab72b5d03)) 
 
-Update it with more features:
+**Node-Link Graph** | [Example](https://blockbuilder.org/romsson/613e64af0ea1fb1567aeac5d29e9ac35)
+<img src="img/node-link.png" style="height: 50px">
 
-1. Layouts: [random](img/random.png), [radial](img/radial.png), [line]](img/line.png), [line by category](img/line-cat.png).
-2. Encodings: [color](img/color.png), [size](img/size.png).
+* Mark: `<circle>`
+* Position: `d3.forceSimulation()`
+* Color: `fill` (style)
 
-BONUS: [use multiple foci](http://bl.ocks.org/Kuerzibe/d2e79e28c5591a7e4552b6f9433ebe40)
+***Assignment:** starting with this [Node link diagram](https://blockbuilder.org/romsson/613e64af0ea1fb1567aeac5d29e9ac35) that is based on [force layout](img/force.png) with different layouts: [random](img/random.png), [radial](img/radial.png), [line](img/line.png), [line by category](img/line-cat.png) and encodings: [color](img/color.png), [size](img/size.png).* 
+
+* `d3.forceSimulation` [documentation](https://github.com/d3/d3-force) 
+* [Parameters playground](https://bl.ocks.org/steveharoz/8c3e2524079a8c440df60c1ab72b5d03))
+* [Use multiple foci](http://bl.ocks.org/Kuerzibe/d2e79e28c5591a7e4552b6f9433ebe40) to group nodes by similariy
 
 <!--
-[Interactive layout](https://blockbuilder.org/romsson/737693bfe28fb0e8e4d2a4dc55ffd846)
+[SOLUTION](https://blockbuilder.org/romsson/737693bfe28fb0e8e4d2a4dc55ffd846)
 -->
 
 ## Projects (1/2)
@@ -542,6 +548,7 @@ D3.js
 
 SVG 
 
+* [SVG Basic Shapes](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Basic_Shapes)
 * [SVG2D3](http://billautomata.github.io/svg2d3/)
 
 Git/GitHub
@@ -557,7 +564,7 @@ JavaScript
 * Learn JavaScript (e.g. [JS learnxinyminutes](https://learnxinyminutes.com/docs/javascript/), [learnjsdata](http://learnjsdata.com/index.html))
 * JSON (e.g. [JS learnxinyminutes](https://learnxinyminutes.com/docs/json/))
 * [Eloquent JavaScript](http://eloquentjavascript.net/Eloquent_JavaScript.pdf)
-* Notes on Douglas Crockford's Javascript the Good Parts 🚀](https://github.com/iteles/Javascript-the-Good-Parts-notes)
+* [Notes on Douglas Crockford's Javascript the Good Parts 🚀](https://github.com/iteles/Javascript-the-Good-Parts-notes)
 
 Data Visualization Classes
 
