@@ -419,14 +419,25 @@ var data = d3.range(m).map(function() {
 ## Tutorial 4: Geo-maps and project setup
 *Friday 31/01/2020 15:45-17:45*
 
+**Geo-Map** | [SVG](https://blockbuilder.org/romsson/a4df41c5b46da7a0635c7cf393df96e3)
+<img src="img/geo-map.png" style="height: 50px">
+
+* Mark: `<path>` + `d3.geoPath()`
+* Position: `d3.geoPath()`
+* Color: `fill` (style)
+ 
+***Assignment:** build a geo-map [following those instructions](https://lyondataviz.github.io/teaching/lyon1-m2/2017/tp4.html).*
+
+
 * Modern web development tools: local server, package managers ([slides](https://docs.google.com/presentation/d/1Uz3ZjX1f9DJgH73VOrJwi7cgVqwlKIwFPmM4eubUIb8/edit#slide=id.g32bdb64449_0_18))
 
 * Tutorial: page layouts
 
-* Tutorial: [build a geo-map](https://lyondataviz.github.io/teaching/lyon1-m2/2017/tp4.html)
-
-
 * [Apply the 5DS](http://fds.design/index.php/resources-and-publications/) to your project (paper and pen!)
+
+
+---
+
 
 At the end of the tutorial: 
 
