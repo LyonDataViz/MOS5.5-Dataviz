@@ -120,7 +120,9 @@ All homeworks/assignements/reports are due the **day before** the class at 23.59
 ## **Tutorial 2 (1/2) - Building visualizations with D3.js** 
 *Friday 17/01/2020 13:30-15:30*
 
-<img src="img/chart-margin.png" style="height: 50px">
+<p align="center">
+  <img src="img/chart-margin.png" height=50>
+</p>
 
 * Cheatsheet [intro to D3](https://romsson.github.io/intro-to-d3/)
 * [Margin conventions](https://blockbuilder.org/mbostock/3019563)
@@ -140,7 +142,9 @@ var width = 960 - margin.left - margin.right,
 
 **Bar chart** | [SVG](http://blockbuilder.org/romsson/36b1cdc599e8f341a33892f143cf087f)
 
-<img src="img/bar-chart.png" style="max-width:50%;">
+<p align="center">
+  <img src="img/bar-chart.png" height=50>
+</p>
 
 * Mark: `<rect>`
 * Position: `x` and `width`
@@ -159,7 +163,9 @@ var width = 960 - margin.left - margin.right,
 
 **Line chart** | [SVG](https://blockbuilder.org/romsson/2ff1ee674420b71dc1d3c9731c19ee46)
   
-<img src="img/line-chart-path.png" style="height: 50px">
+<p align="center">
+  <img src="img/line-chart-path.png" height=50>
+</p>
 
 * Mark: `<path>`
 * Position: `d3.line().x(function(d) { }).y(function(d) { })` to generate attribute `d`
@@ -189,7 +195,10 @@ var width = 960 - margin.left - margin.right,
 ---
 
 **Scatterplot** | [SVG](https://blockbuilder.org/romsson/7961b125a188ad1167039e4103ff69bf)
-<img src="img/scatterplot.png" style="height: 50px">
+
+<p align="center">
+  <img src="img/scatterplot.png" height=50>
+</p>
 
 * Mark: `<circle>`
 * Position: `cx` and `cy`
