@@ -210,7 +210,10 @@ var width = 960 - margin.left - margin.right,
 
 ---
 **Axis** | SVG
-<img src="img/chart-axis.png" style="height: 20px">
+
+<p align="center">
+  <img src="img/chart-axis.png" style="height: 20px">
+</p>
 
 ```
 var xAxis = d3.axisBottom()
@@ -317,7 +320,9 @@ Expected result:
 <!-- MOCKUP https://blockbuilder.org/romsson/e68764eb17e4684aade6c88112299145 -->
 **Grouped bar chart** |
   
-<img src="img/grouped-bar-chart.png" style="height: 50px">
+<p align="center">
+  <img src="img/grouped-bar-chart.png" height=100>
+</p>
 
 * Grouping: `d3.nest`
 * Mark: `<rec>`
@@ -343,7 +348,9 @@ var data = d3.range(m).map(function() {
 
 **Stacked bar chart** |
   
-<img src="img/stacked-bar-chart.png" style="height: 50px">
+<p align="center">
+  <img src="img/stacked-bar-chart.png" height=100>
+</p>
 
 * Grouping: [`d3.stack`](https://github.com/d3/d3-shape/blob/master/README.md#stack)
 * Mark: `<rec>`
@@ -420,7 +427,10 @@ var data = d3.range(m).map(function() {
 *Friday 31/01/2020 15:45-17:45*
 
 **Geo-Map** | [Example](https://blockbuilder.org/romsson/a4df41c5b46da7a0635c7cf393df96e3)
-<img src="img/geo-map.png" height=100>
+
+<p align="center">
+  <img src="img/geo-map.png" height=100>
+</p>
 
 * Mark: `<path>` + `d3.geoPath()`
 * Position: `d3.geoPath()`
@@ -466,7 +476,9 @@ At the end of the tutorial:
 
 **Node-Link Graph** | [Example](https://blockbuilder.org/romsson/613e64af0ea1fb1567aeac5d29e9ac35)
 
-<img src="img/node-link.png" height=100>
+<p align="center">
+  <img src="img/node-link.png" height=100>
+</p>
 
 * Mark: `<circle>`
 * Position: `d3.forceSimulation()`
