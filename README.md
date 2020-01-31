@@ -420,7 +420,7 @@ var data = d3.range(m).map(function() {
 *Friday 31/01/2020 15:45-17:45*
 
 **Geo-Map** | [Example](https://blockbuilder.org/romsson/a4df41c5b46da7a0635c7cf393df96e3)
-<img src="img/geo-map.png" style="height: 50px">
+<img src="img/geo-map.png" height=100>
 
 * Mark: `<path>` + `d3.geoPath()`
 * Position: `d3.geoPath()`
@@ -466,7 +466,7 @@ At the end of the tutorial:
 
 **Node-Link Graph** | [Example](https://blockbuilder.org/romsson/613e64af0ea1fb1567aeac5d29e9ac35)
 
-<img src="img/node-link.png" height=50>
+<img src="img/node-link.png" height=100>
 
 * Mark: `<circle>`
 * Position: `d3.forceSimulation()`
