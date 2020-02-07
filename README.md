@@ -428,13 +428,13 @@ var data = d3.range(m).map(function() {
 ## Lecture 4 - Advanced Layout, Data Cleaning and Case studies
 *Friday 31/01/2020 13:30-15:30*
 
-* Introduction to  Sketching, Rapid Prototyping, Development cycles ([slides](https://docs.google.com/presentation/d/11kEkZK12C893qzyEDvkIjgFKPmRKFf-KDDOKiwGw6ys/edit#slide=id.p)) and using the [Five Design Sheet](http://fds.design/) methodology
+* Design and case studies in visualization ([slides](https://docs.google.com/presentation/d/1RxFTHrEDvGTJiHZ7AmOyX7WQ82o7FEJFs0kosvlD4bg/edit))
 
-* Discussion on projects design and case studies ([slides](https://docs.google.com/presentation/d/1RxFTHrEDvGTJiHZ7AmOyX7WQ82o7FEJFs0kosvlD4bg/edit#slide=id.g4e96ed2393_0_54))
+* Introduction to  Sketching, Rapid Prototyping, Development cycles ([slides](https://docs.google.com/presentation/d/11kEkZK12C893qzyEDvkIjgFKPmRKFf-KDDOKiwGw6ys/edit)) and using the [Five Design Sheet](http://fds.design/) methodology
+
 
 ## Tutorial 4: Geo-maps, design project setup
 *Friday 31/01/2020 15:45-17:45*
-
 
 * [Apply the 5DS](http://fds.design/index.php/resources-and-publications/) to your project (paper and pen!)
 
@@ -453,7 +453,8 @@ var data = d3.range(m).map(function() {
  
 ***Assignment:** build a geo-map [following those instructions](https://lyondataviz.github.io/teaching/lyon1-m2/2017/tp4.html).*
 
-<!-- [SOLUTION](https://blockbuilder.org/romsson/969c4ee91b5c436a36053fee592d8b17) -->
+[SOLUTION](https://blockbuilder.org/romsson/969c4ee91b5c436a36053fee592d8b17)
+* [Interactive geo-map in D3](https://blockbuilder.org/romsson/bfb974bfd600573d763c405d20921b7c)
 
 ---
 
@@ -475,14 +476,6 @@ At the end of the tutorial:
 
 * Graphs, Networks and Tree visualizations ([slides](https://docs.google.com/presentation/d/1zhbOrcbVMEfnl8tx07TPNuY8oEIeGyuYVeCR5Rb4h9g/edit#slide=id.p))
 
-<!--
-* [Interactive geo-map in D3](https://blockbuilder.org/romsson/bfb974bfd600573d763c405d20921b7c)
---> 
-
-## Tutorial 5: Node-Link Graphs
-*Friday 07/02/2020 15:45-17:45*
-
-
 **Node-Link Graph** | [Example](https://blockbuilder.org/romsson/613e64af0ea1fb1567aeac5d29e9ac35)
 
 <p align="center">
@@ -503,12 +496,15 @@ At the end of the tutorial:
 [SOLUTION](https://blockbuilder.org/romsson/737693bfe28fb0e8e4d2a4dc55ffd846)
 -->
 
-## Projects (1/2)
+## Projects (1/3)
+*Friday 07/02/2020 15:45-17:45*
+
+## Projects (2/3)
 *Friday 14/02/2020 13:30-15:30*
 
 **Peer-review of other groups projects**
 
-## Projects (2/2)
+## Projects (3/3)
 *Friday 14/02/2020 15:45-17:45*
 
 ## Projects: Final projects presentations & demos
@@ -523,12 +519,13 @@ Each group has a 15min time slot (10min presentation, 5min questions) to present
 3. Did the visualization help you find anything of interest in the dataset?
 4. Discuss technical challenges, limits, what you would have done with more time.
 
-*There is no report to write for the project, just add a README.md in the repository organized as follows:*
+*Add a README.md in the repository organized as follows:*
 
 - Name of the participants of the project
 - Description of the project
 - Screenshots and/or video of the main features
 - Credits to external code or data you may have used in your project
+- Link to any document/report that may be related to your project
 
 **IMPORTANT -- Regarding the dataset**
 
@@ -545,9 +542,11 @@ As a general rule keep in mind the projects will be made public so anybody shoul
 *Friday 28/03/2020 15:45-17:45*
 
 ## Exam
-*Wednesday 2h written date TBD*
+*Wednesday 11/02/2020*
 
-## Online resources
+-  2h written exam in (questions in French, answers either in French or English)
+
+# Online resources
 
 Tableau Software
 
