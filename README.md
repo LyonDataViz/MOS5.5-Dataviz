@@ -409,6 +409,8 @@ var data = d3.range(m).map(function() {
 
 * Bind events using ```d3.selectAll("input").on("change", function() {})```
 
+[SOLUTION](https://blockbuilder.org/romsson/f49647330eeeebdd3487fcc3b0222d00)
+
 ---
 
 📅 **For next class (31/01/2020)**
@@ -492,9 +494,8 @@ At the end of the tutorial:
 * [Parameters playground](https://bl.ocks.org/steveharoz/8c3e2524079a8c440df60c1ab72b5d03))
 * [Use multiple foci](http://bl.ocks.org/Kuerzibe/d2e79e28c5591a7e4552b6f9433ebe40) to group nodes by similariy
 
-<!--
+
 [SOLUTION](https://blockbuilder.org/romsson/737693bfe28fb0e8e4d2a4dc55ffd846)
--->
 
 ## Projects (1/3)
 *Friday 07/02/2020 15:45-17:45*
