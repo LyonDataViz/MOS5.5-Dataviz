@@ -505,6 +505,23 @@ At the end of the tutorial:
 
 **Peer-review of other groups projects**
 
+Pre-Requirements: 
+
+* Link to description of the project
+* Link to design sheets/mockups
+* Link to a demo hosted on GitHub
+
+Peer-review:
+
+* Are all the pre-requirements met? If not, what is missing?
+* Summarize the projet (what you understand): who is the audience? which question does it address?
+* Is the design effective? What would you recommend?
+* Are you aware of a similar project that would help the project? If so, please add links to it.
+* What are the strength of the project?
+* What are the weaknesses?
+* What would you have done differently?
+* Any other remark?
+
 ## Projects (3/3)
 *Friday 14/02/2020 15:45-17:45*
 
@@ -542,10 +559,15 @@ As a general rule keep in mind the projects will be made public so anybody shoul
 ## Projects: Polish and final submission (autonomie)
 *Friday 28/03/2020 15:45-17:45*
 
+**Final project is due**
+
 ## Exam
 *Wednesday 11/02/2020*
 
--  2h written exam in (questions in French, answers either in French or English)
+- 2h written exam 
+- Questions in French
+- Answers either in French or English
+- Bring drawing material (pen, eraser, eventually colors)
 
 # Online resources
 
