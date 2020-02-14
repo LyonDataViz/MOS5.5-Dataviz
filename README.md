@@ -522,8 +522,33 @@ Peer-review:
 * What would you have done differently?
 * Any other remark?
 
+[USE THIS FORM](https://forms.gle/fY6H7nVApW1J6dUs9)
+
 ## Projects (3/3)
 *Friday 14/02/2020 15:45-17:45*
+
+You may also add the following header to your prohec
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>YOUR_TITLE</title>
+    <meta name="description" content="Your Description">
+    <meta name="author" content="Authors">
+    <meta property="og:title" content="Your Title">
+    <meta property="og:description" content="Your Description">
+    <meta property="og:image" content="https://theo-jaunet.github.io/MemoryReduction/assets/thumbnail.png">
+...
+</head>
+```
+
+In the class document:
+
+* **PROJECT_TITLE**: title of the project (10 words max)
+* **PROJECT_DESCRIPTION**: details of the project (2/3 sentences)
+* **PROJECT_AUTHORS**: list of authors
+* **PROJECT_TWEET**: tweet/social media-like presentation ([see examples](https://twitter.com/NElmqvist/status/1205339242383204352))
 
 ## Projects: Final projects presentations & demos
 *Friday 21/03/2020 13:30-17:45*
