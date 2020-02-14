@@ -522,12 +522,12 @@ Peer-review:
 * What would you have done differently?
 * Any other remark?
 
-[USE THIS FORM](https://forms.gle/fY6H7nVApW1J6dUs9)
+[USE THIS FORM](https://forms.gle/MRbhDhQkxGavcB5HA)
 
 ## Projects (3/3)
 *Friday 14/02/2020 15:45-17:45*
 
-You may also add the following header to your prohec
+You may also add the following header to your project:
 
 ```
 <!DOCTYPE html>
@@ -562,7 +562,7 @@ Each group has a 15min time slot (10min presentation, 5min questions) to present
 3. Did the visualization help you find anything of interest in the dataset?
 4. Discuss technical challenges, limits, what you would have done with more time.
 
-*Add a README.md in the repository organized as follows:*
+*Add a `README.md` file in the repository organized as follows:*
 
 - Name of the participants of the project
 - Description of the project
